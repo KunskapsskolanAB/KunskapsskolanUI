@@ -1,16 +1,14 @@
 var gulp        = require('gulp');
 var sass        = require('gulp-sass');
 
-
 /**
- * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
+ * Compile files
  */
-gulp.task('styles', function () {
+gulp.task('sass', function () {
     return gulp.src('_scss/main.scss')
         .pipe(sass({
             includePaths: ['scss'],
-            onError: browserSync.notify
+            onError: sass.logError
         }))
-        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
 });
