@@ -1,0 +1,203 @@
+/* 
+
+Set up variables and move this to the corresponding functionality
+
+*/
+
+
+@media (max-width:767px) {
+    .ked-navigation .sidebar {
+        height: 48px;
+        max-height: 100vh;
+        width: 100%;
+        max-width: 100vw;
+    }
+    body {
+        margin-left: 0px!important;
+        margin-top: 48px!important;
+    }
+
+    h4.skolHeaderWelcome {
+    display:none !important;
+    }
+
+    .pageHeader {
+        min-height: 8em !important;
+   }    
+   
+   .pageHeader h1 {
+       font-size: 1.8em;
+       padding: 0 0.2em;
+       line-height: 1em;
+   }
+
+
+   
+   .btn-large {
+       display: block;
+   }
+   
+   .sv-layout.sv-skip-spacer.sv-column-8 {
+       padding: 0 1em;
+   }
+
+   div.modal-page-wrap {
+    padding-top: 48px; /* Placera dialogytan under funktionsmenyn */
+    padding-bottom: 16px; /* Verkar behövas justera nedåt också */
+    box-sizing: border-box;
+  }
+
+  div.modal-page {
+    margin: 12px;
+    min-width: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+  }
+
+
+}
+@media (max-device-width:800px) {
+    .ked-navigation .search input {
+        font-size: 16px
+    }
+}
+@media (max-width:700px) {
+    .no-clip-path-polygon .ked-navigation .ked-navbar .item, html[style~="-ms-overflow-style:"] .ked-navigation .ked-navbar .item {
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto
+    }
+    .ked-navigation .navbar-subnav {
+        display: none;
+        margin-right: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 1
+    }
+    .ked-navigation .navbar-subnav li a {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .ked-navigation .ked-navbar .item.bordered>a:after {
+        display: none
+    }
+    .ked-navigation .inner-border {
+        display: none
+    }
+    .ked-navigation .ked-navbar, .ked-navigation .ked-navbar.full-width {
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .ked-navigation .ked-navbar.full-width i.fa, .ked-navigation .ked-navbar i.fa {
+        position: absolute
+    }
+    .ked-navigation .ked-navbar.full-width .has-children.open .navbar-subnav, .ked-navigation .ked-navbar .has-children.open .navbar-subnav {
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100%;
+        transition: all .5s;
+        opacity: 1
+    }
+    .ked-navigation .ked-navbar.full-width .has-children .navbar-subnav, .ked-navigation .ked-navbar .has-children .navbar-subnav {
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+        height: 0;
+        transition: all .5s;
+        opacity: 0
+    }
+    .ked-navigation .ked-navbar.full-width .navbar-subnav li, .ked-navigation .ked-navbar .navbar-subnav li {
+        background-color: hsla(0, 0%, 100%, .2)
+    }
+    .ked-navigation .ked-navbar.full-width .item, .ked-navigation .ked-navbar .item {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        border-left: none;
+        border-bottom: 1px solid hsla(0, 0%, 100%, .7);
+        transform: translateZ(0)
+    }
+    .ked-navigation .ked-navbar.full-width .item>a, .ked-navigation .ked-navbar .item>a {
+        padding: 0!important
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed, .ked-navigation .ked-navbar .item.arrowed {
+        -webkit-filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .4));
+        filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .4));
+        border-bottom: none
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed~.arrowed, .ked-navigation .ked-navbar .item.arrowed~.arrowed {
+        margin-left: 0
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed+.item>a, .ked-navigation .ked-navbar .item.arrowed+.item>a {
+        padding: 0
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed>a, .ked-navigation .ked-navbar .item.arrowed>a {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1em), calc(50% - -20px) calc(100% - 1em), 50% 100%, calc(50% - 20px) calc(100% - 1em), 0 calc(100% - 1em));
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1em), calc(50% - -20px) calc(100% - 1em), 50% 100%, calc(50% - 20px) calc(100% - 1em), 0 calc(100% - 1em))
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed:last-child>a, .ked-navigation .ked-navbar .item.arrowed:last-child>a {
+        -webkit-clip-path: none;
+        clip-path: none
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed:last-child>a .item-inner, .ked-navigation .ked-navbar .item.arrowed:last-child>a .item-inner {
+        padding-bottom: 1.5em
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed+.item>a, .ked-navigation .ked-navbar .item.arrowed+.item>a {
+        margin-top: -1em
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed+.item .item-inner, .ked-navigation .ked-navbar .item.arrowed+.item .item-inner {
+        padding-top: 1.65em
+    }
+    .ked-navigation .ked-navbar.full-width .item .item-inner, .ked-navigation .ked-navbar .item .item-inner {
+        padding: 1em 0
+    }
+    .ked-navigation .ked-navbar.full-width .item.arrowed .item-inner, .ked-navigation .ked-navbar .item.arrowed .item-inner {
+        padding: 1.2em;
+        padding-bottom: 2em
+    }
+    .blocks-menu {
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 100%
+    }
+    .blocks-menu .steps-link {
+        padding: .8em;
+        padding: initial;
+        text-align: center;
+        -ms-flex: 1;
+        flex: 1;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .blocks-menu .steps-links-header {
+        -ms-flex: 1;
+        flex: 1
+    }
+    .blocks-menu .block-title {
+        display: none
+    }
+    .blocks-menu .block-stepper {
+        width: 100%;
+        text-align: center
+    }
+    .ked-navigation .ked-navbar .item.has-steps>a {
+        margin-bottom: 0
+    }
+}
+@media (min-width:700px) {
+    .blocks-menu-container {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0
+    }
+    .blocks-menu-container.open {
+        display: block;
+        transition: all .2s
+    }
+}

@@ -1,0 +1,55 @@
+.wysiwyg {
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    box-sizing: border-box;
+    width: 100%;
+}
+.wysiwyg-actionbar {
+    background-color: #FFF;
+    border: 1px solid #eee;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.wysiwyg-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    outline: 0;
+    width: 30px;
+}
+.wysiwyg-content {
+    background-color: #FFF;
+    box-sizing: border-box;
+    max-height: 500px;
+    outline: 0;
+    overflow-y: auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #eee;
+}
+.wysiwyg-content>div.editor {
+    min-height: 200px;
+}
+.wysiwyg-content :focus {
+    outline: none;
+}
+.wysiwyg-focusrect {
+    box-sizing: border-box;
+    border: 2px dotted rgba(60, 60, 60, 0.5)
+}
+.wysiwyg-focuspoint {
+    background-color: rgba(60, 60, 60, 0.5);
+    width: 8px;
+    height: 8px;
+    margin: -4px;
+}
+.wysiwyg-focuspoint.fpul, .wysiwyg-focuspoint.fplr {
+    cursor: nwse-resize;
+}
+.wysiwyg-focuspoint.fpur, .wysiwyg-focuspoint.fpll {
+    cursor: nesw-resize;
+}

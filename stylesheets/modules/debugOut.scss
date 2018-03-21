@@ -1,0 +1,30 @@
+.debugOut {
+    direction: ltr !important;
+    font-family: Consolas, 'Courier New', Courier, monospace;
+    padding: 4px 8px 4px 8px !important;
+    margin: 0 !important;
+    font-size: 10px !important;
+    line-height: 14px !important;
+    min-height: 14px;
+}
+.debugOut a, .debugOut a:hover, .debugOut a:active { 
+    color: #00F !important;
+    background: #D9D9D2 !important;
+    font-weight: bold !important;
+}
+.debugHeader {
+    background: #C3F0A7;
+    border-bottom: 1px #96AB8D solid;
+    color: #000;
+}
+.debugText {
+    background: #FFFFBF;
+    border-bottom: 1px #F1F1CF solid;
+    color: #000;
+}
+.debugError {
+    background: #E65C5C;
+    border-bottom: 1px #F1F1CF solid;
+    color: #FFF903;
+    font-weight: bold;
+}

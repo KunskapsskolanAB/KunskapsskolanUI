@@ -6,7 +6,7 @@ var sassLint    = require('gulp-sass-lint');
  * Compile files
  */
 gulp.task('sass', function () {
-    return gulp.src('_scss/main.scss')
+    return gulp.src('stylesheets/kunskapsskolanUI.scss')
         .pipe(sass({
             includePaths: ['scss'],
             onError: sass.logError
@@ -14,5 +14,5 @@ gulp.task('sass', function () {
         .pipe(sassLint())
         .pipe(sassLint.format())
         .pipe(sassLint.failOnError())
-        .pipe(gulp.dest('_site/css'))
+        .pipe(gulp.dest('css'))
 });
