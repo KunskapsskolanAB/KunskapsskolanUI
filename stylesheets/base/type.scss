@@ -220,6 +220,10 @@ li {
     text-align: -webkit-match-parent;
 }
 
+li {
+    line-height: 20px;
+}
+
 
 /* quotes */
 
@@ -239,10 +243,37 @@ blockquote.sv-blockquote>* {
     text-align: inherit;
 }
 
+blockquote.sv-blockquote {
+    background: none !important;
+    padding: 0 !important;
+    width: 11em !important;
+    float: left !important;
+    margin: 0 0.6em 0.6em 0 !important;
+}
+
 /* other */
 
 hr {
     border: 1px #3dbca2 solid;
     margin: 1em 0;
     border-style: solid !important;
+}
+
+
+.sv-text-portlet-content p a, p a, .sv-portlet .horizontalItem a {
+    color: #3dbca2 !important;
+}
+p.normal.inverted {
+    color: #eee;
+}
+.sv-font-aip-body-text-white {
+    font-size: 17px !important;
+}
+
+.sv-old-text-portlet {
+    margin-bottom: 1em;
+}
+   
+.sv-text-portlet-content li, .sv-text-portlet-cloned-content li {
+    margin-left: 2em;
 }

@@ -1,0 +1,240 @@
+
+.vemendo-weekview>table>tbody>tr>td {
+    width: 16%;
+}
+.vemendo-weekview>table>tbody>tr>td:nth-child(1) {
+    width: 5%;
+}
+
+.vemendo-weekview>table td {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid #96979a !important;
+}
+.vemendo-weekview .dayviewevent {
+    border: none !important;
+    box-sizing: border-box !important;
+    border-radius: 0 !important;
+    padding: 0.25em !important;
+    border-bottom: 1px #fff solid !important;
+}
+.vemendo-weekview .dayviewevent>p.event-period {
+    text-align: right !important;
+    font-size: 0.75em !important;
+    color: #000 !important;
+    opacity: 1 !important;
+    margin: 0 0 0 0 !important;
+}
+
+.vemendo-weekview .dayviewevent>p.event-period {
+    text-align: right;
+    font-size: 7pt;
+    opacity: .6;
+    margin: 2px 0 0 0;
+    position: relative;
+    top: -19px;
+    text-align: right !important;
+}
+
+.vemendo-weekview .dayviewevent>p.event-location {
+    font-style: normal !important;
+    opacity: 1 !important;
+    color: #000 !important;
+    font-size: 0.8em !important;
+}
+.vemendo-weekview .dayview {
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+.vemendo-weekview .hourmarker {
+    margin-top: 0.5em !important;
+    color: #3dbca2 !important;
+    font-size: 0.8em !important;
+    width: 5em !important;
+    margin-left: 0.4em !important;
+    display: block !important;
+}
+.vemendo-weekview p.week-number {
+    font-family: circular-bold, arial, sans-serif !important;
+    text-align: center !important;
+    padding: 6px 2px 6px 0px !important;
+    margin: 0 !important;
+    font-size: 1.7em !important;
+    color: #000 !important;
+}
+.full-day:last-child {
+    margin-bottom: 1em !important;
+}
+.vemendo-weekview .dayviewevent>p {
+    margin: 0;
+    text-align: inherit;
+}
+p.event-title {
+    color: #000 !important;
+    font-size: 0.8em;
+    font-family: circular-bold, arial, sans-serif;
+}
+
+a.event-title {
+    text-decoration: none;
+    font-family: circular-book;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    background: rgba(255, 255, 255, 0.37);
+    display: block;
+    padding: 0.25em;
+    border-bottom: 1px rgba(0, 0, 0, 0.14) solid;
+}
+
+.event-period {
+    padding: 0.25em;
+    color: #444 !important;
+
+}
+
+p.event-location {
+    padding: 0.25em;
+    font-style: normal !important;
+    opacity: 1 !important;
+    color: #000 !important;
+    font-size: 0.8em !important;
+    position: relative;
+    top: -26px;
+}
+
+
+
+.vemendo-weekview table tr:nth-child(1) {
+    background: #3dbca2;
+    border: none;
+}
+.vemendo-weekview .dayname {
+    width: 100% !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0.5em !important;
+    color: #eee !important;
+    background: inherit;
+    font-size: 0.9em;
+    font-family: circular-book, arial, sans-serif !important;
+}
+.vemendo-weekview table tr:nth-child(1) .dayname {
+    background: #3dbca2;
+    font-family: circular-bold, arial, sans-serif !important;
+    font-size: 14px;
+    text-align: left;
+    background: #3dbca2;
+    color: #eee;
+    vertical-align: top;
+    padding: .4em;
+}
+.vemendo-weekview table tr:nth-child(1) td {
+    border: none !important;
+}
+
+
+.vemendo-weekview .dayviewevent>p.event-period {
+    text-align: right!important;
+    font-size: .75em!important;
+    color: #000!important;
+    opacity: 1!important;
+    margin: 0 0 0 0!important;
+}
+
+.splitted .event-period, .splitted .event-location {
+    top: 0px !important;
+    float: none !important;
+    text-align: left !important;
+}
+
+
+.checkBox {
+    height: 0.85em;
+    width: 0.85em;
+    border-radius: 0.4em;
+    border: 0.16em #61bea2 solid;
+    margin-right: 0.7em !important;
+    cursor: pointer;
+}
+.checkBox.checked:before {
+    display: inline-block;
+    content: "\f00c";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1.25em;
+    font-weight: normal;
+    margin-left: 0.02em;
+    margin-top: -0.25em;
+    color: #000;
+}
+.selectedBox {
+    height: 0.85em;
+    width: 0.85em;
+    border-radius: 0.4em;
+    border: 3px #61bea2 solid;
+    margin-right: 0.7em !important;
+    cursor: pointer;
+}
+.selectedBox.selected {
+    height: .85em;
+    width: .85em;
+    border-radius: .4em;
+    border: 3px #dada39 solid;
+    margin-right: .7em!important;
+    cursor: pointer;
+}
+.selectedBox:before {
+    display: inline-block;
+    content: "\f067";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: .65em;
+    font-weight: normal;
+    margin-left: .24em;
+    margin-top: .2em;
+    color: #777;
+}
+.selectedBox.selected:before {
+    display: inline-block;
+    content: "\f068";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: .65em;
+    font-weight: normal;
+    margin-left: .24em;
+    margin-top: .2em;
+    color: #777;
+}
+.stepIndicator {
+    float: left;
+    width: 1.6em;
+    height: 1.4em;
+    border-radius: 0.8em;
+    background: #3dbca2;
+    text-align: center;
+    color: #fff;
+    padding-top: 0.2em;
+    margin-right: 1em;
+}
+.learningGoalText {
+    color: #000 !important;
+    /* not triggering  needs refix */
+    display: block;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.odd-even>div:nth-child(odd) {
+    background: #eeeeee !important;
+ }
+
+ .dev .content-padded {
+    padding: 1em
+}
+.dev .content-wrap {
+    background-color: #fff;
+    -ms-flex: 1;
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+    height: 200%
+}

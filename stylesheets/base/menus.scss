@@ -24,3 +24,157 @@ a.meny, .meny a, a.meny:hover, .meny a:hover, a.meny:active, .meny a:active {
 .sv-use-margins .meny {
     margin-bottom: 1.0em
 }
+
+
+.ksMenuHeader {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: circular-bold, arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 12.6px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5.4px;
+    text-rendering: optimizeLegibility;
+    width: 399.031px;
+    -webkit-margin-after: 12.6px;
+    -webkit-margin-before: 5.4px;
+    -webkit-margin-end: 0px;
+    -webkit-margin-start: 0px;
+}
+.ksMenuHeader::after {
+    border-top: 2px #3dbca2 solid;
+    display: block;
+    clear: both;
+    content: "";
+    margin-top: 0.6em;
+}
+
+/* Horizontal menu */
+.buttonsTabs {
+    float:right;
+}
+
+.horizontalMenu, .buttonsTabs {
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+.horizontalMenu ul, .buttonsTabs ul {
+    margin: 0;
+    padding: 0;
+    display: table-row;
+}
+.horizontalMenu li, .buttonsTabs li {
+    background: #737373;
+    /* border-radius: 3px; */
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: circular-book, arial, sans-serif;
+    font-size: .8em;
+    margin: 0;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    font-style: normal;
+    font-weight: normal;
+    text-shadow: none;
+    border: 0;
+    text-align: center;
+    vertical-align: text-top;
+    border-bottom: 1px;
+}
+.horizontalMenu a, .buttonsTabs a {
+    color: #fff;
+    text-decoration: none;
+}
+.horizontalMenu li.preparation {
+    background: rgba(0, 0, 0, 0.65);
+}
+.horizontalMenu .activePage, .buttonsTabs .activePage {
+    background: #3dbca2 !important;
+}
+
+.horizontalMenu li {
+    margin-left: 0em;
+}
+
+
+.navbar-vertical-items i.fa {
+    position: absolute
+}
+.navbar-vertical-items .has-children.open .navbar-subnav {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100%;
+    transition: all .5s;
+    opacity: 1
+}
+.navbar-vertical-items .has-children .navbar-subnav {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    height: 0;
+    transition: all .5s;
+    opacity: 0
+}
+.navbar-vertical-items .navbar-subnav li {
+    background-color: hsla(0, 0%, 100%, .2)
+}
+.navbar-vertical-items .item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    border-left: none;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .7);
+    transform: translateZ(0)
+}
+.navbar-vertical-items .item>a {
+    padding: 0!important
+}
+.navbar-vertical-items .item.arrowed {
+    -webkit-filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .4));
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, .4));
+    border-bottom: none
+}
+.navbar-vertical-items .item.arrowed~.arrowed {
+    margin-left: 0
+}
+.navbar-vertical-items .item.arrowed+.item>a {
+    padding: 0
+}
+.navbar-vertical-items .item.arrowed>a {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1em), calc(50% - -20px) calc(100% - 1em), 50% 100%, calc(50% - 20px) calc(100% - 1em), 0 calc(100% - 1em));
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1em), calc(50% - -20px) calc(100% - 1em), 50% 100%, calc(50% - 20px) calc(100% - 1em), 0 calc(100% - 1em))
+}
+.navbar-vertical-items .item.arrowed:last-child>a {
+    -webkit-clip-path: none;
+    clip-path: none
+}
+.navbar-vertical-items .item.arrowed:last-child>a .item-inner {
+    padding-bottom: 1.5em
+}
+.navbar-vertical-items .item.arrowed+.item>a {
+    margin-top: -1em
+}
+.navbar-vertical-items .item.arrowed+.item .item-inner {
+    padding-top: 1.65em
+}
+.navbar-vertical-items .item .item-inner {
+    padding: 1em 0
+}
+.navbar-vertical-items .item.arrowed .item-inner {
+    padding: 1.2em;
+    padding-bottom: 2em
+}
+

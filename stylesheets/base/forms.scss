@@ -36,3 +36,12 @@ select {
 select:active, select:hover {
     outline-color: #61bea2;
 }
+
+form.sv-nomargin input {
+    margin: -5px 0 !important;
+}
+
+form.sv-nomargin {
+    margin-top: 15px;
+}
+   

@@ -1,0 +1,109 @@
+
+.pullRight {
+    float: right !important;
+}
+.pullLeft {
+    float: left !important;
+}
+.vertical-space {
+    margin-top: 1.5em !important;
+    margin-bottom: 1.5em !important;
+}
+.horizontal-space {
+    margin-left: 1.5em !important;
+    margin-right: 1.5em !important;
+}
+.center {
+    vertical-align: middle;
+    text-align: center;
+}
+.top {
+    vertical-align: top;
+    text-align: left;
+}
+.topCenter {
+    vertical-align: middle;
+    text-align: left;
+}
+.bottom {
+    vertical-align: bottom;
+    text-align: left;
+}
+.stopFloats {
+    display: block;
+    clear: both;
+}
+.fullWidth {
+    width: 100%;
+}
+.nowrap {
+    white-space: nowrap;
+}
+.align-vertical {
+    display: block;
+}
+.align-horizontal {
+    display: table-row;
+}
+.align-horizontal div {
+    margin-right: 2px;
+    margin-top: auto;
+}
+.align-horizontal div:last-child {
+    margin-right: 0;
+}
+.horizontalItem {
+    display: table-cell;
+    margin-right: 10px;
+}
+.align-table {
+    display: table-row;
+}
+.align-table div {
+    display: table-cell;
+    text-align: left;
+    padding: 0.4em;
+}
+.align-table .inputTextBox.inputTextLarge {
+    display: block !important;
+}
+.align-table input[type="text"] {
+    display: block;
+    margin-left: 0 !important;
+}
+.lines>div {
+    border-right: 1px #cfcfcf solid;
+    border-bottom: 1px #cfcfcf solid;
+    border-top: 1px #cfcfcf solid;
+    padding: 5px;
+}
+.lines>div:nth-child(1) {
+    border-radius: 4px 0 0 4px;
+    border-left: 1px #cfcfcf solid;
+}
+.lines>div:last-child {
+    border-radius: 0 4px 4px 0;
+}
+.vertLines>div {
+    border-right: 1px #cfcfcf solid;
+    border-bottom: 1px #cfcfcf solid;
+    border-top: 1px #cfcfcf solid;
+    padding: 5px;
+}
+.vertLines>div:nth-child(1) {
+    border-radius: 4px 4px 0 0;
+    border-left: 1px #cfcfcf solid;
+}
+.vertLines>div:last-child {
+    border-radius: 0 0 4px 4px;
+}
+.vertLines>div:nth-child(1) {
+    border-radius: 4px 4px 0 0;
+    border-top: 1px #cfcfcf solid;
+}
+.vertLines>div {
+    border-right: 1px #cfcfcf solid;
+    border-bottom: 1px #cfcfcf solid;
+    border-left: 1px #cfcfcf solid;
+    padding: 5px;
+}

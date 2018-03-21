@@ -1,0 +1,125 @@
+.pageHeader .align-horizontal.lines {
+    font-size: 0.8em;
+}
+.pageHeader .horizontalItem {
+    display: inline;
+    margin-right: 0;
+    padding: 0 0.4em 0 0;
+    border: none;
+}
+.pageHeader .horizontalItem a {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.pageHeader .projectstep-button {
+    background: #7d7d7d;
+    border-radius: 0 3px 3px 0 !important;
+}
+.pageHeader {
+    padding: 0 1em;
+    margin-left: -0.84em;
+    margin-right: -0.84em;
+    min-height: 12em;
+    background-size: cover;
+    margin-bottom: 1em;
+    position: relative;
+}
+.pageHeader a {
+    text-decoration: none;
+}
+.pageHeader .align-horizontal.lines {
+    font-size: 0.8em;
+}
+.pageHeader .horizontalItem {
+    display: inline;
+    margin-right: 0;
+    padding: 0 0.4em 0 0;
+    border: none;
+}
+.pageHeader .horizontalItem a {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.pageHeader .projectstep-button {
+    background: #eeeeee;
+    border-radius: 0 3px 3px 0!important;
+}
+.pageHeader .btn-group .btn {
+    margin-right: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border-top: 1px #cfcfcf solid;
+    border-bottom: 1px #cfcfcf solid;
+    border-right: 1px #cfcfcf solid;
+    border-left: none;
+}
+.pageHeader .btn-group .btn:nth-child(1) {
+    border-radius: 3px 0 0 3px;
+    /* border-left: none; */
+    border-left: 1px #cfcfcf solid;
+}
+.pageHeader .align-horizontal {
+    display: inline-block;
+}
+.pageHeader .align-vertical {
+    margin-bottom: 0.7em;
+}
+.pageHeader .align-horizontal a {
+    color: #cfcfcf;
+}
+.pageHeader a.btn {
+    color: #000 !important;
+    font-size: 0.8em;
+}
+.pageHeader h1 {
+    font-size: 2.8em;
+    color: #fff;
+    margin: 0;
+    padding-top: 0.5em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+}
+
+.pageHeader {
+   padding: 0 1em;
+   margin-left: -0.84em;
+   margin-right: -0.84em;
+   min-height: 12em;
+   background-size: cover;
+   margin-bottom: 1em;
+   position: relative;
+}
+
+h4.skolHeaderWelcome {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255) !important;
+    margin-bottom: -32px;
+    padding-top: 25px;
+    font-size: 1.8em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+}
+
+.pageHeader {
+    background-image: url(https://extraks.sitevision.se/images/18.2d4f4005159f895477a2e5cb/theme.jpg) !important;
+}
+
+.startPageTabs li a {
+    font-size: 1em !important;
+}
+
+.startPageTabs {
+   padding-left: 0 !important;
+    margin-top: -3em;
+}
+
+ul.nav.nav-tabs.startPageTabs {
+    background: #f8f8f8;
+    background: -moz-linear-gradient(top, rgba(248,248,248,0) 0%, rgba(248,248,248,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(248,248,248,0) 0%,rgba(248,248,248,1) 100%);
+    background: linear-gradient(to bottom, rgba(248,248,248,0) 0%,rgba(248,248,248,1) 100%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f8f8f8', endColorstr='#f8f8f8',GradientType=0 );*/
+}
+
+.pageFunctionButtons {
+    margin-bottom: 2em;
+}

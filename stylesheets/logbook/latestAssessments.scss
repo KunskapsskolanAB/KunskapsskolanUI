@@ -1,0 +1,11 @@
+.ked-latest-assessments pre {
+    font-family: circular-book,arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    display: block;
+    white-space: inherit;
+}
+
+.ked-latest-assessments td:first-child {
+    min-width: 5em;
+}

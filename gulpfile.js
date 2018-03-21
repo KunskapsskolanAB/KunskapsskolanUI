@@ -16,3 +16,18 @@ gulp.task('sass', function () {
         .pipe(sassLint.failOnError())
         .pipe(gulp.dest('css'))
 });
+
+gulp.task('compress', function(){
+    return gulp.src('stylesheets/kunskapsskolanUI.scss')
+        .pipe(sass({ 
+            outputStyle: 'compressed',
+            onError: sass.logError 
+        }))
+        .pipe(sassLint())
+        .pipe(sassLint.format())
+        .pipe(sassLint.failOnError())
+        .pipe(rename({
+            suffix: "_min"
+          }))
+        .pipe(gulp.dest('css'))
+});

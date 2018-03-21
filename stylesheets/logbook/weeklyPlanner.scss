@@ -1,0 +1,598 @@
+#weeklyPlanner h2 {
+    margin-bottom: 0.7em !important;
+}
+#weeklyPlanner h3 {
+    margin-bottom: 0.7em !important;
+    margin-top: 1.5em !important;
+}
+#weeklyPlanner hr {
+    margin-bottom: 1.4em !important;
+}
+#weeklyPlanner .weekSelect {
+    margin-top: 0.7em;
+}
+
+#weeklyPlanner > .btn {
+    margin: 0 0 2em 0;
+}
+
+#weeklyPlanner > .btn {
+    margin: 0.5em 0 1em 0;
+}
+
+.btn.addOwnGoal {
+    margin: 0.5em 0 1em 0;
+}
+
+
+.weekPlanner > .btn {
+    margin: 0 0 2em 0;
+}
+
+.weekPlanner .btn {
+    margin-left: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+
+.weekPlanner .btn:first-child {
+    margin-left: 0;
+}
+
+
+.weekPlanner h4 {
+    font-family: circular-bold,arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.625em;
+    color: #000;
+    line-height: 1.15384615;
+}
+
+.weekPlanner h3 + hr {
+    display: none;
+}
+
+.weekPlanner h3 {
+    margin-top: 0em !important;
+    margin-bottom: -12px!important;
+}
+
+.weekPlanner .weekSelect {
+    margin-top: 0.7em;
+}
+
+.weekPlanner .weekSelect .btn {
+    margin-bottom: 0;
+   margin-left:0;
+}
+
+
+
+.learningGoalContainer br {
+    display: none;
+}
+
+
+.vemendo-weekview > table > tbody > tr > td {
+    
+    width: 16%;
+}
+
+.vemendo-weekview > table > tbody > tr > td:nth-child(1) {
+ 
+    width: 5%;
+}
+   
+   
+blockquote.sv-blockquote {
+    background: none !important;
+    padding: 0 !important;
+    width: 11em !important;
+    float: left !important;
+    margin: 0 0.6em 0.6em 0 !important;
+}
+
+.vemendo-weekview > table td {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid #96979a !important;
+}
+   
+
+.vemendo-weekview .dayviewevent {
+    border: none !important;
+    box-sizing: border-box !important;
+    border-radius: 0 !important;
+    padding: 0.25em !important;
+    border-bottom: 1px #fff solid !important;
+}
+
+
+   
+.vemendo-weekview .dayviewevent > p.event-period {
+    text-align: right !important;
+    font-size: 0.75em !important;
+    color: #000 !important;
+    opacity: 1 !important;
+    margin: 0 0 0 0 !important;
+}
+
+ 
+   
+.vemendo-weekview .dayviewevent > p.event-location {
+    font-style: normal !important;
+    opacity: 1 !important;
+    color: #000 !important;
+    font-size: 0.8em !important;
+    float: right;
+    font-style: italic !important;
+}
+
+
+p.event-description {
+   padding: 0 0.3em;
+   position: relative;
+   top: -17px;
+   color: #000;
+   font-size: 0.8em;
+}
+
+
+.vemendo-weekview .dayview {
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+     
+   
+.vemendo-weekview .hourmarker {
+    margin-top: 0.5em !important;
+    color: #3dbca2 !important;
+    font-size: 0.8em !important;
+    width: 5em !important;
+    margin-left: 0.4em !important;
+    display: block !important;
+}
+
+.vemendo-weekview p.week-number {
+    font-family: circular-bold,arial,sans-serif !important;
+    text-align: center !important;
+    padding: 6px 2px 6px 0px !important;
+    margin: 0 !important;
+    font-size: 1.7em !important;
+    color: #000 !important;
+}
+
+
+   
+.full-day:last-child {
+    margin-bottom: 1em !important;
+}
+   
+   .vemendo-weekview .dayviewevent>p {
+    margin: 0;
+    text-align: inherit;
+}
+
+p.event-title {
+    color: #000 !important;
+    font-size: 0.8em;
+    font-family: circular-bold,arial,sans-serif;
+}
+   
+.vemendo-weekview table tr:nth-child(1) {
+    background: #3dbca2;
+    border: none;
+}
+
+
+.vemendo-weekview .dayname {
+    width: 100% !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0.5em !important;
+    color: #eee !important;
+    background: inherit;
+    font-size:0.9em;
+    font-family: circular-book,arial,sans-serif !important;
+}
+   
+   
+.vemendo-weekview table tr:nth-child(1) .dayname {
+    background: #3dbca2;
+    font-family: circular-bold,arial,sans-serif !important;
+    font-size: 14px;
+    text-align: left;
+    background: #3dbca2;
+    color: #eee;
+    vertical-align: top;
+    padding: .4em;
+}   
+   
+.vemendo-weekview table tr:nth-child(1) td {
+    border: none !important;
+}
+
+
+/* ********************** */
+
+.kedcalendar .btn-toolbar {
+   padding-bottom: 4px
+}
+
+.kedcalendar .btn-toolbar .btn-group {
+   display: table-cell;
+   padding: 8px 10px 8px 0
+}
+
+.vemendo-weekview {
+   font-family: Arial, sans-serif;
+   font-size: 9pt;
+   position: relative;
+   line-height: 1
+}
+
+.vemendo-weekview .big-button {
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%
+}
+
+.vemendo-weekview>table {
+   border-collapse: collapse
+}
+
+.vemendo-weekview>table td {
+   margin: 0;
+   padding: 0;
+   border: 1px solid #eee;
+   border-bottom: 0
+}
+
+.vemendo-weekview p.week-number {
+   text-align: left;
+   padding: 6px 2px 6px 0;
+   margin: 0;
+   color: #778
+}
+
+.vemendo-weekview .dayview {
+   width: 140px;
+   box-sizing: border-box
+}
+
+.vemendo-weekview .dayname {
+   width: 100%;
+   text-align: left;
+   margin: 0
+}
+
+.vemendo-weekview .dayviewevent {
+   border: 1px dotted #888;
+   box-sizing: border-box;
+   border-radius: 1.5px
+}
+
+.vemendo-weekview .dayviewevent>p {
+   margin: 0 .2em 0 .2em;
+   text-align: left;
+}
+
+.vemendo-weekview .dayviewevent>p.event-period {
+   text-align: left;
+   font-size: 7pt;
+   opacity: .6;
+   margin: 2px 0 0 0
+}
+
+.vemendo-weekview .dayviewevent>p.event-location {
+   font-style: italic;
+   opacity: .6
+}
+
+.vemendo-weekview .statusbar {
+   line-height: 10pt
+}
+
+.vemendo-weekview .status {
+   margin: 1px;
+   color: #89a
+}
+
+.vemendo-weekview .error {
+   margin: 1px;
+   color: red
+}
+
+.vemendo-weekview .hourmarker {
+   color: #778;
+   font-size: 6.5pt;
+   width: 24px
+}
+
+.vemendo-weekview .timeline {
+   border-top: dotted 1px;
+   border-bottom: solid 1px;
+   border-color: #eeeef2
+}
+
+.vemendo-weekview .dayviewevent {
+   border: none !important;
+   box-sizing: border-box !important;
+   border-radius: 3px !important;
+   padding: 0 !important;
+   border-bottom: none !important; 
+   -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.24);
+   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+   border-top: 1px rgba(255, 255, 255, 0.51) solid !important;
+}
+
+.vemendo-weekview .timeline {
+   border-top: dashed 1px;
+   border-bottom: dashed 1px;
+   background: #f9f9f8;
+   background: rgba(0, 0, 0, 0.02);
+   border-color: #dedede;
+}
+
+.vemendo-weekview .today {
+   background: #ffffe9;
+}
+
+
+
+a.event-title {
+   background: rgba(255,255,255,0.31);
+   display: block;
+   text-decoration: none;
+   font-family: circular-bold;
+   padding: .16em .25em;
+   font-size: 1.2em;
+   position: relative;
+}
+
+.dayviewevent.full-day {
+   max-height: 73px;
+   overflow: hidden;
+   display: grid;
+}
+
+.full-day .event-description {
+   display: none;
+}
+
+a.event-title .dayviewevent.full-day {
+   font-family: circular-book !important;
+}
+
+
+
+.weekPlanner.currentWeek .weekSelect p {
+    font-style: normal;
+    font-weight: bold;
+  }
+  .confirmation-box {
+    transition: max-height 0.15s;
+    overflow: hidden;
+    max-height: 0;
+  }
+  .confirmation-box.visible {
+    max-height: 70px;
+  }
+
+  .weekPlanner .weekSelect p {
+    font-style: normal;
+    color: #bfbfbf;
+}
+
+.weekPlanner.currentWeek .weekSelect p {
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+}
+
+.gcal-palette-1 {
+   background-color: #e1e1e1;
+}
+.gcal-palette-2 {
+   background-color: #dbadff;
+}
+.gcal-palette-3 {
+   background-color: #dc2127;
+}
+.gcal-palette-4 {
+   background-color: #ff887c;
+}
+.gcal-palette-5 {
+   background-color: #ffb878;
+}
+.gcal-palette-6 {
+   background-color: #fbd75b;
+}
+.gcal-palette-7 {
+   background-color: #51b749;
+}
+.gcal-palette-8 {
+   background-color: #7ae7bf;
+}
+.gcal-palette-9 {
+   background-color: #46d6db;
+}
+.gcal-palette-10 {
+   background-color: #a4bdfc;
+}
+.gcal-palette-11 {
+   background-color: #5484ed;
+}
+.gcal-palette-12 {
+   background-color: #dbadff;
+}
+.gcal-palette-13 {
+   background-color: #dc2127;
+}
+.gcal-palette-14 {
+   background-color: #ff887c;
+}
+.gcal-palette-15 {
+   background-color: #ffb878;
+}
+.gcal-palette-16 {
+   background-color: #fbd75b;
+}
+.gcal-palette-17 {
+   background-color: #51b749;
+}
+.gcal-palette-18 {
+   background-color: #7ae7bf;
+}
+.gcal-palette-19 {
+   background-color: #46d6db;
+}
+.gcal-palette-20 {
+   background-color: #a4bdfc;
+}
+.gcal-palette-21 {
+   background-color: #5484ed;
+}
+.gcal-palette-22 {
+   background-color: #5484ed;
+}
+.gcal-palette-23 {
+   background-color: #5484ed;
+}
+.gcal-palette-24 {
+   background-color: #5484ed;
+}
+.gcal-palette-25 {
+   background-color: #5484ed;
+}
+
+
+.scheduleColor01, .course-event-aff {
+   background-color: #df9b9b;
+   }
+.scheduleColor02, .course-event-bas, .course-event-bg {
+   background-color: #a0a1d0;
+}
+.scheduleColor03, .course-event-bio {
+   background-color: #8ad3c4;
+}
+.scheduleColor04, .course-event-eng, .course-event-en {
+   background-color: #cc9191;
+}
+.scheduleColor05, .course-event-ent {
+   background-color: #e4e4e4;
+}
+.scheduleColor06, .course-event-mu {
+   background-color: #adaee5;
+}
+.scheduleColor07, .course-event-est, .course-event-bd, .course-event-sl {
+   background-color: #fafa51;
+}
+.scheduleColor08, .course-event-etn {
+   background-color: #bc8888;
+}
+.scheduleColor09, .course-event-fil {
+   background-color: #f6a7a7;
+}
+.scheduleColor10, .course-event-fys {
+   background-color: #78cdbc;
+}
+.scheduleColor11, .course-event-for, .course-event-kur, .course-event-fy .course-event-ke, .course-event-te, .course-event-ge, .course-event-hi, .course-event-re, .course-event-sa, .course-event-no, .course-event-so, .course-event-ku {
+   background-color: #b8b9e8;
+   }
+.scheduleColor12, .course-event-geo {
+   background-color: #8c8db0;
+}
+.scheduleColor13, .course-event-gym {
+   background-color: #a0a3e2;
+}
+.scheduleColor14, .course-event-his {
+   background-color: #e1e175;
+}
+.scheduleColor15, .course-event-hum {
+   background-color: #cccccc;
+}
+.scheduleColor16, .course-event-idh, .course-event-id {
+   background-color: #6aa195;
+}
+.scheduleColor17, .course-event-int {
+   background-color: #e0e0e0;
+}
+.scheduleColor18 {
+   background-color: #df9b9b;
+}
+.scheduleColor19, .course-event-jou {
+   background-color: #cfcfcf;
+}
+.scheduleColor20, .course-event-kem {
+   background-color: #a87abe;
+}
+.scheduleColor21, .course-event-kom {
+   background-color: #e297e2;
+   }
+.scheduleColor22, .course-event-led {
+   background-color: #f6a7a7;
+}
+.scheduleColor23, .course-event-mar {
+   background-color: #9d9d9d;
+}
+.scheduleColor24, .course-event-mat, .course-event-ma {
+   background-color: #e1e175;
+}
+.scheduleColor25, .course-event-med {
+   background-color: #e4e4e4;
+}
+.scheduleColor26 {
+   background-color: #8c8db0;
+}
+.scheduleColor27, .course-event-man {
+   background-color: #a0a3e2;
+}
+.scheduleColor28, .course-event-nat {
+   background-color: #bcbc6c;
+}
+.scheduleColor29, .course-event-ph {
+   background-color: #4ffafa;
+}
+.scheduleColor30, .course-event-pri {
+   background-color: #faa4fa;
+}
+.scheduleColor31, .course-event-psy, .course-event-lun, .course-event-ras, .course-event-ra {
+   background-color: #cf7aae;
+   }
+.scheduleColor32, .course-event-rel {
+   background-color: #df9b9b;
+}
+.scheduleColor33, .course-event-rat {
+   background-color: #b680cf;
+}
+.scheduleColor34, .course-event-sam {
+   background-color: #e2e251;
+}
+.scheduleColor35, .course-event-soc  {
+   background-color: #78cdbc;
+}
+.scheduleColor36,.course-event-sve, .course-event-sva {
+   background-color: #9c9ee4;
+}
+.scheduleColor37, .course-event-tek {
+   background-color: #d891fa;
+}
+.scheduleColor38, .course-event-tys, .course-event-fra, .course-event-spa, .course-event-sp, .course-event-fr, .course-event-ty {
+   background-color: #8c8db0;
+}
+.scheduleColor39, .course-event-wor {
+   background-color: #e7e797;
+}
+.scheduleColor40 {
+   background-color: #d891fa;
+}
+.scheduleColor41 {
+   background-color: #000;
+}
+.scheduleColor42 {
+   background-color: #000;
+}

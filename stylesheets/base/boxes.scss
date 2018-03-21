@@ -1,0 +1,170 @@
+
+.ked_boxed, .ksBlock, .layout_boxed {
+    background: #f8f8f8;
+    width: inherit !important;
+    padding: 5px 20px 20px 20px;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 2em;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.layout_boxed {
+   display:block;
+   width:100% !important;
+   width: -webkit-fill-available !important;   
+}
+
+.well-small {
+    padding: 9px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+  .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  }
+
+  
+.ked_unboxed {
+    width: inherit !important;
+    padding: 5px 20px 20px 20px;
+    margin-bottom: 2em;
+}
+
+.ked_boxed .openContent {
+    padding: 0.8em;
+}
+.ked_boxed tbody {
+    background: #fff;
+}
+.ked_boxed h2, .ked_boxed h3, .ked_boxed h4, .ked_boxed h5, .ked_boxed hr {
+    margin: 0.3em 0 0.7em 0 !important;
+}
+.ked_boxed .openContent {
+    background: rgba(255, 255, 255, 0.78);
+}
+.ked_boxed .openContent p {
+    color: #000;
+    font-size: 0.9em;
+}
+.openClose {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+}
+.openContent {
+    padding: 0.2em 0.2em 0.8em 0.2em;
+}
+.openHeader p {
+    font-family: circular-bold, arial, sans-serif;
+    font-size: 0.9em;
+}
+
+.openHeader p {
+    margin-bottom:0em;
+ }
+
+.openHeader:before {
+    content: "\f077";
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.openClose .openHeader:before {
+    content: "\f078";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 0.8em;
+    margin-top: 0.39em;
+    margin-right: 0.5em;
+    color: #3dbca2;
+}
+.open .openHeader:before {
+    content: "\f077" !important;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 0.8em;
+    margin-top: 0.39em;
+    margin-right: 0.5em;
+    color: #3dbca2;
+}
+.openClose .openContent {
+    display: none;
+}
+.openClose.open>.openContent {
+    display: block !important;
+}
+.open .openHeader {
+    border-bottom: 1px #cfcfcf solid;
+}
+.openHeader {
+    background: #eeeeee;
+    padding: 0.1em 0.8em;
+}
+.ked_boxed .openHeader {
+    padding-top: 0.4em;
+    border-radius: 5px 5px 0 0;
+}
+.openHeader:before {
+    content: "\f078";
+    font: normal normal normal 14px/1 FontAwesome;
+    float: right;
+}
+.openHeader:hover {
+    background: #d4d4d3;
+    cursor: pointer;
+}
+.openContent ul li {
+    margin-left: 2em;
+}
+.openContent p {
+    font-size: 1em;
+    color: #000;
+    color: #58595b;
+    margin-top: 12px;
+}
+.larger>.openHeader {
+    border: none !important;
+    background: inherit !important;
+    padding: 0.1em 0.2em;
+}
+.larger {
+    /* background: #f8f8f8; */
+    border: none !important;
+    background: #f8f8f8 !important;
+    padding: 1em 0.3em;
+    /* border: none !important; */
+    background: #f8f8f8;
+    width: inherit !important;
+    padding: 5px 20px 20px 20px;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 1em;
+}
+.larger p {
+    font-size: 1.25em;
+    color: #000;
+    margin-top: 12px;
+}
+.larger>.openHeader:before {
+    content: "\f078";
+    font: normal normal normal 14px/1 FontAwesome;
+    float: right;
+    margin-top: 23px;
+}
+.larger.openClose.open>.openContent {
+    margin-top: 1em;
+    border-top: 3px #3dbca2 solid;
+    padding: 0;
+}

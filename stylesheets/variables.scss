@@ -1,6 +1,3 @@
-$color-type-body-primary: #333;
-$color-type-header-primary:#000;
-
 $master-body-size: 1em;
 
 $font-size-body: 1em;
@@ -11,13 +8,32 @@ $font-size-h3: 1.9em;
 $font-size-h4: 1.4em;
 $font-size-h5: 1em;
 
+$color-type-body-primary: #333;
+$color-type-header-primary:#000;
+
 $color-button: #333;
 $color-accent: #333;
 
-$background-menu: #aaa;
-$background-body: #c3c3c3;
-$background-content: #fff;
+$color-background-menu: #aaa;
+$color-background-body: #c3c3c3;
+$color-background-content: #fff;
+
+$color-ksabYellow: rgb(218, 218, 57);
+$color-ksabcyan: rgb(61, 188, 162);
+$color-ksabPurple: rgb(102, 49, 143);
+$color-ksabRed: rgb(233, 43, 94);
+
+
 
 $font-body: 'circular-book', arial, sans-serif;
 $font-header: 'circular-bold', arial, sans-serif;
 $font-menu: 'circular-book', arial, sans-serif;
+
+$responsive-s-devices: "(max-width:759px)";
+$responsive-m-devices: "(max-width:1024px) and (min-width:760px)";
+$responsive-l-devices: "(max-width:1399px) and (min-width:1025px)";
+$responsive-xl-devices: "(min-width:1400px)";
+
+
+
+

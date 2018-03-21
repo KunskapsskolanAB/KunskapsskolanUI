@@ -1,0 +1,18 @@
+.weekSelect .horizontalItem {
+    display: table-cell;
+}
+.weekSelect .horizontalItem:nth-child(1) {
+    padding-right: 0.8em;
+}
+.weekSelect {
+    float: right;
+    display: inline-block;
+    height: 2em;
+}
+.week-navigation .btn-group {
+    box-shadow: none;
+}
+
+.week-navigation .btn .fa {
+    margin-right: 0 !important;
+}

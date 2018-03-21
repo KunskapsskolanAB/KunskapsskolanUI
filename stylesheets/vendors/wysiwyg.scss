@@ -53,3 +53,7 @@
 .wysiwyg-focuspoint.fpur, .wysiwyg-focuspoint.fpll {
     cursor: nesw-resize;
 }
+
+.wysiwyg-content.readonly {
+    max-height: initial;
+  }

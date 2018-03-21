@@ -1,0 +1,125 @@
+body {
+    margin-left: 48px!important;
+}
+
+body.sv-responsive {
+    background: $color-background-body;
+}
+
+#sidebar-body-wrapper, .ked-navigation *, body, html {
+    box-sizing: border-box
+}
+.dev .page-wrap, body, html {
+    height: 100%
+}
+
+.sv-fn-buttons.btn-group a, .bootstrap .btn {
+   color: #000 !important;
+}
+
+.bootstrap [class^="icon-"], .bootstrap [class*=" icon-"] {
+    margin-right: 14px;
+}
+
+.pagecontent {
+    padding-bottom: 2em;
+    /* margin-top: -1em; */
+    margin-bottom: 2em;
+}
+
+   .sv-grid-ksgs12 {
+    background: #fff !important;
+}
+::-moz-selection {
+    background: #dada39;
+}
+::selection {
+    background: #dada39;
+}
+
+  
+.cbox_head, .cbox_body, .kbox_head, .kbox_body {
+    display:none;
+ }
+    
+ 
+   
+ .sv-column-5, .sv-column-7 {
+     margin-top: 0em;
+     padding: 0 0em;
+ }
+
+ 
+ 
+.kpMenu a {
+    text-decoration: none;
+}
+
+.kpMenu li.nav-header {
+    font-family: circular-bold;
+}
+
+.kpMenu ul > ul.nav.nav-list {
+    margin: 0 0 1em 1em;
+}
+
+.kpMenu h5 {
+    color: #000 !important;
+}
+
+
+
+   
+.oldCrap {
+    margin: 0!important;
+    padding: 0!important;
+ }
+
+
+
+
+.contentSpacer {
+  display: block !important;
+  clear: both;
+  margin-bottom: 3em;
+  width: 100%;
+  height: 1em;
+}
+
+
+.rtl {
+  direction: rtl
+}
+
+
+
+
+.workPath_head {
+  padding: 5px !important;
+}
+#readThis .ksBlock p {
+  padding: 0px;
+}
+.workPath_body {
+  clear: both;
+  /*display: none; */
+  margin-top: 10px;
+  -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+@media #{$responsive-l-devices} {
+
+}
+@media #{$responsive-m-devices} {
+
+}
+@media #{$responsive-s-devices} {
+
+}
+
