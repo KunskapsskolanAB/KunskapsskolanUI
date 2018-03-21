@@ -1,0 +1,51 @@
+
+.sv-text-portlet-content tr, .sv-text-portlet-content td, .sv-text-portlet-content th, .sv-text-portlet-content table, .sv-portlet tr, .sv-portlet td, .sv-portlet th, .sv-portlet table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px #cfcfcf solid;
+}
+.sv-text-portlet-content td, .sv-text-portlet-content th, .sv-portlet td, .sv-portlet th {
+    vertical-align: top;
+    padding: 0.4em;
+}
+.sv-text-portlet-content tr.tableOdd, .sv-portlet tr.tableOdd, .oddLine {
+    background: #eeeeee !important;
+}
+.sv-text-portlet-content tr.currentWeek td, .sv-portlet tr.currentWeek td {
+    background: #f4f4c4;
+}
+.sv-text-portlet-content thead th, .sv-portlet thead th {
+    text-align: left;
+    background: #3dbca2;
+    color: #eee;
+    border: 1px #3dbca2 solid;
+}
+.sv-text-portlet-content tfoot th, .sv-portlet tfoot th {
+    text-align: left;
+    background: #cfcfcf;
+    color: #58595b;
+    border: 1px #96979a solid;
+}
+tr.covered-item-label td {
+    background: #3dbca2;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 1px #757575 solid;
+}
+.weighted-items-table table {
+    margin-top: 1em;
+}
+td.courseCell {
+    min-width: 7em;
+}
+td.stepCell {
+    min-width: 2.3em;
+    text-align: center;
+}
+tr.oddLine {
+    background: #eeeeee;
+}
+
+.sv-text-portlet-content table {
+    font-size: 0.85em;
+}

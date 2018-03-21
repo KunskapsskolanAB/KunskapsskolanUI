@@ -1,0 +1,152 @@
+.btn .fa {
+    margin-right: 0.3em;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+a.btn {
+    color: #fff !important;
+}
+.btn:hover, input[type="submit"]:hover {
+    background: #757575;
+    /*color: #4e4e4e;*/
+}
+.btn-warning:hover {
+    background-color: rgb(227, 67, 33);
+    color: rgb(218, 218, 57);
+    -webkit-box-shadow: 0 0 5px 2px rgba(233, 43, 94, 0.4);
+    box-shadow: 0 0 8px 3px rgba(255, 39, 0, 0.4);
+}
+.btn-inactive:hover {
+    background-color: rgb(209, 211, 212);
+    color: #9e9d9d;
+}
+.btn:focus, .btn:active, .btn:visited {
+    outline: none;
+    box-shadow: none;
+}
+.btn, input[type="submit"] {
+    background: #3dbca2;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: circular-book, arial, sans-serif;
+    font-size: .8em;
+    margin: 0;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    font-style: normal;
+    font-weight: normal;
+    text-shadow: none;
+    border: 0;
+    text-align: center;
+    vertical-align: text-top;
+    border-bottom: 1px rgba(0, 0, 0, 0.3) solid;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+.btn-warning {
+    background-color: rgb(233, 43, 94);
+}
+.btn-primary {
+    background-color: rgb(102, 49, 143);
+}
+.btn-info {
+    background-color: rgb(218, 218, 57);
+}
+.btn-inactive {
+    background-color: rgb(209, 211, 212);
+    color: #9e9d9d;
+    cursor: not-allowed;
+}
+.btn-mini {
+    padding: 1px 2px;
+    font-size: 0.6em;
+}
+.btn-small {
+    padding: 3px 6px;
+    font-size: 0.8em;
+}
+.btn-large {
+    padding: 12px 24px;
+    font-size: 1.2em;
+}
+.btn .fa {
+    height: 14px;
+    font-size: 14px;
+}
+a.btn:hover {
+    color: #4e4e4e;
+}
+.buttonsField {
+    display: block;
+    margin-left: -1em;
+    margin-right: -1em;
+    min-height: 40%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 1) 100%);
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 1) 100%);
+    background: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 1) 100%);
+   /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000', GradientType=0);*/
+}
+.buttonsContainer {
+    padding: 1.5em 1em .3em 1em;
+}
+.projectstep-button {
+    background: #7d7d7d;
+}
+.step-button {
+    background: #939598;
+    width: 24px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+.step-button {
+    background: #f8f8f8;
+    width: 1.45em;
+    /* color: #333 !important; */
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+a.btn.btn-small.step-button.activePage {
+    background: #3dbca2;
+}
+
+/* Button groups */
+
+.btn-group {
+    display: inline-flex;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+}
+.btn-group .btn:nth-child(1) {
+    border-radius: 3px 0 0 3px;
+    border-left: none;
+}
+.btn-group .btn {
+    margin-right: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border-left: 1px #7e7a7a solid;
+}
+.btn-group .btn:last-child {
+    border-radius: 0 3px 3px 0;
+}

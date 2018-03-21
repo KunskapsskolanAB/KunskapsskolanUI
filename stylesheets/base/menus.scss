@@ -1,0 +1,26 @@
+
+.meny {
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 100%;
+    color: #333333;
+    line-height: 1em;
+}
+a.meny, .meny a, a.meny:hover, .meny a:hover, a.meny:active, .meny a:active {
+    color: #333333;
+    text-decoration: none;
+}
+.meny {
+    padding: 2px;
+    display: block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+.sv-use-margins .meny {
+    margin-top: 0.0em
+}
+.sv-use-margins .meny {
+    margin-bottom: 1.0em
+}

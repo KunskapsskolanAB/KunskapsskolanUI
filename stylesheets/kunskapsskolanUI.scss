@@ -1,6 +1,5 @@
-/* @import "reset";
-@import "syntax"; */
-@import "vendors/reactDatePicker/datepicker-cssmodules.scss";
-
-
-@import "print.scss";
+// @import "fontImports.scss";
+// @import "vendors/reactDatePicker/datepicker-cssmodules.scss";
+@import "variables.scss";
+@import "base/structure.scss";
+@import "base/type.scss";

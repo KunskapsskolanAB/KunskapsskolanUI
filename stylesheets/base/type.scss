@@ -1,0 +1,248 @@
+body {
+    font-family: $font-body;
+    font-style: normal;
+    font-size: $master-body-size;
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+    font-size-adjust: 0.5;
+    text-rendering: optimizeLegibility;
+}
+
+p.normal {
+   color: $color-type-body-primary;
+   font-family: $font-body;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 27.2px;
+   margin-top: 0px;
+   text-rendering: optimizeLegibility;
+   white-space: pre-wrap;
+}
+
+.bloggrubrik {
+    color: $color-type-header-primary;
+    font-family: $font-header;
+    font-size: 2em;
+    margin: 0 0 0.8em 0 !important;
+}
+
+h1 + br, h2 + br, h3 + br, h4 + br, h5 + br {
+    display: none;
+}
+   
+.sv-use-margins .normal {
+    margin-top: 0em
+}
+.sv-use-margins .normal {
+    margin-bottom: 1em
+}
+.sv-use-margins .normal:first-child, .sv-old-text-portlet .normal.sv-first-child {
+    margin-top: 0em
+}
+.sv-use-margins .normal.sv-last-child, .sv-old-text-portlet .normal.sv-last-child {
+    margin-bottom: 0em
+}
+.sv-use-margins .normal:last-child, .sv-old-text-portlet .normal:last-child {
+    margin-bottom: 0em
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+    font-family: $font-header;
+    color: $color-type-header-primary;
+    letter-spacing: normal;
+    font-weight: normal !important;
+    display: block !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, .h1 {
+    font-size: 2em;
+    line-height: 1.25em;
+}
+
+h2, .h2 {
+    font-size: 1.625em;
+    line-height: 1.15384615;
+}
+
+h3, .h3 {
+    font-size: 1.375em;
+    line-height: 1.13636364;
+}
+
+h4, .h4 {
+    font-size: 1.125em;
+    line-height: 1.11111111;
+}
+
+h5, .h5 {
+    font-size: 1em;
+    line-height: 1;
+}
+
+a.h1, h1 a, .h1 a,
+a.h2, h2 a, .h2 a,
+a.h3, h3 a, .h3 a,
+a.h4, h4 a, .h4 a,
+a.h5, h5 a, .h5 a {
+    color: $color-type-header-primary;
+    text-decoration: none;
+}
+.sv-use-margins .h5, .sv-use-margins h5 {
+    margin-top: 1em
+}
+.sv-use-margins .h5, .sv-use-margins h5 {
+    margin-bottom: 1.0em
+}
+.sv-use-margins .h5:first-child, .sv-old-text-portlet .h5.sv-first-child, .sv-use-margins h5:first-child, .sv-old-text-portlet h5.sv-first-child {
+    margin-top: 0.0em
+}
+.sv-use-margins .h5.sv-last-child, .sv-old-text-portlet .h5.sv-last-child {
+    margin-bottom: 0.0em
+}
+.sv-use-margins .h5:last-child, .sv-old-text-portlet .h5:last-child {
+    margin-bottom: 0.0em
+}
+.sv-use-margins h5.sv-last-child, .sv-old-text-portlet h5.sv-last-child {
+    margin-bottom: 0.0em
+}
+.sv-use-margins h5:last-child, .sv-old-text-portlet h5:last-child {
+    margin-bottom: 0.0em
+}
+.liten {
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    color: #333333;
+    line-height: normal;
+}
+a.liten, .liten a {
+    color: #333333;
+    text-decoration: underline;
+}
+a.liten:link, .liten a:link, a.liten:visited, .liten a:visited, a.liten:hover, .liten a:hover, a.liten:active, .liten a:active {
+    color: #083eb5;
+    text-decoration: underline;
+}
+.sv-use-margins .liten {
+    margin-top: 0em
+}
+.sv-use-margins .liten {
+    margin-bottom: 1em
+}
+.sv-use-margins .liten:first-child, .sv-old-text-portlet .liten.sv-first-child {
+    margin-top: 0em
+}
+.sv-use-margins .liten.sv-last-child, .sv-old-text-portlet .liten.sv-last-child {
+    margin-bottom: 0em
+}
+.sv-use-margins .liten:last-child, .sv-old-text-portlet .liten:last-child {
+    margin-bottom: 0em
+}
+
+.sv-use-margins .meny:first-child, .sv-old-text-portlet .meny.sv-first-child {
+    margin-top: 0.0em
+}
+.sv-use-margins .meny.sv-last-child, .sv-old-text-portlet .meny.sv-last-child {
+    margin-bottom: 0.0em
+}
+.sv-use-margins .meny:last-child, .sv-old-text-portlet .meny:last-child {
+    margin-bottom: 0.0em
+}  
+
+.sv-text-portlet-content h1:nth-child(1) {
+    margin-top: 0 !important;
+}
+.smallFont {
+    font-size: 0.9em;
+}
+p.small {
+    font-size: 0.7em;
+}
+.sv-portlet p {
+    margin: 0;
+    font-family: circular-book, arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    color: #58595b;
+    line-height: 1.55em;
+}
+
+.sv-portlet p {
+    margin-bottom:1em;
+ }
+
+ .sv-old-text-portlet p:last-child, .sv-use-margins .normal:last-child, .sv-old-text-portlet .normal:last-child { 
+    margin-bottom: 2em;
+}
+
+/* lists */
+
+ol.alphaList {
+    list-style-type: lower-alpha;
+}
+ol li, ul li {
+    padding: 0;
+    margin-bottom: 0.4em;
+}
+ol, ul {
+    margin: 1em 0 1.5em 0;
+    padding: 0 0 0 2em;
+}
+ul.accentColor {
+    list-style-type: none;
+}
+ul.accentColor li:before {
+    content: "• ";
+    color: #3dbca2;
+    margin-left: -1em;
+    float: left;
+}
+ul li {
+    padding-left: 0em;
+    text-indent: 0em;
+}
+
+.pagecontent li {
+    margin-left: 2em;
+}
+   
+ul, ol {
+    padding: 0;
+    /*margin: 0 25px 10px 25px;*/
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+/* quotes */
+
+blockquote.sv-blockquote {
+    background: none;
+    padding: 0;
+    width: 11em;
+    float: left;
+    margin: 0 0.6em 0.6em -0.7em;
+}
+blockquote.sv-blockquote>* {
+    color: #3dbca2 !important;
+    font-style: italic;
+    font-family: circular-bold, arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    text-align: inherit;
+}
+
+/* other */
+
+hr {
+    border: 1px #3dbca2 solid;
+    margin: 1em 0;
+    border-style: solid !important;
+}

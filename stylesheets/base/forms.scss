@@ -1,0 +1,38 @@
+
+.input-group-btn {
+    position: relative;
+    top: -4px;
+}
+
+
+form, input, select {
+    font-family: circular-book, arial, sans-serif;
+    font-size: 1em;
+}
+input[type="text"] {
+    border: 1px #ddd solid;
+    margin-left: 0.5em;
+    padding: 0.3em;
+    margin-bottom: 15px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-bottom: 3px #3dbca2 solid;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 13px;
+}
+select:focus {
+    outline: none;
+}
+select {
+    border: 1px #ddd solid;
+    padding: 0.3em 0.8em;
+    margin-bottom: 15px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+select:active, select:hover {
+    outline-color: #61bea2;
+}
