@@ -5,7 +5,7 @@ var sassLint    = require('gulp-sass-lint');
 /**
  * Compile files
  */
-gulp.task('sass', function () {
+gulp.task('normal', function () {
     return gulp.src('stylesheets/kunskapsskolanUI.scss')
         .pipe(sass({
             includePaths: ['scss'],
@@ -17,6 +17,18 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('css'))
 });
 
+gulp.task('dev', function () {
+    return gulp.src('stylesheets/kunskapsskolanUI.scss')
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: sass.logError
+        }))
+        .pipe(sassLint())
+        .pipe(sassLint.format())
+        .pipe(sassLint.failOnError())
+        .pipe(gulp.dest('dev_css'))
+});
+
 gulp.task('compress', function(){
     return gulp.src('stylesheets/kunskapsskolanUI.scss')
         .pipe(sass({ 
@@ -26,8 +38,5 @@ gulp.task('compress', function(){
         .pipe(sassLint())
         .pipe(sassLint.format())
         .pipe(sassLint.failOnError())
-        .pipe(rename({
-            suffix: "_min"
-          }))
         .pipe(gulp.dest('css'))
 });

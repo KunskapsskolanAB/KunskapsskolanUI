@@ -1,0 +1,206 @@
+
+.articleTag {
+    float: right;
+    padding: 3px 8px;
+    background: #e2e2e2;
+    color: #e92b5e;
+    font-family: circular-bold;
+    font-weight: normal;
+    font-size: 0.9em;
+    border-radius: 0 0 5px 5px;
+}
+
+.articleContainer {
+    border-top: 3px #e2e2e2 solid;
+    padding: 0 1em 1em 1em;
+}
+
+.articleDate {
+    font-family: circular-bold;
+    font-size: .8em;
+    margin: 5px 0 0 0;
+    color: #e92b5e;
+}
+
+.articleBy {
+    font-size: .8em;
+    margin-bottom: 7px;
+    color: #e92b5e;
+}
+
+.newsArticle {
+    padding: 1em 0;
+}
+
+.mainArticle .newsHeader a {
+    font-family: circular-bold, arial, sans-serif;
+    font-size: 2em;
+    /* padding-bottom: 2em; */
+    text-decoration: none;
+}
+
+.newsArticle.listArticle {
+    border-top: 3px #e2e2e2 solid;
+}
+
+.newsHeader {
+    margin-bottom: 1em;
+}
+
+.newsArticle .btn {
+    background-color: #e92b5e;
+    margin: 2em 0 0 0;
+}
+
+.newsArticle small {
+    font-size: 0.8em;
+    color: #e92b5e;
+}
+
+.newsArticle img {
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.newsArticle .h1, .newsArticle h1, .newsArticle .h2, .newsArticle .h2, .newsArticle .h3, .newsArticle h3, .newsArticle .h4, .newsArticle h4, .newsArticle .h5, .newsArticle h5 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.newsArticleCutOff {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.newsArticleBlocker {
+    height: 200px;
+    position: relative;
+    margin-bottom: -200px;
+    z-index: 999;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 66%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 66%,rgba(255,255,255,1) 96%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 66%,rgba(255,255,255,1) 96%,rgba(255,255,255,1) 100%);
+  /*  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );*/
+}
+
+.secondArticle .newsHeader a {
+    font-family: circular-bold, arial, sans-serif;
+    font-size: 1.5em;
+    /* padding-bottom: 2em; */
+    text-decoration: none;
+}
+
+.mainArticle .newsHeader {
+    margin-bottom: 1em;
+}
+
+.newsArticle p {
+    font-size: 1em;
+    font-weight: normal !important;
+}
+
+.mainArticle p {
+    font-size: 1.2em;
+}
+
+.newsArticle strong {
+    font-weight: normal !important;
+}
+
+.mainArticle .articleContainer {
+    border-top: none !important;
+}
+
+.mainArticle .articleTag {
+    border-radius: 5px !important;
+}
+
+
+
+.sv-archive-portlet .normal {
+    color: #8a8a8a;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+/* Veckans fråga web poll */
+
+
+
+.pollQuestion {
+  /*  background: #e0e0e0; */
+    padding-top: 1em;
+}
+
+.progress.progress-info {
+    height: 2em;
+    background: #ececec;
+    margin-top: 0;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: inset 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+.bar {
+    height: 2em;
+    background: rgba(218, 218, 57, 1);
+    border-radius: 5px;
+}
+
+.sv-poll-portlet > span, .sv-poll-portlet > br, .sv-poll-portlet > a {
+    display: none;
+}
+
+.pollQuestionTextContainer {
+    height: 2em;
+    /* padding: 0 0.5em; */
+}
+
+a.pollQuestionText.normal {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.sv-channel h5.h5 {
+    margin: 0 !important;
+}
+
+.sv-channel .liten, .sv-channel a, #nyhet1Tab a, #nyhet2Tab a, #nyhet3Tab a {
+    color: #e92b5e;
+}
+
+.tab-content .pagecontent {
+    padding: 0 1em !important;
+}
+
+.startPageTabs {
+    padding-left: 0 !important;
+    margin-top: 0em !important;
+}
+
+   
+   .nav-tabs>li>a, .nav-pills>li>a {
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: 2px;
+    line-height: 24px;
+    display: block;
+    text-decoration: none;
+    font-family: circular-bold,arial,sans-serif;
+    font-size: 13px;
+}
+
+.startPageTabs li a {
+    font-size: 0.85em!important;
+}
+   
+   .startPageTabs i.fa {
+    color: #1b7b67 !important;
+}
+
+ul.nav.nav-tabs {
+      padding: 0 !important;
+   }
+

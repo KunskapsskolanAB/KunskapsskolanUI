@@ -123,3 +123,102 @@ ul.nav.nav-tabs.startPageTabs {
 .pageFunctionButtons {
     margin-bottom: 2em;
 }
+
+
+.blocks-menu-container {
+    color: #fff;
+    transition: all .2s;
+    max-height: 0;
+    transition: max-height .25s;
+    overflow: hidden
+}
+.blocks-menu-container.open {
+    max-height: 200px;
+    transition: max-height .45s
+}
+.blocks-menu {
+    display: -ms-flexbox;
+    display: flex
+}
+.blocks-menu .steps-link {
+    padding: .8em 1em;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+.blocks-menu .steps-links-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+.blocks-menu .block-title {
+    padding: .8em 1em;
+    border-right: 1px solid hsla(0, 0%, 100%, .3);
+    white-space: nowrap;
+    color: #fff
+}
+.blocks-menu .block-title:hover {
+    background-color: hsla(0, 0%, 100%, .3)
+}
+.blocks-menu .block-stepper {
+    padding: .8em 1em;
+    display: block;
+    cursor: pointer;
+    border-right: 1px solid hsla(0, 0%, 100%, .3)
+}
+.blocks-menu .block-stepper:active, .blocks-menu .block-stepper:hover {
+    background-color: hsla(0, 0%, 100%, .3)
+}
+.blocks-menu .block-stepper.disabled {
+    opacity: .3;
+    cursor: default
+}
+.blocks-menu .block-stepper.disabled:hover {
+    background-color: inherit
+}
+.blocks-menu .steps-link {
+    text-decoration: none;
+    color: #fff;
+    border-right: 1px solid hsla(0, 0%, 100%, .3);
+    text-align: center
+}
+.blocks-menu .steps-link.active, .blocks-menu .steps-link:hover {
+    background-color: hsla(0, 0%, 100%, .3)
+}
+.blocks-menu .steps-link.completed {
+    opacity: .6
+}
+
+
+h4.skolHeaderWelcome {
+    margin-left: 2.25em;
+ }
+
+   .pageHeader h1 {
+      padding-left: 1.4em;
+   }
+
+   .buttonsContainer {
+    margin: 0 3.6em;
+ }
+
+ .pageHeader h1 {
+    font-size: 2.8em;
+    color: #fff;
+    margin: 0;
+    padding-top: .5em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+ }
+
+ .pageHeader {
+    padding: 0 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: -1em;
+    min-height: 12em;
+    background-size: cover;
+    margin-bottom: 1em;
+    position: relative;
+ }

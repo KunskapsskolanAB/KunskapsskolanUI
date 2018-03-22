@@ -168,3 +168,31 @@
     border-top: 3px #3dbca2 solid;
     padding: 0;
 }
+
+
+.ked_boxed h2,
+.ked_boxed h3,
+.ked_boxed h4,
+.ked_boxed h5 {
+   margin: .3em 0 .7em 0;
+   color: #17a98b;
+}
+
+.ked_boxed li a{
+  color: #909090 !important; 
+}
+
+
+.ked_boxed .nav-header {
+ color: #909090 !important; 
+}
+
+ /* Tog bort ovan då den störde ut knapparna i kursbyggaren */
+
+.ked_boxed.kpMenu:hover ul li a {
+   color: #333333 !important;
+}
+
+.ked_boxed .btn {
+    background: #717f7d
+ }

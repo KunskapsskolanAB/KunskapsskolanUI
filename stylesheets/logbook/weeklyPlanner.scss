@@ -596,3 +596,119 @@ a.event-title .dayviewevent.full-day {
 .scheduleColor42 {
    background-color: #000;
 }
+.renameable-text.unnamed {
+    font-style: italic;
+  }
+  
+  .weekplanner-textarea {
+     margin-left: 0px;
+     padding:10px;
+     font-size: 0.8em;
+    width: 95%;
+    min-height:300px;
+  }
+
+  .weekPlanner h4 {
+    font-family: circular-bold, arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.625em;
+    color: #727272;
+    line-height: 1.15384615;
+ }
+
+ .weekPlanner.currentWeek .weekSelect p {
+    font-style: normal;
+    font-weight: bold;
+    color: #717171;
+ }
+
+ .weekplanner-textarea {
+    width: 95%;
+    width: -webkit-fill-available;
+    height: 100px;
+ }
+ 
+ .weekPlanner .openClose {
+    margin-top: 1em;
+ }
+
+ .ked_boxed.weekPlanner {
+    background: #bdd2ce;
+ }
+
+ 
+.editTaskDialog {
+    min-height: 440px;
+    width: 470px;
+}
+
+.deleteDate:before {
+  display: inline-block;
+  content: "\f273";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-left: .8em;
+  margin-top: 0.26em;
+  color: #d55858;
+}
+
+.horizontalButton {
+  display: table-cell;
+  /* margin-top: 2em; */
+}
+
+.editTaskDialog .divider {
+  display: block;
+  clear: both;
+  margin-bottom: 1em;
+}
+
+.editTaskDialog  .divider.large {
+  margin-bottom: 3em;
+}
+
+.dateSet {
+  display: inline;
+  color: #866868;
+  margin-left: 0.3em;
+}
+
+.dateSet.expired {
+  color: #da4444;
+}
+
+label.kclabel {
+  /* Align with the styling of h4 */
+  font-family: circular-bold,arial,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.125em;
+  color: #000;
+  line-height: 1.11111111;
+  margin-top: 0.5em; /* Add some margin */
+  margin-bottom: 0.5em; /* add some margin */
+  display: block;
+}
+
+.subtasks {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+   
+.editItem {
+    margin-left: 0.4em;
+    cursor: pointer;
+    height: 1em;
+    width: 1.4em;
+}
+   
+.editTaskDialog a.btn.btn-warning {
+    margin-left: 9em;
+}
+
+a.btn.btn-inac_tiv_e {
+    opacity: 1 !important;
+    margin-right: 0.5em;
+}

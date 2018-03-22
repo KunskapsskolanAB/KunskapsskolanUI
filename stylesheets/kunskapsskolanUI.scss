@@ -1,5 +1,4 @@
-// @import "fontImports.scss";
-// @import "vendors/reactDatePicker/datepicker-cssmodules.scss";
+@import "fontImports.scss";
 @import "variables.scss";
 @import "normalize.scss";
 
@@ -13,13 +12,12 @@
 @import "logbook/weekSelect.scss";
 
 @import "modules/courseBuilder.scss";
-@import "modules/debugOut.scss";
-@import "modules/modals.scss";
+@import "modules/courseViewer.scss";
 
-//@import "vendors/reactDatePicker/datepicker.scss";
-//@import "vendors/carousel.scss";
-//@import "vendors/fontAwsome.scss";
-//@import "vendors/wysiwyg.scss";
+@import "vendors/reactDatePicker/datepicker.scss";
+@import "vendors/carousel.scss";
+@import "vendors/fontAwsome.scss";
+@import "vendors/wysiwyg.scss";
 
 @import "print.scss";
 

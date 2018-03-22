@@ -178,3 +178,19 @@ a.meny, .meny a, a.meny:hover, .meny a:hover, a.meny:active, .meny a:active {
     padding-bottom: 2em
 }
 
+.nav.nav-list li {
+    padding: 0.2em 0.3em;
+    border-radius: 0.2em;
+ }
+
+ .nav.nav-list li:hover {
+    background: rgba(0, 0, 0, 0.11);
+ }
+
+ .nav.nav-list li.active.currentPage {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.nav.nav-list li.active {
+    background: rgba(0, 0, 0, 0.08);
+}

@@ -45,3 +45,30 @@ form.sv-nomargin {
     margin-top: 15px;
 }
    
+
+  /* Nedan kommer tillägg till extraks-public-grid.css, där jag lagt till
+     textarea på de ställen där input[type="text"] styrdes.
+     
+     OBS! Kopiera inte hela denna, utan leta upp samma ställe i extraks och lägg
+     bara till textarea på de ställena!
+     
+     <textarea> används i dialogerna för veckoplanerarens egna uppgifter. */
+     form, input, select, textarea {
+        font-family: circular-book,arial,sans-serif;
+        font-size: 1em;
+      }
+      input[type="text"], textarea {
+        border: 1px #ddd solid;
+        margin-left: 0.5em;
+        padding: 0.3em;
+        margin-bottom: 15px;
+        font-size: 1em;
+        border-radius: 5px;
+      }
+      input[type="text"]:focus, textarea:focus {
+        outline: none;
+        border-bottom: 3px #3dbca2 solid;
+        border-radius: 5px 5px 0 0;
+        margin-bottom: 13px;
+      }
+    
