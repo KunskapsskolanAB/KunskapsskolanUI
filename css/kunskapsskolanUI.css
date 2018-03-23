@@ -389,6 +389,69 @@ td,
 th {
   padding: 0; }
 
+#sidebar-body-wrapper, .ked-navigation *, html {
+  box-sizing: border-box; }
+
+.dev .page-wrap, html {
+  height: 100%; }
+
+body.rtl {
+  margin-right: 48px !important;
+  margin-left: 0; }
+
+.body {
+  font-size: 1.1em;
+  margin-left: 48px !important;
+  box-sizing: border-box;
+  height: 100%; }
+  @media (max-width: 1399px) and (min-width: 1025px) {
+    .body {
+      font-size: 0.9em; } }
+  @media (max-width: 1024px) and (min-width: 760px) {
+    .body {
+      font-size: 0.8em; } }
+  @media (max-width: 759px) {
+    .body {
+      font-size: 1em;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      margin-top: 48px !important; } }
+
+body.sv-responsive {
+  background: #c3c3c3; }
+
+.sv-column-7 .pagecontent,
+.courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+.courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+  padding: 0 4em; }
+  @media (max-width: 1399px) and (min-width: 1025px) {
+    .sv-column-7 .pagecontent,
+    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+      padding: 0 2em; } }
+  @media (max-width: 1024px) and (min-width: 760px) {
+    .sv-column-7 .pagecontent,
+    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+      padding: 0; } }
+  @media (max-width: 759px) {
+    .sv-column-7 .pagecontent,
+    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+      padding: 0; } }
+
+#xp1 {
+  margin-left: 4em; }
+  @media (max-width: 1399px) and (min-width: 1025px) {
+    #xp1 {
+      margin-left: 2em; } }
+  @media (max-width: 1024px) and (min-width: 760px) {
+    #xp1 {
+      margin-left: 0; } }
+  @media (max-width: 759px) {
+    #xp1 {
+      margin-left: 0; } }
+
 body {
   font-family: "circular-book", arial, sans-serif;
   font-style: normal;
