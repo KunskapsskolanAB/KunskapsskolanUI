@@ -21,7 +21,7 @@
     font-size: 0.8em;
 }
 .pageHeader .horizontalItem {
-    display: inline;
+    display: table-cell;
     margin-right: 0;
     padding: 0 0.4em 0 0;
     border: none;
@@ -211,18 +211,15 @@ h4.skolHeaderWelcome {
  }
 
 .pageFunctionButtons {
-    padding: 0 4em;
+    padding: 0;
     margin: 0 0 2em 4em;
 @include breakpoint(l) { 
     margin: 0 0 2em 4em;
-    padding: 0 2em;
  }
  @include breakpoint(m) { 
     margin: 0 0 2em 4em;
-    padding: 0 0;
  }
  @include breakpoint(s) { 
     margin: 0 0 2em 4em;
-    padding: 0 0em;
  }
  }
