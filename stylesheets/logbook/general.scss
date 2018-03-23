@@ -153,7 +153,8 @@ p.event-location {
     width: 1.2em;
     border-radius: 0.4em;
     border: 0.16em #61bea2 solid;
-    margin-right: 0.7em !important;
+    margin-right: 0.5em !important;
+    margin-bottom: 0.3em;
     cursor: pointer;
 }
 .checkBox.checked:before {
@@ -167,19 +168,21 @@ p.event-location {
     color: #000;
 }
 .selectedBox {
-    height: 0.85em;
-    width: 0.85em;
+    height: 1.2em;
+    width: 1.2em;
     border-radius: 0.4em;
     border: 3px #61bea2 solid;
-    margin-right: 0.7em !important;
+    margin-right: 0.5em !important;
+    margin-bottom: 0.3em;
     cursor: pointer;
 }
 .selectedBox.selected {
-    height: .85em;
-    width: .85em;
+    height: 1.2em;
+    width: 1,2em;
     border-radius: .4em;
     border: 3px #dada39 solid;
-    margin-right: .7em!important;
+    margin-right: 0.5em !important;
+    margin-bottom: 0.3em;
     cursor: pointer;
 }
 .selectedBox:before {
