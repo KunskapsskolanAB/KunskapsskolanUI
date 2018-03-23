@@ -1,3 +1,22 @@
+.pageHeader {
+    background-image: url(https://extraks.sitevision.se/images/18.2d4f4005159f895477a2e5cb/theme.jpg) !important;
+}
+.pageHeader a {
+    text-decoration: none;
+}
+.pageHeader a.btn {
+    color: #000 !important;
+    font-size: 0.8em;
+}
+.pageHeader .align-vertical {
+    margin-bottom: 0.7em;
+}
+.pageHeader .align-horizontal {
+    display: inline-block;
+}
+.pageHeader .align-horizontal a {
+    color: #cfcfcf;
+}
 .pageHeader .align-horizontal.lines {
     font-size: 0.8em;
 }
@@ -15,78 +34,117 @@
     background: #7d7d7d;
     border-radius: 0 3px 3px 0 !important;
 }
-.pageHeader {
-    padding: 0 1em;
-    margin-left: -0.84em;
-    margin-right: -0.84em;
-    min-height: 12em;
-    background-size: cover;
-    margin-bottom: 1em;
-    position: relative;
-}
-.pageHeader a {
-    text-decoration: none;
-}
-.pageHeader .align-horizontal.lines {
-    font-size: 0.8em;
-}
-.pageHeader .horizontalItem {
-    display: inline;
-    margin-right: 0;
-    padding: 0 0.4em 0 0;
-    border: none;
-}
-.pageHeader .horizontalItem a {
-    text-decoration: none;
-    font-size: 0.9em;
-}
-.pageHeader .projectstep-button {
-    background: #eeeeee;
-    border-radius: 0 3px 3px 0!important;
-}
 .pageHeader .btn-group .btn {
     margin-right: 0;
     box-shadow: none;
     border-radius: 0;
-    border-top: 1px #cfcfcf solid;
-    border-bottom: 1px #cfcfcf solid;
-    border-right: 1px #cfcfcf solid;
+    border-top: 1px $color-borders solid;
+    border-bottom: 1px $color-borders solid;
+    border-right: 1px $color-borders solid;
     border-left: none;
 }
 .pageHeader .btn-group .btn:nth-child(1) {
     border-radius: 3px 0 0 3px;
-    /* border-left: none; */
-    border-left: 1px #cfcfcf solid;
-}
-.pageHeader .align-horizontal {
-    display: inline-block;
-}
-.pageHeader .align-vertical {
-    margin-bottom: 0.7em;
-}
-.pageHeader .align-horizontal a {
-    color: #cfcfcf;
-}
-.pageHeader a.btn {
-    color: #000 !important;
-    font-size: 0.8em;
-}
-.pageHeader h1 {
-    font-size: 2.8em;
-    color: #fff;
-    margin: 0;
-    padding-top: 0.5em;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+    border-left: 1px $color-borders solid;
 }
 
-.pageHeader {
-   padding: 0 1em;
-   margin-left: -0.84em;
-   margin-right: -0.84em;
-   min-height: 12em;
-   background-size: cover;
-   margin-bottom: 1em;
-   position: relative;
+.blocks-menu-container {
+    color: #fff;
+    transition: all .2s;
+    max-height: 0;
+    transition: max-height .25s;
+    overflow: hidden;
+@include breakpoint(s) {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0
+    }
+}
+.blocks-menu-container.open {
+    max-height: 200px;
+    transition: max-height .45s;
+@include breakpoint(s) {
+    display: block;
+    transition: all .2s
+    }
+}
+.blocks-menu {
+    display: -ms-flexbox;
+    display: flex;
+@include breakpoint(s) {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    }
+}
+.blocks-menu .block-title {
+    padding: .8em 1em;
+    border-right: 1px solid hsla(0, 0%, 100%, .3);
+    white-space: nowrap;
+    color: #fff;
+@include breakpoint(s) {
+    display: none;
+    }
+}
+.blocks-menu .block-title:hover {
+    background-color: hsla(0, 0%, 100%, .3)
+}
+.blocks-menu .steps-link {
+    padding: .8em 1em;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-right: 1px solid hsla(0, 0%, 100%, .3);
+@include breakpoint(s) {
+    padding: .8em;
+    padding: initial;
+    text-align: center;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-pack: center;
+    justify-content: center;
+    }
+}
+.blocks-menu .steps-links-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+@include breakpoint(s) {
+    -ms-flex: 1;
+    flex: 1
+    }
+}
+.blocks-menu .block-stepper {
+    padding: .8em 1em;
+    display: block;
+    cursor: pointer;
+    border-right: 1px solid hsla(0, 0%, 100%, .3);
+@include breakpoint(s) {
+    width: 100%;
+    text-align: center;
+    }
+}
+.blocks-menu .block-stepper.disabled {
+    opacity: .3;
+    cursor: default
+}
+.blocks-menu .block-stepper.disabled:hover {
+    background-color: inherit
+}
+.blocks-menu .block-stepper:active, .blocks-menu .block-stepper:hover {
+    background-color: hsla(0, 0%, 100%, .3)
+}
+.blocks-menu .steps-link.active, .blocks-menu .steps-link:hover {
+    background-color: hsla(0, 0%, 100%, .3)
+}
+.blocks-menu .steps-link.completed {
+    opacity: .6
 }
 
 h4.skolHeaderWelcome {
@@ -97,119 +155,45 @@ h4.skolHeaderWelcome {
     padding-top: 25px;
     font-size: 1.8em;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
-}
-
-.pageHeader {
-    background-image: url(https://extraks.sitevision.se/images/18.2d4f4005159f895477a2e5cb/theme.jpg) !important;
-}
-
-.startPageTabs li a {
-    font-size: 1em !important;
-}
-
-.startPageTabs {
-   padding-left: 0 !important;
-    margin-top: -3em;
-}
-
-ul.nav.nav-tabs.startPageTabs {
-    background: #f8f8f8;
-    background: -moz-linear-gradient(top, rgba(248,248,248,0) 0%, rgba(248,248,248,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(248,248,248,0) 0%,rgba(248,248,248,1) 100%);
-    background: linear-gradient(to bottom, rgba(248,248,248,0) 0%,rgba(248,248,248,1) 100%);
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f8f8f8', endColorstr='#f8f8f8',GradientType=0 );*/
-}
-
-.pageFunctionButtons {
-    margin-bottom: 2em;
-}
-
-
-.blocks-menu-container {
-    color: #fff;
-    transition: all .2s;
-    max-height: 0;
-    transition: max-height .25s;
-    overflow: hidden
-}
-.blocks-menu-container.open {
-    max-height: 200px;
-    transition: max-height .45s
-}
-.blocks-menu {
-    display: -ms-flexbox;
-    display: flex
-}
-.blocks-menu .steps-link {
-    padding: .8em 1em;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center
-}
-.blocks-menu .steps-links-header {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center
-}
-.blocks-menu .block-title {
-    padding: .8em 1em;
-    border-right: 1px solid hsla(0, 0%, 100%, .3);
-    white-space: nowrap;
-    color: #fff
-}
-.blocks-menu .block-title:hover {
-    background-color: hsla(0, 0%, 100%, .3)
-}
-.blocks-menu .block-stepper {
-    padding: .8em 1em;
-    display: block;
-    cursor: pointer;
-    border-right: 1px solid hsla(0, 0%, 100%, .3)
-}
-.blocks-menu .block-stepper:active, .blocks-menu .block-stepper:hover {
-    background-color: hsla(0, 0%, 100%, .3)
-}
-.blocks-menu .block-stepper.disabled {
-    opacity: .3;
-    cursor: default
-}
-.blocks-menu .block-stepper.disabled:hover {
-    background-color: inherit
-}
-.blocks-menu .steps-link {
-    text-decoration: none;
-    color: #fff;
-    border-right: 1px solid hsla(0, 0%, 100%, .3);
-    text-align: center
-}
-.blocks-menu .steps-link.active, .blocks-menu .steps-link:hover {
-    background-color: hsla(0, 0%, 100%, .3)
-}
-.blocks-menu .steps-link.completed {
-    opacity: .6
-}
-
-
-h4.skolHeaderWelcome {
     margin-left: 2.25em;
- }
+@include breakpoint(l) {
+    margin-left: 1.15em;
+    }
+@include breakpoint(m) {
+    margin-left: 0;
+    }
+@include breakpoint(s) {
+    margin-left: 0;
+    display:none !important;
+    }
+}
 
-   .pageHeader h1 {
-      padding-left: 1.4em;
-   }
+.pageHeader h1 {
+    padding-left: 1.4em;
+}
 
-   .buttonsContainer {
+.buttonsContainer {
     margin: 0 3.6em;
- }
+}
 
  .pageHeader h1 {
     font-size: 2.8em;
     color: #fff;
     margin: 0;
     padding-top: .5em;
+    padding-left: 1.4em;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+@include breakpoint(l) { 
+    padding-left: 0.7em;
+    }
+@include breakpoint(m) { 
+    padding-left: 0;
+    }
+@include breakpoint(s) {
+    font-size: 1.8em;
+    padding: 0 0.2em;
+    line-height: 1em;
+    }
  }
 
  .pageHeader {
@@ -221,4 +205,24 @@ h4.skolHeaderWelcome {
     background-size: cover;
     margin-bottom: 1em;
     position: relative;
+@include breakpoint(s) {
+    min-height: 8em !important;
+    }
+ }
+
+.pageFunctionButtons {
+    padding: 0 4em;
+    margin: 0 0 2em 4em;
+@include breakpoint(l) { 
+    margin: 0 0 2em 4em;
+    padding: 0 2em;
+ }
+ @include breakpoint(m) { 
+    margin: 0 0 2em 4em;
+    padding: 0 0;
+ }
+ @include breakpoint(s) { 
+    margin: 0 0 2em 4em;
+    padding: 0 0em;
+ }
  }

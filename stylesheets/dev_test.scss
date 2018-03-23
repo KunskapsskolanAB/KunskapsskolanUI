@@ -1,0 +1,16 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+// Include any scss files you would like to 
+
+
+.page-wrap {
+    width: 75%;
+    @include breakpoint(l) { width: 60%; }
+    @include breakpoint(m) { width: 75%; }
+    @include breakpoint(s) { width: 95%; }
+  }
+
+  /* kjasö dklfja */
+
+@import "base/offcanvas.scss";

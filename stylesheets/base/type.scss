@@ -209,6 +209,14 @@ ul li {
 
 .pagecontent li {
     margin-left: 2em;
+    margin-left: 2em;
+    color: #333;
+    @include breakpoint(m) {
+        margin-left: 1em;
+    }
+    @include breakpoint(s) {
+        margin-left: 0em;
+    }
 }
    
 ul, ol {
@@ -278,7 +286,4 @@ p.normal.inverted {
     margin-left: 2em;
 }
 
-.pagecontent li {
-    margin-left: 2em;
-    color: #333;
-}
+

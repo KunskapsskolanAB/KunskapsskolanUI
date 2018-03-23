@@ -29,6 +29,18 @@ gulp.task('dev', function () {
         .pipe(gulp.dest('dev_css'))
 });
 
+gulp.task('test', function () {
+    return gulp.src('stylesheets/dev_test.scss')
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: sass.logError
+        }))
+        .pipe(sassLint())
+        .pipe(sassLint.format())
+        .pipe(sassLint.failOnError())
+        .pipe(gulp.dest('dev_css'))
+});
+
 gulp.task('compress', function(){
     return gulp.src('stylesheets/kunskapsskolanUI.scss')
         .pipe(sass({ 

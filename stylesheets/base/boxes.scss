@@ -2,12 +2,12 @@
 .ked_boxed, .ksBlock, .layout_boxed {
     background: #f8f8f8;
     width: inherit !important;
-    padding: 5px 20px 20px 20px;
-    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
-    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+    padding: $padding-normal;
+    -webkit-box-shadow: $shadow-s;
+    box-shadow: $shadow-s;
     margin-bottom: 2em;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
+    -webkit-border-radius: $radius-s;
+    border-radius: $radius-s;
 }
 
 .layout_boxed {
@@ -18,9 +18,9 @@
 
 .well-small {
     padding: 9px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: $radius-s;
+    -moz-border-radius: $radius-s;
+    border-radius: $radius-s;
   }
 
   .well {

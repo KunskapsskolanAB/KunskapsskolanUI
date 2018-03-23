@@ -1,17 +1,4 @@
-body {
-    margin-left: 48px!important;
-}
 
-body.sv-responsive {
-    background: $color-background-body;
-}
-
-#sidebar-body-wrapper, .ked-navigation *, body, html {
-    box-sizing: border-box
-}
-.dev .page-wrap, body, html {
-    height: 100%
-}
 
 .sv-fn-buttons.btn-group a, .bootstrap .btn {
    color: #000 !important;
@@ -100,8 +87,8 @@ body.sv-responsive {
 
 
 .rtl {
-  direction: rtl
-}
+    direction: rtl
+  }
 
 
 
@@ -124,24 +111,9 @@ body.sv-responsive {
   border-radius: 5px;
 }
 
-.pageFunctionButtons {
-    margin-bottom: 1em;
-    margin: 0 0 1em 0;
- }
 
- .pageFunctionButtons {
-    margin-bottom: 2em;
-    padding: 0 4em;
- }
 
- .pageFunctionButtons {
-    margin-bottom: 2em;
-    margin: 0 0 2em 0;
- }
-
- .buttonsContainer {
-    padding: 1.5em 1em .3em 1em;
- }
+ 
 
  .sv-column-7 .pagecontent,
  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
@@ -181,13 +153,4 @@ body.sv-responsive {
     background: inherit;
 }
 
-@media #{$responsive-l-devices} {
-
-}
-@media #{$responsive-m-devices} {
-
-}
-@media #{$responsive-s-devices} {
-
-}
 

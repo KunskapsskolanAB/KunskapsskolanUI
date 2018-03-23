@@ -1,4 +1,36 @@
+$color-ksabYellow: rgb(218, 218, 57);
+$color-ksabcyan: rgb(61, 188, 162);
+$color-ksabPurple: rgb(102, 49, 143);
+$color-ksabRed: rgb(233, 43, 94);
+
+/* UI colors */
+
+// Body
+$color-background-body: #c3c3c3;
 $master-body-size: 1em;
+
+$color-accent: $color-ksabcyan;
+
+// Content radius
+$radius-s: 2px;
+$radius-m: 4px;
+$radius-l: 8px;
+
+// Container padding
+$padding-normal: 5px 20px 20px 20px;
+
+// Shadows
+
+$shadow-s: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+$shadow-m: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+$shadow-l: 0 20px 95px -10px rgba(0, 0, 0, 0.83);
+
+// Content background
+$color-background-content: #fff;
+$font-body: 'circular-book', arial, sans-serif;
+$font-header: 'circular-bold', arial, sans-serif;
+$color-type-body-primary: #333;
+$color-type-header-primary:#000;
 
 $font-size-body: 1em;
 $font-size-small: 0.6em;
@@ -8,31 +40,21 @@ $font-size-h3: 1.9em;
 $font-size-h4: 1.4em;
 $font-size-h5: 1em;
 
-$color-type-body-primary: #333;
-$color-type-header-primary:#000;
+// Modals
+$color-modal-content: #fff;
 
-$color-button: #333;
-$color-accent: #333;
-
+// Menu background
 $color-background-menu: #aaa;
-$color-background-body: #c3c3c3;
-$color-background-content: #fff;
-
-$color-ksabYellow: rgb(218, 218, 57);
-$color-ksabcyan: rgb(61, 188, 162);
-$color-ksabPurple: rgb(102, 49, 143);
-$color-ksabRed: rgb(233, 43, 94);
-
-
-
-$font-body: 'circular-book', arial, sans-serif;
-$font-header: 'circular-bold', arial, sans-serif;
 $font-menu: 'circular-book', arial, sans-serif;
 
-$responsive-s-devices: "(max-width:759px)";
-$responsive-m-devices: "(max-width:1024px) and (min-width:760px)";
-$responsive-l-devices: "(max-width:1399px) and (min-width:1025px)";
-$responsive-xl-devices: "(min-width:1400px)";
+// Buttons 
+$color-button-background: $color-accent;
+$color-button-text: rgb(255, 255, 255);
+$color-button-background-hover: $color-accent;
+$color-button-text-hover: #333;
+
+$color-borders: #cfcfcf;
+
 
 
 

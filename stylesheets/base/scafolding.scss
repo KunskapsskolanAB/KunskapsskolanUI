@@ -1,0 +1,65 @@
+#sidebar-body-wrapper, .ked-navigation *, html {
+    box-sizing: border-box;
+}
+.dev .page-wrap, html {
+    height: 100%;
+}
+
+body.rtl {
+    margin-right: 48px!important;
+    margin-left: 0
+}
+
+.body {
+    font-size: 1.1em; 
+    margin-left: 48px!important;
+    box-sizing: border-box;
+    height: 100%;
+
+@include breakpoint(l) { 
+    font-size: 0.9em; 
+}
+@include breakpoint(m) { 
+    font-size: 0.8em; 
+}
+@include breakpoint(s) { 
+    font-size: 1em; 
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 48px !important;
+}
+}
+
+body.sv-responsive {
+    background: $color-background-body;
+}
+
+.sv-column-7 .pagecontent,
+.courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+.courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+   padding: 0 4em;
+
+@include breakpoint(l) { 
+    padding: 0 2em;
+}
+@include breakpoint(m) { 
+    padding: 0;
+}
+@include breakpoint(s) { 
+    padding: 0;
+}
+}
+#xp1 {
+   margin-left: 4em;
+
+   @include breakpoint(l) { 
+    margin-left: 2em;
+}
+@include breakpoint(m) { 
+    margin-left: 0;
+}
+@include breakpoint(s) { 
+    margin-left: 0;
+}
+}
+
