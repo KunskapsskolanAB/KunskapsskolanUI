@@ -183,11 +183,11 @@ h4.skolHeaderWelcome {
     padding-top: .5em;
     padding-left: 1.4em;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
-@include breakpoint(l) { 
-    padding-left: 0.7em;
+@include breakpoint(l) {
+    margin-left: 1.15em;
     }
-@include breakpoint(m) { 
-    padding-left: 0;
+@include breakpoint(m) {
+    margin-left: 0;
     }
 @include breakpoint(s) {
     font-size: 1.8em;
