@@ -32,21 +32,21 @@ body.rtl {
   margin-right: 48px !important;
   margin-left: 0; }
 
-.body {
+body {
   margin-left: 48px !important;
   box-sizing: border-box;
   height: 100%; }
   @media (min-width: 1400px) {
-    .body {
+    body {
       font-size: 1.1em !important; } }
   @media (max-width: 1399px) and (min-width: 1025px) {
-    .body {
+    body {
       font-size: 0.9em !important; } }
   @media (max-width: 1024px) and (min-width: 760px) {
-    .body {
+    body {
       font-size: 0.8em !important; } }
   @media (max-width: 759px) {
-    .body {
+    body {
       font-size: 1em !important;
       margin-left: 0px !important;
       margin-right: 0px !important;
