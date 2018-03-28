@@ -49,6 +49,9 @@
 //}
 
   @mixin breakpoint($point) {
+    @if $point == xl {
+      @media (min-width:1400px) { @content; }
+    }
     @if $point == l {
       @media (max-width:1399px) and (min-width:1025px) { @content; }
     }

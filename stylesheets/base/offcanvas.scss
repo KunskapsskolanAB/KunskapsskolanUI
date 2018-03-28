@@ -24,7 +24,7 @@
     font-size: 14px;
 }
 .ked-navigation a {
-    color: #fff;
+    color: $offcanvas-linkColor-primary;
     text-decoration: none
 }
 .ked-navigation, .ked-navigation a, .ked-navigation p, .ked-navigation span, .ked-navigation li {
@@ -37,7 +37,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #7d64dc;
+    background: $offcanvas-innerBorder;
     -webkit-clip-path: polygon(0 0, calc(100% - 1em) 0, 100% 50%, calc(100% - 1em) 100%, 0 100%, 0 calc(100% - 3px), calc(100% - 1em - 3px) calc(100% - 3px), calc(100% - 3px - 1px) 50%, calc(100% - 1em - 3px) 3px, 0 3px);
     clip-path: polygon(0 0, calc(100% - 1em) 0, 100% 50%, calc(100% - 1em) 100%, 0 100%, 0 calc(100% - 3px), calc(100% - 1em - 3px) calc(100% - 3px), calc(100% - 3px - 1px) 50%, calc(100% - 1em - 3px) 3px, 0 3px);
 @include breakpoint(s) {
@@ -47,12 +47,12 @@
 .ked-navigation .inner-border-last-item {
     -webkit-clip-path: none;
     clip-path: none;
-    border: 3px solid #7d64dc;
+    border: 3px solid $offcanvas-innerBorder;
     background: transparent
 }
 .ked-navigation .ked-navbar {
     position: relative;
-    font-family: "Ubuntu", sans-serif !important;
+    font-family: $offcanvas-font;
 @include breakpoint(s) {
     -ms-flex-direction: column;
     flex-direction: column
@@ -63,7 +63,7 @@
 }
 .ked-navigation .ked-navbar i.fa {
     margin-left: 1em;
-    color: #fff;
+    color: $offcanvas-iconColor;
 @include breakpoint(s) {
     position: absolute;
     }    
@@ -135,7 +135,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #7d64dc;
+    background: $offcanvas-innerBorder;
     -webkit-clip-path: polygon(0 0, calc(100% - 1em) 0, 100% 50%, calc(100% - 1em) 100%, 0 100%, 0 calc(100% - 3px), calc(100% - 1em - 3px) calc(100% - 3px), calc(100% - 3px - 1px) 50%, calc(100% - 1em - 3px) 3px, 0 3px);
     clip-path: polygon(0 0, calc(100% - 1em) 0, 100% 50%, calc(100% - 1em) 100%, 0 100%, 0 calc(100% - 3px), calc(100% - 1em - 3px) calc(100% - 3px), calc(100% - 3px - 1px) 50%, calc(100% - 1em - 3px) 3px, 0 3px);
 @include breakpoint(s) {
@@ -145,14 +145,14 @@
 .ked-navigation .ked-navbar .item.bordered:last-child>a:after {
     -webkit-clip-path: none;
     clip-path: none;
-    border: 3px solid #7d64dc;
+    border: 3px solid $offcanvas-innerBorder;
     background: transparent
 }
 .ked-navigation .ked-navbar .item>a {
     width: 100%;
     text-align: center;
     white-space: nowrap;
-    color: #fff;
+    color: $offcanvas-linkColor-primary;
     text-decoration: none;
 @include breakpoint(s) {
     padding: 0!important;
@@ -194,13 +194,13 @@
     background: url(.)
 }
 .ked-navigation .ked-navbar .item.completed>* {
-    background: #60d232
+    background: $offcanvas-item-complete;
 }
 .ked-navigation .ked-navbar .item.active>* {
-    background: #00aeef
+    background: $offcanvas-item-active;
 }
 .ked-navigation .ked-navbar .item.todo>* {
-    background: #351f88
+    background: $offcanvas-item-todo;
 }
 .ked-navigation .ked-navbar .item a:hover .item-inner {
     background-color: hsla(0, 0%, 100%, .3)
@@ -242,7 +242,7 @@
 .ked-navigation .navbar-subnav li a {
     padding: .6em .3em;
     display: block;
-    color: #fff;
+    color: $offcanvas-linkColor-primary;
 @include breakpoint(s) {
     padding-left: 0;
     padding-right: 0
@@ -351,7 +351,7 @@
     flex-direction: column;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: #4d4d4d;
+    background-color: $offcanvas-sidebar-background;
     transition: all .2s;
 @include breakpoint(s) {
     height: 48px;
@@ -375,18 +375,18 @@
 .ked-navigation .sidebar.open .search .fa-search {
     margin-left: -25px;
     transition: all .2s;
-    color: #4d4d4d
+    color: $offcanvas-sidebar-background;
 }
 .ked-navigation .sidebar.open .offcanvas-nav a span, .ked-navigation .sidebar.open .state-indicator {
     opacity: 1;
     transition: all .2s
 }
 .ked-navigation .account {
-    background-color: #3b3b3b
+    background-color: $offcanvas-account-background;
 }
 .ked-navigation .logo {
     position: relative;
-    background-color: #3b3b3b;
+    background-color: $offcanvas-logo-background;
     width: 100%
 }
 .ked-navigation .logo a {
@@ -421,7 +421,7 @@
 }
 .ked-navigation .search-container {
     padding: 0 10px 10px;
-    background-color: #3b3b3b
+    background-color: $offcanvas-search-background;
 }
 .ked-navigation .search {
     position: relative;
@@ -433,14 +433,14 @@
 .ked-navigation .search .fa-search {
     -ms-flex-order: 2;
     order: 2;
-    color: #fff;
+    color: $offcanvas-search-iconColor;
     margin-left: -20px;
     margin-right: 0
 }
 .ked-navigation .search input {
     -ms-flex-order: 1;
     order: 1;
-    background-color: #4d4d4f;
+    background-color: $offcanvas-search-input-background;
     border: 0;
     font-size: 12px;
     padding: 5px 10px;
@@ -451,8 +451,8 @@
     }
 }
 .ked-navigation .search input:focus {
-    background-color: #fff;
-    color: #000;
+    background-color: $offcanvas-search-input-background-focus;
+    color: $offcanvas-search-input-color-focus;
     transition: all .2s;
     outline: 0
 }
@@ -464,7 +464,7 @@
 .ked-navigation nav {
     -ms-flex: 1;
     flex: 1;
-    background-color: #4d4d4d;
+    background-color: $offcanvas-sidebar-background;
     overflow-y: auto;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch
@@ -475,7 +475,7 @@
     padding: 0
 }
 .ked-navigation .offcanvas-nav.with-dividers li {
-    border-bottom: 1px solid #4d4d4d
+    border-bottom: 1px solid $offcanvas-divider;
 }
 .ked-navigation .offcanvas-nav li {
     list-style: none;
@@ -520,19 +520,19 @@
     transition: all 0s
 }
 .ked-navigation .offcanvas-nav li.blue {
-    background-color: #00aeef
+    background-color: $offcanvas-section-blue-background;
 }
 .ked-navigation .offcanvas-nav li.green {
-    background-color: #60d232
+    background-color: $offcanvas-section-green-background;
 }
 .ked-navigation .offcanvas-nav li.yellow {
-    background-color: #eec64d
+    background-color: $offcanvas-section-yellow-background;
 }
 .ked-navigation .offcanvas-nav li.orange {
-    background-color: #ee914c
+    background-color: $offcanvas-section-orange-background;
 }
 .ked-navigation .offcanvas-nav li.red {
-    background-color: #ee4d4d
+    background-color: $offcanvas-section-red-background;
 }
 .ked-navigation .offcanvas-nav .subnav {
     display: none;
@@ -545,9 +545,9 @@
     padding: 0 .5em
 }
 .ked-navigation .offcanvas-nav .subnav li.header {
-    color: #fff;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000
+    color: $offcanvas-section-header-color;
+    border-top: 1px solid $offcanvas-section-border-top;
+    border-bottom: 1px solid $offcanvas-section-border-bottom;
 }
 .ked-navigation .offcanvas-nav .subnav li.header a {
     font-weight: 700
@@ -556,29 +556,20 @@
     border-bottom: 0
 }
 .ked-navigation .offcanvas-nav .subnav li a {
-    margin-left: 20px;
-    color: #000
-}
-.ked-navigation .offcanvas-nav .subnav li a {
-    margin-left: 20px;
-    color: #fff;
-}
-.ked-navigation .offcanvas-nav .subnav li a {
+    color: $offcanvas-section-sub-color;
     margin-left: 0px;
-    color: #3c3c3e;
     line-height: 14px;
 }
 .lvl2 a {
     font-size: 12px;
     padding: 5px 10px 5px 18px !important;
-    /* border-bottom: 1px #f6f6f6 solid; */
 }
 li.lvl2 {
-    background: #e6e7e9;
+    background: $offcanvas-section-sub-background;
     min-width: 290px;
 }
 .ked-navigation .offcanvas-nav .subnav li.header {
-    color: #fff;
+    color: $offcanvas-section-sub-header-color;
     border-top: none;
     border-bottom: none;
 }
@@ -590,12 +581,12 @@ li.lvl2 {
 
 .ked-navigation .logo a:hover, .ked-navigation .logo a:active {
     text-decoration: none;
-    color: #fff;
+    color: $offcanvas-logo-text-color;
 }
 .ked-navigation .sidebar.open .search .fa-search {
     margin-left: -25px;
     transition: all .2s;
-    color: #bcb7b7;
+    color: $offcanvas-search-input-color-primary;
 }
 .ked-navigation .offcanvas-nav .subnav li {
     border-bottom: 1px solid hsla(0, 0%, 100%, .5);
@@ -605,40 +596,39 @@ li.lvl2 {
     margin: 0 0 0px;
 }
 .ked-navigation .green ul li {
-    background: #e6e7e9 !important;
+    background: $offcanvas-section-green-sub-background;
 }
 .ked-navigation i.fa.fa-times {
-    color: #ccc;
+    color: $offcanvas-close-color-primary;
 }
 .ked-navigation i.fa.fa-times:hover {
-    color: #000;
+    color: $offcanvas-close-color-hover;
 }
 .ked-navigation select {
     background-color: transparent;
 }
 .ked-navigation .account ul li ul li .fa {
     margin-left: -4px;
-    /* color: #ff0; */
 }
 li.lvl2.header {
     background: rgba(230, 231, 233, 0.74);
-    border-bottom: 1px #b3b3b3 solid !important;
+    border-bottom: 1px $offcanvas-section-sub-border-bottom solid !important;
 }
 li.lvl2.green:hover {
     background: rgba(255, 255, 255, 0.2) !important;
 }
 a.has-sub-nav:hover, a.has-sub-nav:active {
-    color: #fff;
+    color: $offcanvas-linkColor-active;
     text-decoration: none;
 }
 a.has-sub-nav:active {
-    color: #fff !important;
+    color: $offcanvas-linkColor-active;
 }
 a.has-sub-nav:visited {
-    color: #fff !important;
+    color: $offcanvas-linkColor-active;
 }
 a.has-sub-nav:focus {
-    color: #fff !important;
+    color: $offcanvas-linkColor-active;
 }
 
 .ked-navigation .ked-navbar .item.arrowed~.arrowed {

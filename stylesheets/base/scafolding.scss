@@ -11,11 +11,13 @@ body.rtl {
 }
 
 .body {
-    font-size: 1.1em; 
     margin-left: 48px!important;
     box-sizing: border-box;
     height: 100%;
 
+@include breakpoint(xl) { 
+    font-size: 1.1em; 
+}
 @include breakpoint(l) { 
     font-size: 0.9em; 
 }
@@ -37,8 +39,10 @@ body.sv-responsive {
 .sv-column-7 .pagecontent,
 .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
 .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
-   padding: 0 4em;
-
+   
+@include breakpoint(xl) { 
+    padding: 0 4em;
+}
 @include breakpoint(l) { 
     padding: 0 2em;
 }
@@ -50,9 +54,10 @@ body.sv-responsive {
 }
 }
 #xp1 {
-   margin-left: 4em;
-
-   @include breakpoint(l) { 
+@include breakpoint(xl) { 
+    margin-left: 4em;
+}
+@include breakpoint(l) { 
     margin-left: 2em;
 }
 @include breakpoint(m) { 

@@ -400,10 +400,12 @@ body.rtl {
   margin-left: 0; }
 
 .body {
-  font-size: 1.1em;
   margin-left: 48px !important;
   box-sizing: border-box;
   height: 100%; }
+  @media (min-width: 1400px) {
+    .body {
+      font-size: 1.1em; } }
   @media (max-width: 1399px) and (min-width: 1025px) {
     .body {
       font-size: 0.9em; } }
@@ -420,37 +422,45 @@ body.rtl {
 body.sv-responsive {
   background: #c3c3c3; }
 
-.sv-column-7 .pagecontent,
-.courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
-.courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
-  padding: 0 4em; }
-  @media (max-width: 1399px) and (min-width: 1025px) {
-    .sv-column-7 .pagecontent,
-    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
-    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
-      padding: 0 2em; } }
-  @media (max-width: 1024px) and (min-width: 760px) {
-    .sv-column-7 .pagecontent,
-    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
-    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
-      padding: 0; } }
-  @media (max-width: 759px) {
-    .sv-column-7 .pagecontent,
-    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
-    .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
-      padding: 0; } }
+@media (min-width: 1400px) {
+  .sv-column-7 .pagecontent,
+  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+    padding: 0 4em; } }
 
-#xp1 {
-  margin-left: 4em; }
-  @media (max-width: 1399px) and (min-width: 1025px) {
-    #xp1 {
-      margin-left: 2em; } }
-  @media (max-width: 1024px) and (min-width: 760px) {
-    #xp1 {
-      margin-left: 0; } }
-  @media (max-width: 759px) {
-    #xp1 {
-      margin-left: 0; } }
+@media (max-width: 1399px) and (min-width: 1025px) {
+  .sv-column-7 .pagecontent,
+  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+    padding: 0 2em; } }
+
+@media (max-width: 1024px) and (min-width: 760px) {
+  .sv-column-7 .pagecontent,
+  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+    padding: 0; } }
+
+@media (max-width: 759px) {
+  .sv-column-7 .pagecontent,
+  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
+  .courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
+    padding: 0; } }
+
+@media (min-width: 1400px) {
+  #xp1 {
+    margin-left: 4em; } }
+
+@media (max-width: 1399px) and (min-width: 1025px) {
+  #xp1 {
+    margin-left: 2em; } }
+
+@media (max-width: 1024px) and (min-width: 760px) {
+  #xp1 {
+    margin-left: 0; } }
+
+@media (max-width: 759px) {
+  #xp1 {
+    margin-left: 0; } }
 
 body {
   font-family: "circular-book", arial, sans-serif;
@@ -2232,22 +2242,13 @@ html[style~="-ms-overflow-style:"] .ked-navigation .ked-navbar .item {
   border-bottom: 0; }
 
 .ked-navigation .offcanvas-nav .subnav li a {
-  margin-left: 20px;
-  color: #000; }
-
-.ked-navigation .offcanvas-nav .subnav li a {
-  margin-left: 20px;
-  color: #fff; }
-
-.ked-navigation .offcanvas-nav .subnav li a {
-  margin-left: 0px;
   color: #3c3c3e;
+  margin-left: 0px;
   line-height: 14px; }
 
 .lvl2 a {
   font-size: 12px;
-  padding: 5px 10px 5px 18px !important;
-  /* border-bottom: 1px #f6f6f6 solid; */ }
+  padding: 5px 10px 5px 18px !important; }
 
 li.lvl2 {
   background: #e6e7e9;
@@ -2283,7 +2284,7 @@ li.lvl2 {
   background: #e6e7e9 !important; }
 
 .ked-navigation i.fa.fa-times {
-  color: #ccc; }
+  color: #fff; }
 
 .ked-navigation i.fa.fa-times:hover {
   color: #000; }
@@ -2292,8 +2293,7 @@ li.lvl2 {
   background-color: transparent; }
 
 .ked-navigation .account ul li ul li .fa {
-  margin-left: -4px;
-  /* color: #ff0; */ }
+  margin-left: -4px; }
 
 li.lvl2.header {
   background: rgba(230, 231, 233, 0.74);
@@ -2303,7 +2303,7 @@ li.lvl2.green:hover {
   background: rgba(255, 255, 255, 0.2) !important; }
 
 a.has-sub-nav:hover, a.has-sub-nav:active {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none; }
 
 a.has-sub-nav:active {
