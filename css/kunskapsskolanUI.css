@@ -389,6 +389,106 @@ td,
 th {
   padding: 0; }
 
+.sv-fn-buttons.btn-group a, .bootstrap .btn {
+  color: #000 !important; }
+
+.bootstrap [class^="icon-"], .bootstrap [class*=" icon-"] {
+  margin-right: 14px; }
+
+.pagecontent {
+  padding-bottom: 2em;
+  /* margin-top: -1em; */
+  margin-bottom: 2em; }
+
+.sv-grid-ksgs12 {
+  background: #fff !important; }
+
+::-moz-selection {
+  background: #dada39; }
+
+::selection {
+  background: #dada39; }
+
+.bg-green {
+  background: #60d232; }
+
+.bg-blue {
+  background: #00aeef; }
+
+.bg-purple {
+  background: #351f88; }
+
+.background1, .background2, .background3 {
+  background: url(.); }
+
+.cbox_head, .cbox_body, .kbox_head, .kbox_body {
+  display: none; }
+
+.sv-column-5, .sv-column-7 {
+  margin-top: 0em;
+  padding: 0 0em; }
+
+.kpMenu a {
+  text-decoration: none; }
+
+.kpMenu li.nav-header {
+  font-family: circular-bold; }
+
+.kpMenu ul > ul.nav.nav-list {
+  margin: 0 0 1em 1em; }
+
+.kpMenu h5 {
+  color: #000 !important; }
+
+.contentSpacer {
+  display: block !important;
+  clear: both;
+  margin-bottom: 3em;
+  width: 100%;
+  height: 1em; }
+
+.rtl {
+  direction: rtl; }
+
+.workPath_head {
+  padding: 5px !important; }
+
+#readThis .ksBlock p {
+  padding: 0px; }
+
+.workPath_body {
+  clear: both;
+  /*display: none; */
+  margin-top: 10px;
+  -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+hr {
+  display: none; }
+
+.sv-column-12:child(0) {
+  border: 1px #f00 solid; }
+
+.sv-grid-ksgs12 {
+  background: none !important; }
+
+.sv-grid-ksgs12:first-child {
+  padding: 1em;
+  background: #fff !important;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 2px;
+  border-radius: 2px; }
+
+li#nyhetTab.active {
+  background: inherit; }
+
 #sidebar-body-wrapper, .ked-navigation *, html {
   box-sizing: border-box; }
 
@@ -1483,118 +1583,6 @@ a.meny, .meny a, a.meny:hover, .meny a:hover, a.meny:active, .meny a:active {
 
 .nav.nav-list li.active {
   background: rgba(0, 0, 0, 0.08); }
-
-.sv-fn-buttons.btn-group a, .bootstrap .btn {
-  color: #000 !important; }
-
-.bootstrap [class^="icon-"], .bootstrap [class*=" icon-"] {
-  margin-right: 14px; }
-
-.pagecontent {
-  padding-bottom: 2em;
-  /* margin-top: -1em; */
-  margin-bottom: 2em; }
-
-.sv-grid-ksgs12 {
-  background: #fff !important; }
-
-::-moz-selection {
-  background: #dada39; }
-
-::selection {
-  background: #dada39; }
-
-.bg-green {
-  background: #60d232; }
-
-.bg-blue {
-  background: #00aeef; }
-
-.bg-purple {
-  background: #351f88; }
-
-.background1, .background2, .background3 {
-  background: url(.); }
-
-.cbox_head, .cbox_body, .kbox_head, .kbox_body {
-  display: none; }
-
-.sv-column-5, .sv-column-7 {
-  margin-top: 0em;
-  padding: 0 0em; }
-
-.kpMenu a {
-  text-decoration: none; }
-
-.kpMenu li.nav-header {
-  font-family: circular-bold; }
-
-.kpMenu ul > ul.nav.nav-list {
-  margin: 0 0 1em 1em; }
-
-.kpMenu h5 {
-  color: #000 !important; }
-
-.oldCrap {
-  margin: 0 !important;
-  padding: 0 !important; }
-
-.contentSpacer {
-  display: block !important;
-  clear: both;
-  margin-bottom: 3em;
-  width: 100%;
-  height: 1em; }
-
-.rtl {
-  direction: rtl; }
-
-.workPath_head {
-  padding: 5px !important; }
-
-#readThis .ksBlock p {
-  padding: 0px; }
-
-.workPath_body {
-  clear: both;
-  /*display: none; */
-  margin-top: 10px;
-  -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 0.4);
-  padding: 10px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px; }
-
-.sv-column-7 .pagecontent,
-.courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-8,
-.courseBuilderMainContainer .sv-layout.sv-skip-spacer.sv-column-7 {
-  padding: 0 4em; }
-
-#xp1 {
-  margin-left: 4em; }
-
-hr {
-  display: none; }
-
-.sv-column-12:child(0) {
-  border: 1px #f00 solid; }
-
-.sv-grid-ksgs12 {
-  background: none !important; }
-
-.sv-grid-ksgs12:first-child {
-  padding: 1em;
-  background: #fff !important;
-  margin-bottom: 3em;
-  padding-bottom: 2em;
-  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
-  -webkit-border-radius: 2px;
-  border-radius: 2px; }
-
-li#nyhetTab.active {
-  background: inherit; }
 
 div.darken {
   position: fixed;
