@@ -38,16 +38,16 @@ body.rtl {
   height: 100%; }
   @media (min-width: 1400px) {
     .body {
-      font-size: 1.1em; } }
+      font-size: 1.1em !important; } }
   @media (max-width: 1399px) and (min-width: 1025px) {
     .body {
-      font-size: 0.9em; } }
+      font-size: 0.9em !important; } }
   @media (max-width: 1024px) and (min-width: 760px) {
     .body {
-      font-size: 0.8em; } }
+      font-size: 0.8em !important; } }
   @media (max-width: 759px) {
     .body {
-      font-size: 1em;
+      font-size: 1em !important;
       margin-left: 0px !important;
       margin-right: 0px !important;
       margin-top: 48px !important; } }
@@ -2166,6 +2166,9 @@ h4.skolHeaderWelcome {
   padding-top: .5em;
   padding-left: 1.4em;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28); }
+  @media (max-width: 1399px) and (min-width: 1025px) {
+    .pageHeader h1 {
+      padding-left: 0.7em; } }
   @media (max-width: 1024px) and (min-width: 760px) {
     .pageHeader h1 {
       padding-left: 0; } }
