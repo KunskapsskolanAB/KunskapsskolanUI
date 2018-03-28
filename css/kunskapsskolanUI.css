@@ -2549,13 +2549,13 @@ h4.skolHeaderWelcome {
   margin: 0 0 2em 4em; }
   @media (max-width: 1399px) and (min-width: 1025px) {
     .pageFunctionButtons {
-      margin: 0 0 2em 4em; } }
+      margin: 0 0 2em 4em !important; } }
   @media (max-width: 1024px) and (min-width: 760px) {
     .pageFunctionButtons {
-      margin: 0 0 2em 4em; } }
+      margin: 0 0 2em 4em !important; } }
   @media (max-width: 759px) {
     .pageFunctionButtons {
-      margin: 0 0 2em 4em; } }
+      margin: 0 0 2em 4em !important; } }
 
 .sv-search-hit .liten {
   margin: 0;
@@ -3257,12 +3257,12 @@ table.smallFont.termplanner-table {
 .btn.addOwnGoal {
   margin: 0.5em 0 1em 0; }
 
-.weekPlanner > .btn {
-  margin: 0 0 2em 0; }
-
 .weekPlanner .btn {
+  margin: 0 0 2em 0;
   margin-left: 0.7em;
-  margin-bottom: 0.7em; }
+  margin-bottom: 0.7em;
+  max-width: 13em;
+  text-align: left; }
 
 .weekPlanner .btn:first-child {
   margin-left: 0; }

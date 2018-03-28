@@ -24,21 +24,17 @@
     margin: 0.5em 0 1em 0;
 }
 
-
-.weekPlanner > .btn {
-    margin: 0 0 2em 0;
-}
-
 .weekPlanner .btn {
+    margin: 0 0 2em 0;
     margin-left: 0.7em;
     margin-bottom: 0.7em;
+    max-width: 13em;
+    text-align: left;
 }
-
 
 .weekPlanner .btn:first-child {
     margin-left: 0;
 }
-
 
 .weekPlanner h4 {
     font-family: circular-bold,arial,sans-serif;

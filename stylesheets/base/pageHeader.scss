@@ -216,12 +216,12 @@ h4.skolHeaderWelcome {
     padding: 0;
     margin: 0 0 2em 4em;
 @include breakpoint(l) { 
-    margin: 0 0 2em 4em;
+    margin: 0 0 2em 4em !important;
  }
  @include breakpoint(m) { 
-    margin: 0 0 2em 4em;
+    margin: 0 0 2em 4em !important;
  }
  @include breakpoint(s) { 
-    margin: 0 0 2em 4em;
+    margin: 0 0 2em 4em !important;
  }
  }
