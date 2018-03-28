@@ -44,13 +44,13 @@ body.sv-responsive {
     padding: 0 4em;
 }
 @include breakpoint(l) { 
-    padding: 0 2em;
+    padding: 0 2em !important;
 }
 @include breakpoint(m) { 
-    padding: 0;
+    padding: 0 !important;
 }
 @include breakpoint(s) { 
-    padding: 0;
+    padding: 0 !important;
 }
 }
 #xp1 {
@@ -58,13 +58,13 @@ body.sv-responsive {
     margin-left: 4em;
 }
 @include breakpoint(l) { 
-    margin-left: 2em;
+    margin-left: 2em !important;
 }
 @include breakpoint(m) { 
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 @include breakpoint(s) { 
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 }
 

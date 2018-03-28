@@ -53,12 +53,12 @@
     -moz-border-radius: 4px;
     border-radius: 4px;
     @include breakpoint(l) {
-        margin: 0.4em 2.9em 0.7em 2.9em;
+        margin: 0.4em 2.9em 0.7em 2.9em !important;
     }
     @include breakpoint(m) {
-        margin: 0.4em 0.5em 0.7em 0.5em;
+        margin: 0.4em 0.5em 0.7em 0.5em !important;
     }
     @include breakpoint(s) {
-        margin: 0.4em 0.5em 0.7em 0.5em;
+        margin: 0.4em 0.5em 0.7em 0.5em !important;
     }
  }
