@@ -111,16 +111,15 @@ a.btn:hover {
     padding: 1.5em 1em .3em 1em;
     margin: 0 3.6em;
     @include breakpoint(l) {
-        margin: 0 2em;
+        margin: 0 2em !important;
     }
     @include breakpoint(m) {
-        margin: 0 0em;
+        margin: 0 0em !important;
     }
     @include breakpoint(s) {
-        margin: 0 0em;
+        margin: 0 0em !important;
     }
 }
-
 
 .projectstep-button {
     background: #7d7d7d;

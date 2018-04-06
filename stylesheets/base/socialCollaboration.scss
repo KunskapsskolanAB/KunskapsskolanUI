@@ -1,0 +1,27 @@
+.sv-timeline-entry br {
+    display: none;
+}
+
+/* start page tab */
+
+#scfeed .popover.fade.bottom.in {
+    left: -130px !important;
+}
+
+#scfeed .popover .arrow {
+    left: 80% !important;
+}
+
+#scfeed p.sv-message-content.normal {
+    margin-bottom: 0.7em;
+}
+
+#scfeed h3.h5 {
+    margin-bottom: 0.4em;
+    font-size: 0.9em;
+}
+
+#scfeed .sv-timeline-portlet .oembedall-container img {
+    max-height: 8em;
+    float: left;
+}

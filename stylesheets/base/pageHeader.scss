@@ -149,13 +149,6 @@
 
 
 
-
-
-.buttonsContainer {
-    margin: 0 3.6em;
-}
-
-
 h4.skolHeaderWelcome {
     margin: 0;
     padding: 0;
@@ -166,10 +159,10 @@ h4.skolHeaderWelcome {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
     margin-left: 2.25em;
 @include breakpoint(l) {
-    margin-left: 1.15em !important;
+    margin-left: 2.25em !important;
     }
 @include breakpoint(m) {
-    margin-left: 0 !important;
+    margin-left: 2.25em !important;
     }
 @include breakpoint(s) {
     margin-left: 0 !important;
@@ -185,15 +178,18 @@ h4.skolHeaderWelcome {
     padding-left: 1.4em;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
 @include breakpoint(l) {
-    margin-left: 1.15em !important;
+    margin-left: 0em !important;
     }
 @include breakpoint(m) {
     margin-left: 0 !important;
+    padding-top: 0.7em !important;
+    padding-bottom: 2.1em !important;
     }
 @include breakpoint(s) {
     margin-left: 0 !important;
+    margin-top: -1em !important;
     font-size: 1.8em;
-    padding: 0 0.2em;
+    padding: 1.2em 0 2em 0 !important;
     line-height: 1em;
     }
  }
@@ -208,7 +204,7 @@ h4.skolHeaderWelcome {
     margin-bottom: 1em;
     position: relative;
 @include breakpoint(s) {
-    min-height: 8em !important;
+    min-height: 10em !important;
     }
  }
 

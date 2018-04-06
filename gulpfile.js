@@ -18,7 +18,7 @@ gulp.task('normal', function () {
 });
 
 gulp.task('dev', function () {
-    return gulp.src('stylesheets/kunskapsskolanUI.scss')
+    return gulp.src('stylesheets/dev.scss')
         .pipe(sass({
             includePaths: ['scss'],
             onError: sass.logError

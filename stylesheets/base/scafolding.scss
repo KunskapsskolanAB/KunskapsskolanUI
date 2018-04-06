@@ -68,3 +68,9 @@ body.sv-responsive {
 }
 }
 
+.sv-column-6 ul.nav.nav-tabs li a {
+    @include breakpoint(l) { 
+        padding: 0.2em 0.3em !important;
+    }
+    
+}
