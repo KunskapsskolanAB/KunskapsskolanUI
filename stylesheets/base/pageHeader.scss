@@ -159,10 +159,10 @@ h4.skolHeaderWelcome {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
     margin-left: 2.25em;
 @include breakpoint(l) {
-    margin-left: 2.25em !important;
+    margin-left: 1.125em !important;
     }
 @include breakpoint(m) {
-    margin-left: 2.25em !important;
+    margin-left: 0.1em !important;
     }
 @include breakpoint(s) {
     margin-left: 0 !important;
@@ -179,11 +179,13 @@ h4.skolHeaderWelcome {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
 @include breakpoint(l) {
     margin-left: 0em !important;
+    padding-left: 0.7em !important;
     }
 @include breakpoint(m) {
     margin-left: 0 !important;
     padding-top: 0.7em !important;
     padding-bottom: 2.1em !important;
+    padding-left: 0 !important;
     }
 @include breakpoint(s) {
     margin-left: 0 !important;

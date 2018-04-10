@@ -24,6 +24,22 @@
     margin: 0.5em 0 1em 0;
 }
 
+.weekPlanner {
+    @include breakpoint(s) {
+        width: 100% !important;
+        position: absolute;
+        top: 54px;
+        left: 0;
+        }
+}
+
+.ked_boxed.weekPlanner {
+    @include breakpoint(s) {
+    height: 450px;
+    overflow: auto;
+        }
+}
+
 .weekPlanner .btn {
     margin: 0 0 2em 0;
     margin-left: 0.7em;
