@@ -2350,6 +2350,10 @@ a.has-sub-nav:focus {
   margin-right: 0;
   padding: 0 0.4em 0 0;
   border: none; }
+  @media (max-width: 759px) {
+    .pageHeader .horizontalItem {
+      display: inline-block !important;
+      margin-bottom: -0.6em !important; } }
 
 .pageHeader .horizontalItem a {
   text-decoration: none;
