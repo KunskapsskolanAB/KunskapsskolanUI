@@ -1,27 +1,6 @@
 @charset "UTF-8";
 /* UI colors */
 /* Break points */
-@font-face {
-  font-family: "Circular-Bold";
-  src: url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-bold.eot");
-  src: url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-bold.eot?#iefix") format("embedded-opentype"), url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-bold.woff") format("woff"), url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-bold.ttf") format("truetype"), url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-bold.svg#lineto-circular-bold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Circular-Book";
-  src: url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-book.eot");
-  src: url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-book.eot?#iefix") format("embedded-opentype"), url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-book.woff") format("woff"), url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-book.ttf") format("truetype"), url("https://ks.kunskapsporten.se/webdav/files/fonts/linetoCircular/lineto-circular-book.svg#lineto-circular-book") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("https://ks.kunskapsporten.se/webdav/files/fonts/fontawesome-webfont.eot?v=4.6.1");
-  src: url("https://ks.kunskapsporten.se/webdav/files/fonts/fontawesome-webfont.eot?#iefix&v=4.6.1") format("embedded-opentype"), url("https://ks.kunskapsporten.se/webdav/files/fonts/fontawesome-webfont.woff?v=4.6.1") format("woff"), url("https://ks.kunskapsporten.se/webdav/files/fonts/fontawesome-webfont.ttf?v=4.6.1") format("truetype"), url("https://ks.kunskapsporten.se/webdav/files/fonts/fontawesome-webfont.svg?v=4.6.1#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
 /*
 Custom Mod, based on Normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
 
@@ -1047,7 +1026,7 @@ a.btn {
   font-family: circular-book, arial, sans-serif;
   font-size: .8em;
   margin: 0;
-  padding: 6px 12px;
+  padding: 0.5em 1em;
   text-decoration: none;
   text-rendering: optimizeLegibility;
   text-transform: none;
@@ -1095,7 +1074,6 @@ a.btn {
   font-size: 0.8em; }
 
 .btn-large {
-  padding: 12px 24px;
   font-size: 1.2em; }
   @media (max-width: 759px) {
     .btn-large {
@@ -3300,8 +3278,16 @@ table.smallFont.termplanner-table {
   margin: 0 0 2em 0;
   margin-left: 0.7em;
   margin-bottom: 0.7em;
-  max-width: 13em;
   text-align: left; }
+  @media (max-width: 1399px) and (min-width: 1025px) {
+    .weekPlanner .btn {
+      max-width: 14em; } }
+  @media (max-width: 1024px) and (min-width: 760px) {
+    .weekPlanner .btn {
+      max-width: 11.5em; } }
+  @media (max-width: 759px) {
+    .weekPlanner .btn {
+      max-width: 12em; } }
 
 .weekPlanner .btn:first-child {
   margin-left: 0; }
@@ -4048,6 +4034,294 @@ p.subHeader {
 
 .courseBuilderMainContainer .sv-grid-ksgs12 {
   display: inline-block; }
+
+/*  Here be duplicates */
+.taskContainer > * {
+  display: block;
+  margin-bottom: .3em; }
+
+.taskContainer {
+  margin-bottom: 0.6em; }
+
+.taskContainer.odd-even > div:nth-child(odd) {
+  background: #eeeeee !important; }
+
+.markedGreen {
+  background: rgba(0, 255, 0, 0.12) !important; }
+
+.markedRed {
+  background: rgba(255, 0, 0, 0.12) !important; }
+
+.pill.active {
+  background-color: #49c35a;
+  padding: 4px 7px;
+  color: #fff;
+  border-radius: 7px;
+  line-height: 10px;
+  font-size: 12px;
+  margin-left: 11px; }
+
+.warningFlag {
+  float: right;
+  margin-right: 1em;
+  margin-top: 0.3em;
+  color: #d55858;
+  font-size: 1.2em; }
+
+.removeItem {
+  cursor: pointer;
+  height: 1em;
+  width: 1.4em; }
+
+.removeItem:before {
+  display: inline-block;
+  content: "\f00d";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-left: 0.02em;
+  margin-top: 0;
+  color: #d55858; }
+
+.viewItem {
+  cursor: pointer;
+  height: 1em;
+  width: 1.4em; }
+
+.viewItem:before {
+  display: inline-block;
+  content: "\f06e";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-left: 0;
+  margin-top: 0;
+  color: #4f80cc; }
+
+.editItem {
+  cursor: pointer;
+  height: 1em;
+  width: 1.4em; }
+
+.editItem:before {
+  display: inline-block;
+  content: "\f040";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-left: 0.02em;
+  margin-top: 0;
+  color: #c9b145; }
+
+.hideItem {
+  cursor: pointer;
+  height: 1em;
+  width: 1.4em; }
+
+.hideItem:before {
+  display: inline-block;
+  content: "\f070";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-left: 0.02em;
+  margin-top: 0;
+  color: #ce786e; }
+
+.showItem {
+  cursor: pointer;
+  height: 1em;
+  width: 1.4em; }
+
+.showItem:before {
+  display: inline-block;
+  content: "\f06e";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-left: 0.02em;
+  margin-top: 0;
+  color: #5c9655; }
+
+.schoolCourse {
+  padding: 0.3em;
+  display: grid;
+  padding-bottom: none; }
+
+.schoolCourse a {
+  font-family: circular-bold, arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  color: #000000 !important;
+  line-height: 1;
+  text-decoration: none; }
+
+.studentCourse a {
+  font-family: circular-bold, arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  color: #000000 !important;
+  line-height: 1;
+  text-decoration: none; }
+
+.studentCourse {
+  padding: 0.3em;
+  display: grid;
+  padding-bottom: 1em; }
+
+.studentCourse p {
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  margin-top: 0.3em; }
+
+.studentCourse p.small {
+  color: #565656;
+  font-size: 0.8em;
+  line-height: 1em;
+  padding: 0;
+  margin: 0.4em 0 0 0; }
+
+.contentPart.contentAlert {
+  border-left: 4px #d55858 solid; }
+
+.contentPart {
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 0 0.4em;
+  border-left: 4px #74d07b solid; }
+
+.contentText p {
+  font-size: 1.0em;
+  padding: 0 1em 0.5em 1em; }
+
+.contentUsage {
+  float: right;
+  color: #000; }
+
+.schoolCourse {
+  padding: 0.3em;
+  display: grid;
+  padding-bottom: 1em; }
+
+.schoolCourse p {
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  margin-top: 0.3em; }
+
+p.criteriaText {
+  line-height: 1.3em; }
+
+p.abilityText {
+  line-height: 1.3em !important; }
+
+p.criteriaText, p.abilityText {
+  line-height: 1.3em;
+  font-size: 0.7em; }
+
+.criteriaText strong {
+  font-weight: normal;
+  padding: 0 4px 3px 4px;
+  background: #f8f89f;
+  border-radius: 5px; }
+
+.selectable {
+  cursor: pointer; }
+
+.selectable:hover {
+  background: #d4f6d4 !important; }
+
+ul.entity-list li {
+  margin-left: 3em; }
+
+.course-module .removeItem {
+  top: 0.7em !important;
+  right: 0.4em !important; }
+
+.course-module textarea.inputTextBox.inputTextLarge, .course-info textarea.inputTextBox.inputTextLarge, .course-info textarea.inputTextBox.inputTextSmall {
+  width: 98%; }
+
+.course-module h4 {
+  margin-top: 1.5em !important; }
+
+.week-period-div > div {
+  float: left;
+  padding: 0 12px 0 0; }
+
+.week-period-div > br {
+  float: none;
+  clear: both; }
+
+.week-period-div {
+  font-size: 0.8em;
+  margin-bottom: 0.5em; }
+
+.side-dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 580px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #222;
+  box-shadow: #222 8px 2;
+  padding: 12px;
+  max-height: 100%;
+  overflow-y: auto; }
+
+.side-dialog-option {
+  width: 166px;
+  float: left;
+  padding: 2px;
+  margin: 4px;
+  border-radius: 4px;
+  border: 3px solid #ddd; }
+
+.side-dialog-option:not(.choosen):not(.covered) {
+  border: 3px dotted #ddd; }
+
+.side-dialog-option:not(.choosen):hover {
+  border: 3px solid #aaa;
+  cursor: pointer; }
+
+.side-dialog-option.choosen {
+  opacity: 0.5;
+  font-style: italic;
+  border: 3px solid #ddd; }
+
+.side-dialog-option.covered {
+  background-color: #dfd; }
+
+.removeItem.upperRight {
+  position: absolute;
+  top: -1px;
+  right: -11px; }
+
+.warning-box {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 5px; }
+
+.editable-school-list table td p {
+  padding: 0 16px 0 16px;
+  margin: 0; }
+
+.teachers-list input {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: auto;
+  min-width: 0; }
+
+.task-search-result.fixed {
+  position: fixed;
+  height: 80%;
+  overflow-y: auto;
+  padding-right: 2em; }
 
 .ked-courseviewer img {
   margin-bottom: 0.5em; }

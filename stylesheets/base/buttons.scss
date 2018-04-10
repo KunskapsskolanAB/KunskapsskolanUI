@@ -37,7 +37,7 @@ a.btn {
     font-family: circular-book, arial, sans-serif;
     font-size: .8em;
     margin: 0;
-    padding: 6px 12px;
+    padding: 0.5em 1em;
     text-decoration: none;
     text-rendering: optimizeLegibility;
     text-transform: none;
@@ -80,7 +80,6 @@ a.btn {
     font-size: 0.8em;
 }
 .btn-large {
-    padding: 12px 24px;
     font-size: 1.2em;
     @include breakpoint(s) {
         display: block;

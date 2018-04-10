@@ -44,8 +44,16 @@
     margin: 0 0 2em 0;
     margin-left: 0.7em;
     margin-bottom: 0.7em;
-    max-width: 13em;
     text-align: left;
+@include breakpoint(l) {
+    max-width: 14em;
+}
+@include breakpoint(m) {
+    max-width: 11.5em;
+}
+@include breakpoint(s) {
+    max-width: 12em;
+}
 }
 
 .weekPlanner .btn:first-child {
@@ -79,12 +87,9 @@
    margin-left:0;
 }
 
-
-
 .learningGoalContainer br {
     display: none;
 }
-
 
 .vemendo-weekview > table > tbody > tr > td {
     
