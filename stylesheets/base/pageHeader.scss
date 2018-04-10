@@ -206,6 +206,7 @@ h4.skolHeaderWelcome {
     margin-bottom: 1em;
     position: relative;
 @include breakpoint(s) {
+    margin-top: 29em;
     min-height: 10em !important;
     }
  }
@@ -214,12 +215,12 @@ h4.skolHeaderWelcome {
     padding: 0;
     margin: 0 0 2em 4em;
 @include breakpoint(l) { 
-    margin: 0 0 2em 4em !important;
+    margin: 0 0 2em 2em !important;
  }
  @include breakpoint(m) { 
-    margin: 0 0 2em 4em !important;
+    margin: 0 0 2em 0 !important;
  }
  @include breakpoint(s) { 
-    margin: 0 0 2em 4em !important;
+    margin: 0 0 2em 0 !important;
  }
  }

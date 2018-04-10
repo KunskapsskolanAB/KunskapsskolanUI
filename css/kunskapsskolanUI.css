@@ -2526,6 +2526,7 @@ h4.skolHeaderWelcome {
   position: relative; }
   @media (max-width: 759px) {
     .pageHeader {
+      margin-top: 29em;
       min-height: 10em !important; } }
 
 .pageFunctionButtons {
@@ -2533,13 +2534,13 @@ h4.skolHeaderWelcome {
   margin: 0 0 2em 4em; }
   @media (max-width: 1399px) and (min-width: 1025px) {
     .pageFunctionButtons {
-      margin: 0 0 2em 4em !important; } }
+      margin: 0 0 2em 2em !important; } }
   @media (max-width: 1024px) and (min-width: 760px) {
     .pageFunctionButtons {
-      margin: 0 0 2em 4em !important; } }
+      margin: 0 0 2em 0 !important; } }
   @media (max-width: 759px) {
     .pageFunctionButtons {
-      margin: 0 0 2em 4em !important; } }
+      margin: 0 0 2em 0 !important; } }
 
 .sv-search-hit .liten {
   margin: 0;
