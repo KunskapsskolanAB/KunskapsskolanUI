@@ -3245,6 +3245,51 @@ table.smallFont.termplanner-table {
   border: 0;
   border-radius: 0; }
 
+.yellow, .note-color-yellow {
+  background: #dada39; }
+
+.cyan, .note-color-cyan {
+  background: #3dbca2; }
+
+.purple, .note-color-purple {
+  background: #66318f; }
+
+.red, .note-color-red {
+  background: #e92b5e; }
+
+.yellowLight, .note-color-yellowLight {
+  background: rgba(218, 218, 57, 0.3); }
+
+.cyanLight, .note-color-cyanLight {
+  background: rgba(61, 188, 162, 0.3); }
+
+.purpleLight, .note-color-purpleLight {
+  background: rgba(102, 49, 143, 0.3); }
+
+.redLight, .note-color-redLight {
+  background: rgba(233, 43, 94, 0.3); }
+
+.black {
+  background: #000; }
+
+.white {
+  background: #fff; }
+
+.grey1 {
+  background: #38383d; }
+
+.grey2 {
+  background: #58595b; }
+
+.grey3 {
+  background: #96979a; }
+
+.grey4 {
+  background: #cfcfcf; }
+
+.grey5 {
+  background: #eeeeee; }
+
 #weeklyPlanner h2 {
   margin-bottom: 0.7em !important; }
 
@@ -4323,9 +4368,9 @@ ul.entity-list li {
   min-width: 0; }
 
 .task-search-result.fixed {
-  position: fixed;
-  height: 80%;
-  overflow-y: auto;
+  /*position: fixed;
+    height: 80%;
+    overflow-y: auto;*/
   padding-right: 2em; }
 
 .ked-courseviewer img {

@@ -51,3 +51,50 @@ table.smallFont.termplanner-table {
     border: 0;
     border-radius: 0;
 }
+
+
+.yellow, .note-color-yellow {
+    background: $color-ksabYellow;
+}
+.cyan, .note-color-cyan {
+    background: $color-ksabcyan;
+}
+.purple, .note-color-purple {
+    background: $color-ksabPurple;
+}
+.red, .note-color-red {
+    background: $color-ksabRed;
+}
+.yellowLight, .note-color-yellowLight {
+    background: $color-ksabYellow-light;
+}
+.cyanLight, .note-color-cyanLight {
+    background: $color-ksabcyan-light;
+}
+.purpleLight, .note-color-purpleLight {
+    background: $color-ksabPurple-light;
+}
+.redLight, .note-color-redLight {
+    background: $color-ksabRed-light;
+}
+.black {
+    background: #000;
+}
+.white {
+    background: #fff;
+}
+.grey1 {
+    background: #38383d;
+}
+.grey2 {
+    background: #58595b;
+}
+.grey3 {
+    background: #96979a;
+}
+.grey4 {
+    background: #cfcfcf;
+}
+.grey5 {
+    background: #eeeeee;
+}
