@@ -2944,6 +2944,95 @@ ul.nav.nav-tabs.startPageTabs {
   color: #FFF903;
   font-weight: bold; }
 
+table.wordListTable {
+  border-left: 1px #d1d1d1 solid;
+  border-right: 1px #d1d1d1 solid; }
+
+table.wordListTable {
+  border-left: 1px #d1d1d1 solid;
+  border-right: 1px #d1d1d1 solid; }
+
+table.wordListTable th {
+  width: 50% !important;
+  text-align: left;
+  padding: 3px;
+  border-bottom: 1px #939393 solid;
+  border-top: 1px #d1d1d1 solid; }
+
+.wordListWord {
+  display: inline; }
+
+.wordListMarker {
+  font-size: 11px;
+  line-height: 13px;
+  height: 14px;
+  padding-top: 1px;
+  width: 14px;
+  padding-left: 0px;
+  border: 1px #999 solid;
+  text-align: center;
+  /* float: right; */
+  display: inline-block;
+  margin-left: 10px;
+  /* margin-top: -8px; */
+  border-radius: 8px;
+  overflow: hidden;
+  /* margin-top: 0px; */
+  color: #999; }
+
+table.wordListTable p {
+  font-size: 13px !important;
+  line-height: 19px;
+  padding: 0px !important;
+  margin: 0px !important; }
+
+a.wordListLink {
+  font-size: 13px;
+  line-height: 19px;
+  padding: 0px !important;
+  margin: 0px !important; }
+
+.wordListTable td {
+  border: 1px #d1d1d1 solid;
+  padding: 3px; }
+
+.frenchColor {
+  background: #92cf90; }
+
+.englishColor {
+  background: #E4DFD7; }
+
+.spanishColor {
+  background: #9DC8DB;
+  float: none !important; }
+
+.hideWords {
+  background: #888;
+  color: #888;
+  float: right; }
+
+a.wordListLink:hover {
+  background: transparent !important;
+  color: #333 !important; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto; }
+
 .vemendo-weekview > table > tbody > tr > td {
   width: 16%; }
 
