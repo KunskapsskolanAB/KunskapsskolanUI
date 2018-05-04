@@ -524,6 +524,11 @@
     background-color: $offcanvas-section-sub-color !important;
 }
 
+.offcanvas-nav a.has-sub-nav svg {
+    min-width: 1em;
+    margin-right: 1em;
+}
+
 .ked-navigation .offcanvas-nav li.blue svg:first-child {
     color: $offcanvas-section-blue-background;
 }
