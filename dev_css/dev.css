@@ -1641,7 +1641,7 @@ div.modal-page {
 
 /* The Close Buttons */
 div.modal-page .removeItem:before {
-  color: #3dbca2; }
+  color: #34ce5b; }
 
 div.modal-page .removeItem:hover:before {
   font-weight: bold; }
@@ -3338,7 +3338,7 @@ table.smallFont.termplanner-table {
   background: #dada39; }
 
 .cyan, .note-color-cyan {
-  background: #3dbca2; }
+  background: #34ce5b; }
 
 .purple, .note-color-purple {
   background: #66318f; }

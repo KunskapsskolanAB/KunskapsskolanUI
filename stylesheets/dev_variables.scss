@@ -1,0 +1,111 @@
+$color-ksabYellow: rgb(218, 218, 57);
+$color-ksabcyan: rgb(52, 206, 91);
+$color-ksabPurple: rgb(102, 49, 143);
+$color-ksabRed: rgb(233, 43, 94);
+
+$color-ksabYellow-light: rgba(218, 218, 57, 0.3);
+$color-ksabcyan-light: rgba(61, 188, 162, 0.3);
+$color-ksabPurple-light: rgba(102, 49, 143, 0.3);
+$color-ksabRed-light: rgba(233, 43, 94, 0.3);
+
+/* UI colors */
+
+// Body
+$color-background-body: #c3c3c3;
+$master-body-size: 1em;
+
+$color-accent: $color-ksabcyan;
+
+// Content radius
+$radius-s: 2px;
+$radius-m: 4px;
+$radius-l: 8px;
+
+// Container padding
+$padding-normal: 5px 20px 20px 20px;
+
+// Shadows
+
+$shadow-s: 0 2px 1px 0 rgba(0, 0, 0, 0.25);
+$shadow-m: 0 3px 6px 0 rgba(0, 0, 0, 0.35);
+$shadow-l: 0 20px 95px -10px rgba(0, 0, 0, 0.83);
+
+// Content background
+$color-background-content: #fff;
+$font-body: 'circular-book', arial, sans-serif;
+$font-header: 'circular-bold', arial, sans-serif;
+$color-type-body-primary: #333;
+$color-type-header-primary:#000;
+
+$font-size-body: 1em;
+$font-size-small: 0.6em;
+$font-size-h1: 2.3em;
+$font-size-h2: 2.1em;
+$font-size-h3: 1.9em;
+$font-size-h4: 1.4em;
+$font-size-h5: 1em;
+
+// Modals
+$color-modal-content: #fff;
+
+// Menu background
+$color-background-menu: #aaa;
+$font-menu: 'circular-book', arial, sans-serif;
+
+// Buttons 
+$color-button-background: $color-accent;
+$color-button-text: rgb(255, 255, 255);
+$color-button-background-hover: $color-accent;
+$color-button-text-hover: #333;
+
+$color-borders: #cfcfcf;
+
+// Off-Canvas
+$offcanvas-font: "Ubuntu", sans-serif !important;
+
+$offcanvas-linkColor-primary: #fff;
+$offcanvas-linkColor-active: #fff !important;
+$offcanvas-innerBorder: #7d64dc;
+
+$offcanvas-iconColor: #fff;
+$offcanvas-section-header-color: #fff;
+$offcanvas-section-border-top: #000;
+$offcanvas-section-border-bottom: #000;
+
+$offcanvas-section-sub-color: #3c3c3e;
+$offcanvas-section-sub-background: #e6e7e9;
+$offcanvas-section-sub-header-color: #fff;
+$offcanvas-section-sub-border-bottom: #b3b3b3;
+
+$offcanvas-item-complete: #60d232;
+$offcanvas-item-active: #00aeef;
+$offcanvas-item-todo: #351f88;
+
+$offcanvas-divider: #4d4d4d;
+
+$offcanvas-sidebar-background: #4d4d4d;
+$offcanvas-account-background: #3b3b3b;
+$offcanvas-logo-background: #3b3b3b;
+$offcanvas-search-background: #3b3b3b;
+
+$offcanvas-section-blue-background: #00aeef;
+$offcanvas-section-green-background: #60d232;
+$offcanvas-section-yellow-background: #eec64d;
+$offcanvas-section-orange-background: #ee914c;
+$offcanvas-section-red-background: #ee4d4d;
+
+$offcanvas-section-green-sub-background: #e6e7e9 !important;
+
+$offcanvas-search-iconColor: #fff;
+$offcanvas-search-input-background: #4d4d4f;
+$offcanvas-search-input-color-primary:#bcb7b7;
+$offcanvas-search-input-background-focus: #fff;
+$offcanvas-search-input-color-focus: #000;
+
+
+$offcanvas-close-color-primary: #fff;
+$offcanvas-close-color-hover: #000;
+
+$offcanvas-logo-text-color: #fff;
+
+
