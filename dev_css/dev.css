@@ -2176,7 +2176,7 @@ html[style~="-ms-overflow-style:"] .ked-navigation .ked-navbar .item {
   transition: all 0s; }
 
 .ked-navigation .offcanvas-nav li {
-  background-color: #3c3c3e; }
+  background-color: #3c3c3e !important; }
 
 .ked-navigation .offcanvas-nav li.blue svg:first-child {
   color: #00aeef; }
