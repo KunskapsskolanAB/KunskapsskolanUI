@@ -519,20 +519,20 @@
     background-color: hsla(0, 0%, 100%, .3);
     transition: all 0s
 }
-.ked-navigation .offcanvas-nav li.blue {
-    background-color: $offcanvas-section-blue-background;
+.ked-navigation .offcanvas-nav li.blue svg:first-child {
+    color: $offcanvas-section-blue-background;
 }
-.ked-navigation .offcanvas-nav li.green {
-    background-color: $offcanvas-section-green-background;
+.ked-navigation .offcanvas-nav li.green svg:first-child {
+    color: $offcanvas-section-green-background;
 }
-.ked-navigation .offcanvas-nav li.yellow {
-    background-color: $offcanvas-section-yellow-background;
+.ked-navigation .offcanvas-nav li.yellow svg:first-child {
+    color: $offcanvas-section-yellow-background;
 }
-.ked-navigation .offcanvas-nav li.orange {
-    background-color: $offcanvas-section-orange-background;
+.ked-navigation .offcanvas-nav li.orange svg:first-child {
+    color: $offcanvas-section-orange-background;
 }
-.ked-navigation .offcanvas-nav li.red {
-    background-color: $offcanvas-section-red-background;
+.ked-navigation .offcanvas-nav li.red svg:first-child {
+    color: $offcanvas-section-red-background;
 }
 .ked-navigation .offcanvas-nav .subnav {
     display: none;

@@ -2175,20 +2175,20 @@ html[style~="-ms-overflow-style:"] .ked-navigation .ked-navbar .item {
   background-color: rgba(255, 255, 255, 0.3);
   transition: all 0s; }
 
-.ked-navigation .offcanvas-nav li.blue {
-  background-color: #00aeef; }
+.ked-navigation .offcanvas-nav li.blue svg:first-child {
+  color: #00aeef; }
 
-.ked-navigation .offcanvas-nav li.green {
-  background-color: #60d232; }
+.ked-navigation .offcanvas-nav li.green svg:first-child {
+  color: #60d232; }
 
-.ked-navigation .offcanvas-nav li.yellow {
-  background-color: #eec64d; }
+.ked-navigation .offcanvas-nav li.yellow svg:first-child {
+  color: #eec64d; }
 
-.ked-navigation .offcanvas-nav li.orange {
-  background-color: #ee914c; }
+.ked-navigation .offcanvas-nav li.orange svg:first-child {
+  color: #ee914c; }
 
-.ked-navigation .offcanvas-nav li.red {
-  background-color: #ee4d4d; }
+.ked-navigation .offcanvas-nav li.red svg:first-child {
+  color: #ee4d4d; }
 
 .ked-navigation .offcanvas-nav .subnav {
   display: none;
