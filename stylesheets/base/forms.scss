@@ -19,7 +19,7 @@ input[type="text"] {
 }
 input[type="text"]:focus {
     outline: none;
-    border-bottom: 3px #3dbca2 solid;
+    border-bottom: 3px $color-accent solid;
     border-radius: 5px 5px 0 0;
     margin-bottom: 13px;
 }
@@ -67,7 +67,7 @@ form.sv-nomargin {
       }
       input[type="text"]:focus, textarea:focus {
         outline: none;
-        border-bottom: 3px #3dbca2 solid;
+        border-bottom: 3px $color-accent solid;
         border-radius: 5px 5px 0 0;
         margin-bottom: 13px;
       }

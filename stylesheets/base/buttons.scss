@@ -29,7 +29,7 @@ a.btn {
     box-shadow: none;
 }
 .btn, input[type="submit"] {
-    background: #3dbca2;
+    background: $color-accent;
     border-radius: 3px;
     display: inline-block;
     cursor: pointer;
@@ -139,7 +139,7 @@ a.btn:hover {
     text-align: center;
 }
 a.btn.btn-small.step-button.activePage {
-    background: #3dbca2;
+    background: $color-accent;
 }
 
 /* Button groups */
