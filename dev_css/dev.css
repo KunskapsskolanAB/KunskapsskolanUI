@@ -2175,6 +2175,9 @@ html[style~="-ms-overflow-style:"] .ked-navigation .ked-navbar .item {
   background-color: rgba(255, 255, 255, 0.3);
   transition: all 0s; }
 
+.ked-navigation .offcanvas-nav li {
+  background-color: #3c3c3e; }
+
 .ked-navigation .offcanvas-nav li.blue svg:first-child {
   color: #00aeef; }
 
@@ -2189,6 +2192,9 @@ html[style~="-ms-overflow-style:"] .ked-navigation .ked-navbar .item {
 
 .ked-navigation .offcanvas-nav li.red svg:first-child {
   color: #ee4d4d; }
+
+.ked-navigation .offcanvas-nav li.purple svg:first-child {
+  color: #66318f; }
 
 .ked-navigation .offcanvas-nav .subnav {
   display: none;

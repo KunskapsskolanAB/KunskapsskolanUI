@@ -519,6 +519,11 @@
     background-color: hsla(0, 0%, 100%, .3);
     transition: all 0s
 }
+
+.ked-navigation .offcanvas-nav li{
+    background-color: $offcanvas-section-sub-color;
+}
+
 .ked-navigation .offcanvas-nav li.blue svg:first-child {
     color: $offcanvas-section-blue-background;
 }
@@ -534,6 +539,10 @@
 .ked-navigation .offcanvas-nav li.red svg:first-child {
     color: $offcanvas-section-red-background;
 }
+.ked-navigation .offcanvas-nav li.purple svg:first-child {
+    color: $offcanvas-section-purple-background;
+}
+
 .ked-navigation .offcanvas-nav .subnav {
     display: none;
     margin: 0;
