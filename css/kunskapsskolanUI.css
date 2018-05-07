@@ -7163,9 +7163,7 @@ ul.entity-list li {
   color: #000 !important; }
 
 .wysiwyg-content hr {
-  color: #3dbca2;
-  background-color: #3dbca2;
-  height: 3px; }
+  display: block !important; }
 
 @media print {
   p {

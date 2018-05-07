@@ -63,7 +63,5 @@
     color: #000 !important;
 }
 .wysiwyg-content hr {
-color: $color-accent;
-background-color: $color-accent;
-height: 3px;
+display: block !important;
 }
