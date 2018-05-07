@@ -2176,28 +2176,28 @@ html[style~="-ms-overflow-style:"] .ked-navigation .ked-navbar .item {
   transition: all 0s; }
 
 .ked-navigation .offcanvas-nav li {
-  background-color: #3c3c3e !important; }
+  /*    background-color: $offcanvas-section-sub-color !important; */ }
 
 .offcanvas-nav a.has-sub-nav svg {
   min-width: 1em;
   margin-right: 1em; }
 
-.ked-navigation .offcanvas-nav li.blue svg:first-child {
+.ked-navigation .offcanvas-nav li.offCanvas_blue svg:first-child {
   color: #00aeef; }
 
-.ked-navigation .offcanvas-nav li.green svg:first-child {
+.ked-navigation .offcanvas-nav li.offCanvas_green svg:first-child {
   color: #60d232; }
 
-.ked-navigation .offcanvas-nav li.yellow svg:first-child {
+.ked-navigation .offcanvas-nav li.offCanvas_yellow svg:first-child {
   color: #eec64d; }
 
-.ked-navigation .offcanvas-nav li.orange svg:first-child {
+.ked-navigation .offcanvas-nav li.offCanvas_orange svg:first-child {
   color: #ee914c; }
 
-.ked-navigation .offcanvas-nav li.red svg:first-child {
+.ked-navigation .offcanvas-nav li.offCanvas_red svg:first-child {
   color: #ee4d4d; }
 
-.ked-navigation .offcanvas-nav li.purple svg:first-child {
+.ked-navigation .offcanvas-nav li.offCanvas_purple svg:first-child {
   color: #8e50be; }
 
 .ked-navigation .offcanvas-nav .subnav {
