@@ -57,3 +57,13 @@
 .wysiwyg-content.readonly {
     max-height: initial;
   }
+
+
+.wysiwyg-content h1, .wysiwyg-content h2, .wysiwyg-content h3, .wysiwyg-content h4, .wysiwyg-content h5 {
+    color: #000 !important;
+}
+.wysiwyg-content hr {
+color: $color-accent;
+background-color: $color-accent;
+height: 3px;
+}
