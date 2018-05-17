@@ -3033,6 +3033,211 @@ a.wordListLink:hover {
   overflow: visible;
   clip: auto; }
 
+/* Inline Interactive exercises */
+.main {
+  display: none; }
+
+.sLineI {
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  display: inline-block !important;
+  border: 1px solid #c5c5c5;
+  background: #fcfce4;
+  padding: 2px;
+  margin-bottom: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px 5px 5px 5px; }
+
+.sLineI:hover {
+  background: #eee; }
+
+.glos {
+  font-family: Arial;
+  font-size: 12px;
+  color: #333; }
+
+.glos a {
+  text-decoration: none;
+  color: #333;
+  padding-top: 3px;
+  padding-bottom: 3px; }
+
+.blank {
+  margin: 0 !important;
+  text-align: center !important;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  font-weight: 400 !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 5px !important;
+  border-left: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: 1px #999 solid !important;
+  width: inherit !important;
+  padding: 0px !important;
+  vertical-align: middle !important; }
+
+.baseWord {
+  font-weight: 800; }
+
+.question > input[type="radio"] {
+  vertical-align: middle;
+  visibility: hidden; }
+
+.question label {
+  vertical-align: middle;
+  line-height: 20px; }
+
+.result {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 5px; }
+
+span.wrong {
+  color: red;
+  margin-left: -1em; }
+
+span.right {
+  color: green;
+  margin-left: -1em; }
+
+span.mqwrong {
+  color: red; }
+
+span.mqright {
+  color: green; }
+
+.ctntOpt, .rightOpt {
+  border: 1px solid #C4C5C6;
+  -webkit-border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  font-size: 120%;
+  height: auto;
+  margin: 10px 10px 30px 10px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #444343; }
+
+.ctntOpt {
+  margin-right: 0px; }
+
+.rightOpt {
+  margin-left: 0px; }
+
+/* Multiple Question with Images */
+.showCorrect {
+  background-image: url("https://www.kedschools.com/webdav/files/CDN/img/ui/yes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 70%; }
+
+.showCorrect img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* For IE8 and earlier */ }
+
+.showWrong {
+  background-image: url("https://www.kedschools.com/webdav/files/CDN/img/ui/no.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 70%; }
+
+.showWrong img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* For IE8 and earlier */ }
+
+.imgMcq {
+  display: inline-block;
+  margin: 0 1em 1em 0; }
+
+/* Ruler */
+#flytta {
+  display: none;
+  width: 96%;
+  height: 50px;
+  background-color: rgba(123, 208, 74, 0.49);
+  position: absolute;
+  z-index: 999;
+  left: 2%;
+  top: 200px;
+  cursor: move;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.2); }
+
+/* Popover/Tooltip functionality */
+.popo, .popoGap, .popoHeader {
+  background: #f2f2f2;
+  border-bottom: 1px dashed #ff4433;
+  cursor: help; }
+
+.popContent {
+  display: none; }
+
+.popover.top .arrow:after {
+  bottom: 1px;
+  margin-left: 0px;
+  border-top-color: #ffffff;
+  border-bottom-width: 0;
+  z-index: 0; }
+
+/* Attribution styles */
+.ccIcon, .ccAnyIcon .ccPdIcon {
+  height: 18px; }
+
+.ccText {
+  color: rgba(0, 0, 0, 0.5);
+  display: inline;
+  font-family: Verdana, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-left: 5px; }
+
+.ccAttribution, .ccAttribution a {
+  color: rgba(0, 0, 0, 0.5);
+  display: inline;
+  font-family: Verdana, sans-serif;
+  font-size: 10px;
+  margin-left: 5px; }
+
+.ccAnyAttribution, .ccAnyAttribution a {
+  color: rgba(0, 0, 0, 0.5);
+  display: inline;
+  font-family: Verdana, sans-serif;
+  font-size: 10px; }
+
+.ccIcon img {
+  display: none; }
+
+.ccPdIcon img {
+  display: none; }
+
+.ccIcon:before {
+  content: url("https://www.kedschools.com/webdav/files/CDN/img/ui/cc_mini.png");
+  border: none;
+  height: 15px;
+  width: 15px;
+  min-width: 15px;
+  vertical-align: middle; }
+
+.ccPdIcon:before {
+  content: url("https://www.kedschools.com/webdav/files/CDN/img/ui/pd_mini.png");
+  border: none;
+  height: 15px;
+  width: 15px;
+  min-width: 15px;
+  vertical-align: middle; }
+
 .vemendo-weekview > table > tbody > tr > td {
   width: 16%; }
 
