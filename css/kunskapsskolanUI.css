@@ -7436,6 +7436,9 @@ ul.entity-list li {
 .wysiwyg-content hr {
   display: block !important; }
 
+.wysiwyg-content li {
+  margin-left: 1.5em !important; }
+
 @media print {
   p {
     page-break-inside: avoid; }
