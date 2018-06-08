@@ -1084,7 +1084,7 @@ a.btn {
   font-size: 14px; }
 
 a.btn:hover {
-  color: #4e4e4e; }
+  color: #4e4e4e !important; }
 
 .buttonsField {
   display: block;
