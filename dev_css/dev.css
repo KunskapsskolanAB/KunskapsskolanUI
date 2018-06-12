@@ -1018,7 +1018,7 @@ a.btn {
   box-shadow: none; }
 
 .btn, input[type="submit"] {
-  background: #34ce5b;
+  background: #3dbca2;
   border-radius: 3px;
   display: inline-block;
   cursor: pointer;
@@ -1132,7 +1132,7 @@ a.btn:hover {
   text-align: center; }
 
 a.btn.btn-small.step-button.activePage {
-  background: #34ce5b; }
+  background: #3dbca2; }
 
 /* Button groups */
 .btn-group {
@@ -1226,7 +1226,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  border-bottom: 3px #34ce5b solid;
+  border-bottom: 3px #3dbca2 solid;
   border-radius: 5px 5px 0 0;
   margin-bottom: 13px; }
 
@@ -1270,7 +1270,7 @@ input[type="text"], textarea {
 
 input[type="text"]:focus, textarea:focus {
   outline: none;
-  border-bottom: 3px #34ce5b solid;
+  border-bottom: 3px #3dbca2 solid;
   border-radius: 5px 5px 0 0;
   margin-bottom: 13px; }
 
@@ -1641,7 +1641,7 @@ div.modal-page {
 
 /* The Close Buttons */
 div.modal-page .removeItem:before {
-  color: #34ce5b; }
+  color: #3dbca2; }
 
 div.modal-page .removeItem:hover:before {
   font-weight: bold; }
@@ -3619,7 +3619,7 @@ table.smallFont.termplanner-table {
   background: #dada39; }
 
 .cyan, .note-color-cyan {
-  background: #34ce5b; }
+  background: #3dbca2; }
 
 .purple, .note-color-purple {
   background: #66318f; }
