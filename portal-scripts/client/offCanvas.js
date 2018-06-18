@@ -8,7 +8,10 @@ offCanvasJQ(function($) {
         var minOpenWidth = 1349;
         
         var $window = $(window);
-       
+
+        // Prohibit unintentional text select on the main headers
+        $(".ked-navigation ul.offcanvas-nav > li > a").css({userSelect: 'none'}); // Could be done in offcanvas.scss instead!
+
         $(".ked-navigation .sidebar").hover(function() {
             if (!timeoutId) {
                 timeoutId = window.setTimeout(function() {
@@ -89,14 +92,21 @@ offCanvasJQ(function($) {
         });
        
         $(".ked-navigation .has-sub-nav").click(function() {
-            if ($(".ked-navigation .logo span").css("opacity") == 1) {
-               $(this).next(".subnav").stop().slideToggle(300);
+            // The line below is remarked so that a user may click on a menu item while
+            // it is being expanded:
+            //if ($(".ked-navigation .logo span").css("opacity") == 1) {               
                 if ($(this).find(".state-indicator").hasClass("fa-caret-down")) {
+                    // Before, we hade slideToggle() above this if-statement. State could then get
+                    // out-of-sync. Instead, I've put an explicit slideDown() here and another
+                    // slideUp() in the else statement to replace the previous slideToggle.
+                    $(this).next(".subnav").stop().slideDown(300);
                     $(this).find(".state-indicator").removeClass('fa-caret-down').addClass('fa-caret-up');
                 } else {
+                    // Replacement of earlier slideToggle() before if-statement:
+                    $(this).next(".subnav").stop().slideUp(300);
                     $(this).find(".state-indicator").removeClass('fa-caret-up').addClass('fa-caret-down');
                 }
-            }
+            //}
         });
        
        
