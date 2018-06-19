@@ -137,6 +137,7 @@
       $(".sv-grid-ksgs12").first().removeClass('pinned'); // So CSS can adjust padding rule accordingly
       $(".ked-navigation .sidebar").css({ transition: '' });
       pinIcon.css({ transform: "none" });
+      collapseMenu();
     }
 
     /** expandMenu()
