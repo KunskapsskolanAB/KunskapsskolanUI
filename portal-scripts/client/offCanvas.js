@@ -113,6 +113,8 @@
     function pinMenu() {
       pinned = true;
       sessionStorage.setItem('offcanvas-pinned', "true");
+      // Adjust content area padding-left
+      $(".sv-grid-ksgs12").first().addClass('pinned'); // So CSS can adjust padding rule accordingly
       // Turn off CSS animation (important on initially pinned page)
       $(".ked-navigation .sidebar").css({ transition: 'none' });
       // Rotate the pinning icon a bit and let it 100% non-transparent:
@@ -132,6 +134,7 @@
     function unPinMenu() {
       pinned = false;
       sessionStorage.setItem('offcanvas-pinned', "");
+      $(".sv-grid-ksgs12").first().removeClass('pinned'); // So CSS can adjust padding rule accordingly
       $(".ked-navigation .sidebar").css({ transition: '' });
       pinIcon.css({ transform: "none" });
     }
@@ -152,11 +155,13 @@
         console.log("hover hamburger");
 
         $(".ked-navigation .sidebar").css("height", "100vh");
+        $(".sv-grid-ksgs12").first().addClass('hamburger'); // So CSS can adjust padding rule accordingly
 
       } else {
         // normal menu
 
         $(".ked-navigation .sidebar").css("width", "290px");
+        $(".sv-grid-ksgs12").first().removeClass('hamburger'); // So CSS can adjust padding rule accordingly
 
       }
 
