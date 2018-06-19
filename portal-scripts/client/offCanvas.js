@@ -157,6 +157,7 @@
 
         $(".ked-navigation .sidebar").css("height", "100vh");
         $(".sv-grid-ksgs12").first().addClass('hamburger'); // So CSS can adjust padding rule accordingly
+        pinIcon.hide(); // Don't support pinning when in hamburger menu yet.
 
       } else {
         // normal menu
