@@ -4326,6 +4326,9 @@ textarea {
   margin-left: 0;
   height: 70px !important; }
 
+.renameable-text input[type="text"] {
+  min-width: 100%; }
+
 .courseBuilderMainContainer .ked_boxed .btn {
   background: #3dbca2; }
 
