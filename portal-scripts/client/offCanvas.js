@@ -14,6 +14,16 @@
     var logoSpan = $(".ked-navigation .logo span");
     // pin state
     var pinned = sessionStorage.getItem('offcanvas-pinned');
+    var openSections = sessionStorage.getItem("offcanvas-openSections");
+
+    if(openSections===null){
+      openSections = [];
+    } else {
+      openSections = JSON.parse(openSections);
+    }
+
+    console.log("Stored open sections : '"+openSections+"'");
+
     var pinIcon;
 
 
@@ -67,9 +77,25 @@
           collapseMenu();
         }
       });
+
+      // If menu is pinned look for previously opened sections and open them
+      if(pinned) {
+        console.log("Menu is pinned opening sections");
+        for (var i = 0; i < openSections.length; i++) {
+          var liSelector = ".offcanvas-nav .lvl1:nth-child("+[openSections[i]+1]+")";
+          var selectedItem = $(liSelector);
+          selectedItem.find(".subnav").show();
+          selectedItem.find(".state-indicator").removeClass('fa-caret-down').addClass('fa-caret-up');
+        }
+      }
   
       // Define the behavior of expanding/collapsing sub-menus:
       $(".ked-navigation .has-sub-nav").click(function () {
+
+        // Check which nth child was clicked
+        var clickedChild = $(this).parent().index()
+        console.log("Clicked on item " + clickedChild);
+
         // The line below is remarked so that a user may click on a menu item while
         // it is being expanded:
         //if ($(".ked-navigation .logo span").css("opacity") == 1) {               
@@ -77,13 +103,27 @@
             // Before, we hade slideToggle() above this if-statement. State could then get
             // out-of-sync. Instead, I've put an explicit slideDown() here and another
             // slideUp() in the else statement to replace the previous slideToggle.
+
+            // Add click child number to open sections array
+            openSections.push(clickedChild);
+
             $(this).next(".subnav").stop().slideDown(300);
             $(this).find(".state-indicator").removeClass('fa-caret-down').addClass('fa-caret-up');
           } else {
+
+            console.log("closing section.");
+            openSections = jQuery.grep(openSections, function(value) {
+              return value != clickedChild;
+            });
+
             // Replacement of earlier slideToggle() before if-statement:
             $(this).next(".subnav").stop().slideUp(300);
             $(this).find(".state-indicator").removeClass('fa-caret-up').addClass('fa-caret-down');
           }
+
+          console.log("openSections contains " + openSections);
+          sessionStorage.setItem("offcanvas-openSections", JSON.stringify(openSections));
+        
         //}
       });
 
@@ -147,6 +187,8 @@
     function expandMenu() {
 
       var windowsize = $window.width();
+
+      sessionStorage.setItem('offcanvas-pinned', "true");
 
       console.log("Hover function Window size = " + windowsize + " < " + hamburgerWidth);
 
