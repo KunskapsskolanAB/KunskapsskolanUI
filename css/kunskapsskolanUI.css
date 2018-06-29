@@ -1094,10 +1094,10 @@ a.btn:hover {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: -webkit-linear-gradient(transparent 0%, transparent 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, black 95%, black 100%);
-  background: -moz-linear-gradient(transparent 0%, transparent 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, black 95%, black 100%);
-  background: -o-linear-gradient(transparent 0%, transparent 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, black 95%, black 100%);
-  background: linear-gradient(transparent 0%, transparent 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, black 95%, black 100%);
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, black 95%, black 100%);
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, black 95%, black 100%);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, black 95%, black 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.04) 10%, rgba(0, 0, 0, 0.61) 66%, black 95%, black 100%);
   /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000', GradientType=0);*/ }
 
 .buttonsContainer {
@@ -4324,7 +4324,7 @@ textarea {
   width: 100%;
   width: -webkit-fill-available;
   margin-left: 0;
-  height: 70px !important; }
+  height: 70px; }
 
 .renameable-text input[type="text"] {
   min-width: 100%; }
