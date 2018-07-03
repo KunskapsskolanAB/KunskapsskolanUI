@@ -19,6 +19,7 @@
 
     if(pinned===null){
       pinned = false;
+      sessionStorage.setItem("offcanvas-pinned", false);
     } 
 
     var openSections = sessionStorage.getItem("offcanvas-openSections");
