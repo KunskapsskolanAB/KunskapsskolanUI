@@ -14,6 +14,13 @@
     var logoSpan = $(".ked-navigation .logo span");
     // pin state
     var pinned = sessionStorage.getItem('offcanvas-pinned');
+
+    // if pinned not set set as false instead of null
+
+    if(pinned===null){
+      pinned = false;
+    } 
+
     var openSections = sessionStorage.getItem("offcanvas-openSections");
 
     if(openSections===null){
@@ -136,7 +143,7 @@
 
       // If menu was initially pinned (from stored value in sessionStorage), make
       // the menu pinned initially:
-      if (pinned) pinMenu();  
+      if (pinned) pinMenu();
     })();
 
     //
