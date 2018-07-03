@@ -21,7 +21,7 @@
       pinned = false;
       sessionStorage.setItem("offcanvas-pinned", false);
     } 
-
+    
     var openSections = sessionStorage.getItem("offcanvas-openSections");
 
     if(openSections===null){
@@ -29,8 +29,6 @@
     } else {
       openSections = JSON.parse(openSections);
     }
-
-    console.log("Stored open sections : '"+openSections+"'");
 
     var pinIcon;
 
@@ -88,7 +86,6 @@
 
       // If menu is pinned look for previously opened sections and open them
       if(pinned) {
-        console.log("Menu is pinned opening sections");
         for (var i = 0; i < openSections.length; i++) {
           var liSelector = ".offcanvas-nav .lvl1:nth-child("+[openSections[i]+1]+")";
           var selectedItem = $(liSelector);
@@ -102,7 +99,6 @@
 
         // Check which nth child was clicked
         var clickedChild = $(this).parent().index()
-        console.log("Clicked on item " + clickedChild);
 
         // The line below is remarked so that a user may click on a menu item while
         // it is being expanded:
@@ -119,7 +115,6 @@
             $(this).find(".state-indicator").removeClass('fa-caret-down').addClass('fa-caret-up');
           } else {
 
-            console.log("closing section.");
             openSections = jQuery.grep(openSections, function(value) {
               return value != clickedChild;
             });
@@ -129,7 +124,6 @@
             $(this).find(".state-indicator").removeClass('fa-caret-up').addClass('fa-caret-down');
           }
 
-          console.log("openSections contains " + openSections);
           sessionStorage.setItem("offcanvas-openSections", JSON.stringify(openSections));
         
         //}
@@ -196,14 +190,8 @@
 
       var windowsize = $window.width();
 
-      sessionStorage.setItem('offcanvas-pinned', "true");
-
-      console.log("Hover function Window size = " + windowsize + " < " + hamburgerWidth);
-
       if (windowsize < hamburgerWidth) {
         // hamburger menu
-
-        console.log("hover hamburger");
 
         $(".ked-navigation .sidebar").css("height", "100vh");
         $(".sv-grid-ksgs12").first().addClass('hamburger'); // So CSS can adjust padding rule accordingly
@@ -232,35 +220,16 @@
      * Un-expands the menu.
      */
     function collapseMenu() {
-
       var windowsize = $window.width();
-
-      //console.log ("Window size = " + windowsize);
 
       if (windowsize < hamburgerWidth) {
         // hamburger menu
-
-        console.log("hamburger 2");
-
         $(".ked-navigation .sidebar").css("height", "");
 
       } else {
         // normal menu
-        console.log("normal 2");
-        $(".ked-navigation .sidebar").css("width", "");
+       $(".ked-navigation .sidebar").css("width", "");
       }
-
-
-      if (windowsize < minOpenWidth) {
-
-        console.log("close and hide");
-
-      } else {
-
-        console.log("Keep open");
-
-      }
-
 
       pinIcon.css("opacity", 0);
       $(".ked-navigation .logo span").css("opacity", "0");
@@ -272,7 +241,6 @@
       $(".state-indicator").removeClass('fa-caret-up').addClass('fa-caret-down');
     }
 
-
     /** removeLink()
      * 
      */
@@ -280,12 +248,9 @@
 
       var windowsize = $window.width();
 
-      console.log("Window size = " + windowsize);
-
       if (windowsize < hamburgerWidth) {
         // hamburger menu
         $(".ked-navigation .logo a").removeAttr("href"); //.css("cursor","pointer");
-        console.log("Remove link");
       } else {
         $(".ked-navigation .logo a").attr("href", "https://kg.kunskapsporten.se/2.28acbbdd12d2c6519a080007.html");
       }
