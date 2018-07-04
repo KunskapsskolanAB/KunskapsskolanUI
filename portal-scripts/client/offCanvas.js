@@ -133,7 +133,7 @@
       $(".selectSize").change(function (event) {
         window.location.replace($(this).val());
       });
-      $(window).resize(removeLink);
+      //$(window).resize(removeLink); 
       removeLink();
 
       // If menu was initially pinned (from stored value in sessionStorage), make
@@ -197,17 +197,6 @@
         $(".sv-grid-ksgs12").first().addClass('hamburger'); // So CSS can adjust padding rule accordingly
         pinIcon.hide(); // Don't support pinning when in hamburger menu yet.
 
-        if(pinned){
-
-          // Doing same things as unpinned to handle situation when pinned menu goes into mobile view
-
-          pinIcon.css("opacity", 0);
-          $(".sv-grid-ksgs12").first().removeClass('pinned'); // So CSS can adjust padding rule accordingly
-          $(".ked-navigation .sidebar").css({ transition: '' });
-          pinIcon.css({ transform: "none" });
-        }
-
-
       } else {
         // normal menu
 
@@ -263,9 +252,25 @@
       if (windowsize < hamburgerWidth) {
         // hamburger menu
         $(".ked-navigation .logo a").removeAttr("href"); //.css("cursor","pointer");
+
+        if(pinned){
+
+          // Doing same things as unpinned to handle situation when pinned menu goes into mobile view
+
+          pinIcon.css("opacity", 0);
+          $(".sv-grid-ksgs12").first().removeClass('pinned'); // So CSS can adjust padding rule accordingly
+          $(".ked-navigation .sidebar").css({ transition: '' });
+          pinIcon.css({ transform: "none" });
+
+        }
+
       } else {
         $(".ked-navigation .logo a").attr("href", "/home");
       }
     }
+
+
+    $(window).resize(removeLink);
+
   });
 })(jQuery);
