@@ -197,6 +197,17 @@
         $(".sv-grid-ksgs12").first().addClass('hamburger'); // So CSS can adjust padding rule accordingly
         pinIcon.hide(); // Don't support pinning when in hamburger menu yet.
 
+        if(pinned){
+
+          // Doing same things as unpinned to handle situation when pinned menu goes into mobile view
+
+          pinIcon.css("opacity", 0);
+          $(".sv-grid-ksgs12").first().removeClass('pinned'); // So CSS can adjust padding rule accordingly
+          $(".ked-navigation .sidebar").css({ transition: '' });
+          pinIcon.css({ transform: "none" });
+        }
+
+
       } else {
         // normal menu
 
@@ -230,8 +241,9 @@
         // normal menu
        $(".ked-navigation .sidebar").css("width", "");
       }
-
+      
       pinIcon.css("opacity", 0);
+
       $(".ked-navigation .logo span").css("opacity", "0");
       $(".ked-navigation .offcanvas-nav li a span").css("opacity", "0");
       $(".ked-navigation .offcanvas-nav li a .state-indicator").css("opacity", "0");
@@ -252,7 +264,7 @@
         // hamburger menu
         $(".ked-navigation .logo a").removeAttr("href"); //.css("cursor","pointer");
       } else {
-        $(".ked-navigation .logo a").attr("href", "https://kg.kunskapsporten.se/2.28acbbdd12d2c6519a080007.html");
+        $(".ked-navigation .logo a").attr("href", "/home");
       }
     }
   });
