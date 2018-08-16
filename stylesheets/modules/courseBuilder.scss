@@ -393,6 +393,7 @@ p.criteriaText, p.abilityText {
 }
 .selectable {
     cursor: pointer;
+    //word-break: break-word;
 }
 .selectable:hover {
     background: #d4f6d4 !important;
