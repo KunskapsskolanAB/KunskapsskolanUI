@@ -25,6 +25,14 @@
     } else {
       openSections = JSON.parse(openSections);
     }
+
+    if(pinned=="false" || pinned==false){
+      pinned=false;
+    }
+    if(pinned=="true" || pinned==true){
+      pinned=true;
+    }
+
     var pinIcon;
     // 
     // 
@@ -82,7 +90,8 @@
         }
       });
       // If menu is pinned look for previously opened sections and open them
-      if (pinned) {
+    
+      if (pinned === true) {
         for (var i = 0; i < openSections.length; i++) {
           var liSelector = ".offcanvas-nav .lvl1:nth-child(" + [openSections[i] + 1] + ")";
           var selectedItem = $(liSelector);
@@ -124,7 +133,21 @@
       removeLink();
       // If menu was initially pinned (from stored value in sessionStorage), make
       // the menu pinned initially:
-      if (pinned) pinMenu();
+      if (pinned == true) {
+        pinMenu();
+      } 
+      
+      if(pinned == false) {
+        sessionStorage.setItem('offcanvas-pinned', false);
+        $(".sv-grid-ksgs12").first().removeClass('pinned'); // So CSS can adjust padding rule accordingly
+        $(".ked-navigation .sidebar").css({
+          transition: ''
+        });
+        pinIcon.css({
+          transform: "none"
+        });
+        collapseMenu();
+      }
     })();
     //
     //
@@ -138,7 +161,7 @@
      */
     function pinMenu() {
       pinned = true;
-      sessionStorage.setItem('offcanvas-pinned', "true");
+      sessionStorage.setItem('offcanvas-pinned', true);
       // Adjust content area padding-left
       $(".sv-grid-ksgs12").first().addClass('pinned'); // So CSS can adjust padding rule accordingly
       // Turn off CSS animation (important on initially pinned page)
@@ -161,7 +184,7 @@
      */
     function unPinMenu() {
       pinned = false;
-      sessionStorage.setItem('offcanvas-pinned', "");
+      sessionStorage.setItem('offcanvas-pinned', false);
       $(".sv-grid-ksgs12").first().removeClass('pinned'); // So CSS can adjust padding rule accordingly
       $(".ked-navigation .sidebar").css({
         transition: ''
