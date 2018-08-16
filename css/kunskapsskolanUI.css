@@ -4468,7 +4468,7 @@ p.subHeader {
 .markedGreen.migrated {
   background: repeating-linear-gradient(45deg, #d4f6d4, #d4f6d4 10px, #fff 10px, #fff 20px) !important; }
 
-.markedGreen.migrated:hover {
+.selectable.markedGreen.migrated:hover {
   background: #d4f6d4 !important; }
 
 .markedRed {
