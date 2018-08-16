@@ -185,6 +185,19 @@ p.subHeader {
 .markedGreen {
     background: rgba(0, 255, 0, 0.12) !important;
 }
+.markedGreen.migrated {
+    background: repeating-linear-gradient(
+      45deg,
+      #d4f6d4,
+      #d4f6d4 10px,
+      #fff 10px,
+      #fff 20px
+     ) !important;
+}
+.markedGreen.migrated:hover {
+    background:  #d4f6d4 !important;
+}
+  
 .markedRed {
     background: rgba(255, 0, 0, 0.12) !important;
 }
