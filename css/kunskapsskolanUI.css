@@ -2962,6 +2962,18 @@ p.sv-usergroup-info.liten, .wbToFromDate {
 .mainArticle .articleContainer {
   border-top: 3px #e2e2e2 solid !important; }
 
+#con-fauxSocialNotifications {
+  display: none;
+  background: #9f3f26;
+  height: 0.2em;
+  padding: 0 0.4em 1.5em 0.4em;
+  color: #fff;
+  border-radius: 0.75em;
+  text-align: center;
+  line-height: 1.45em;
+  margin-left: 0.2em;
+  font-size: 0.8em; }
+
 .sv-timeline-entry br {
   display: none; }
 
