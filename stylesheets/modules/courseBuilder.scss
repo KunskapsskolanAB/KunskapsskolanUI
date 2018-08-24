@@ -393,7 +393,7 @@ p.criteriaText, p.abilityText {
 }
 .selectable {
     cursor: pointer;
-    //word-break: break-word;
+    word-break: break-word; // Tvingar kunskapsmatriser att inte trycka ut bredden större än tillåten yta.
 }
 .selectable:hover {
     background: #d4f6d4 !important;

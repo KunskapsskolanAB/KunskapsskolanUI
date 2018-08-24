@@ -4661,7 +4661,8 @@ p.criteriaText, p.abilityText {
   border-radius: 5px; }
 
 .selectable {
-  cursor: pointer; }
+  cursor: pointer;
+  word-break: break-word; }
 
 .selectable:hover {
   background: #d4f6d4 !important; }
