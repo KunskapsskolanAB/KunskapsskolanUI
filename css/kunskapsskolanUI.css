@@ -4526,9 +4526,9 @@ p.subHeader {
   display: inline-block;
   content: "\f06e";
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 1.1em;
+  font-size: 1.25em;
   font-weight: normal;
-  margin-left: 0;
+  margin-left: 0.02em;
   margin-top: 0;
   color: #4f80cc; }
 
