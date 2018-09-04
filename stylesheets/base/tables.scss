@@ -11,6 +11,11 @@
 .sv-text-portlet-content tr.tableOdd, .sv-portlet tr.tableOdd, .oddLine {
     background: #eeeeee !important;
 }
+a:link ol:link, ul:link, li:link {
+    color: #3dbca2 !important;
+    text-decoration: underline;
+}
+
 .sv-text-portlet-content tr.currentWeek td, .sv-portlet tr.currentWeek td {
     background: #f4f4c4;
 }
