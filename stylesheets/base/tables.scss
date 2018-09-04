@@ -16,6 +16,11 @@ a:link ol:link, ul:link, li:link {
     text-decoration: underline;
 }
 
+a.sv-portlet-image-caption, a.bildtext, body a, .sv-portlet-image-caption a, .bildtext a {
+    color: #3dbca2;
+    text-decoration: underline;
+}
+
 .sv-text-portlet-content tr.currentWeek td, .sv-portlet tr.currentWeek td {
     background: #f4f4c4;
 }
