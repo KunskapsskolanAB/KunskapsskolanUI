@@ -128,7 +128,7 @@ a.liten:link, .liten a:link, a.liten:visited, .liten a:visited, a.liten:hover, .
     text-decoration: underline;
 }
 
- ol:link, ol:visited ul:link, ul:visited {
+ol:link, ol:visited ul:link, li:link {
     color: #3dbca2 !important;
     text-decoration: underline;
 }
