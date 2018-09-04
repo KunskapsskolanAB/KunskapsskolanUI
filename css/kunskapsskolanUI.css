@@ -659,8 +659,11 @@ a.liten, .liten a {
   text-decoration: underline; }
 
 a.liten:link, .liten a:link, a.liten:visited, .liten a:visited, a.liten:hover, .liten a:hover, a.liten:active, .liten a:active {
-  color: #083eb5;
+  color: #3dbca2;
   text-decoration: underline; }
+
+a.liten:link a:link, ol:link, ul:link {
+  color: #3dbca2; }
 
 .sv-use-margins .liten {
   margin-top: 0em; }
