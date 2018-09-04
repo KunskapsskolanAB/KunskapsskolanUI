@@ -662,10 +662,6 @@ a.liten:link, .liten a:link, a.liten:visited, .liten a:visited, a.liten:hover, .
   color: #3dbca2;
   text-decoration: underline; }
 
-.sv-ol:link, .sv-ol:visited .sv-ul:link, .sv-li:link {
-  color: #3dbca2 !important;
-  text-decoration: underline; }
-
 .sv-use-margins .liten {
   margin-top: 0em; }
 
@@ -760,6 +756,13 @@ li {
 
 li {
   line-height: 20px; }
+
+/* a:link ol:link, ul:link, li:link {
+    color: #3dbca2 !important;
+    text-decoration: underline;
+} */
+.sv-text-portlet ol li a, .sv-text-portlet ul li a {
+  color: #3dbca2; }
 
 /* quotes */
 blockquote.sv-blockquote {
@@ -2574,6 +2577,10 @@ h4.skolHeaderWelcome {
 
 .sv-text-portlet-content tr.tableOdd, .sv-portlet tr.tableOdd, .oddLine {
   background: #eeeeee !important; }
+
+a:link ol:link, ul:link, li:link {
+  color: #3dbca2 !important;
+  text-decoration: underline; }
 
 .sv-text-portlet-content tr.currentWeek td, .sv-portlet tr.currentWeek td {
   background: #f4f4c4; }

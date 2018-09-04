@@ -233,9 +233,13 @@ li {
 li {
     line-height: 20px;
 }
-a:link ol:link, ul:link, li:link {
+/* a:link ol:link, ul:link, li:link {
     color: #3dbca2 !important;
     text-decoration: underline;
+} */
+
+.sv-text-portlet ol li a, .sv-text-portlet ul li a {
+    color: $color-accent;
 }
 
 /* quotes */
