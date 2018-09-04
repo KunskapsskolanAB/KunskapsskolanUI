@@ -128,8 +128,8 @@ a.liten:link, .liten a:link, a.liten:visited, .liten a:visited, a.liten:hover, .
     text-decoration: underline;
 }
 
- a:link ol:link, ul:link {
-    color: #3dbca2;
+ ol:link, ul:link {
+    color: #3dbca2 !important;
     text-decoration: underline;
 }
 .sv-use-margins .liten {
