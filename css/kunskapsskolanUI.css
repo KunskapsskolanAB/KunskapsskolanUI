@@ -662,7 +662,7 @@ a.liten:link, .liten a:link, a.liten:visited, .liten a:visited, a.liten:hover, .
   color: #3dbca2;
   text-decoration: underline; }
 
-ol:link, ol:visited ul:link, ul:visited {
+.sv-ol:link, .sv-ol:visited .sv-ul:link, .sv-li:link {
   color: #3dbca2 !important;
   text-decoration: underline; }
 
