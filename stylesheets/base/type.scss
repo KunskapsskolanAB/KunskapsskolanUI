@@ -123,11 +123,15 @@ a.liten, .liten a {
     color: #333333;
     text-decoration: underline;
 }
-a.liten:link, .liten a:link, a.liten:visited, .liten a:visited, a.liten:hover, .liten a:hover, a.liten:active, .liten a:active a:link, ol:link, ul:link {
+a.liten:link, .liten a:link, a.liten:visited, .liten a:visited, a.liten:hover, .liten a:hover, a.liten:active, a:link, ol:link, ul:link {
     color: #3dbca2 !important;
     text-decoration: underline;
 }
 
+a.sv-portlet-image-caption {
+    color: #3dbca2 !important;
+    text-decoration: underline;
+}
 .sv-use-margins .liten {
     margin-top: 0em
 }
