@@ -86,9 +86,21 @@
     margin-bottom: 0;
    margin-left:0;
 }
+.learningGoalContainer {
+   .taskContainer .align-horizontal {
+      a.editItem {
+	      display: none;
+      }
+      &:hover {
+         a.editItem {
+	         display: inline-block;
+         }
+      }
+   }
 
-.learningGoalContainer br {
-    display: none;
+   br {
+      display: none;
+   }
 }
 
 .vemendo-weekview > table > tbody > tr > td {
