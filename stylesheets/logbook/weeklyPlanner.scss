@@ -87,21 +87,33 @@
    margin-left:0;
 }
 
-.learningGoalContainer br {
-    display: none;
+.learningGoalContainer {
+   .taskContainer .align-horizontal {
+      a.editItem {
+	      display: none;
+      }
+      &:hover {
+         a.editItem {
+	         display: inline-block;
+         }
+      }
+   }
+   br {
+     display: none;
+   }
 }
 
 .vemendo-weekview > table > tbody > tr > td {
-    
+
     width: 16%;
 }
 
 .vemendo-weekview > table > tbody > tr > td:nth-child(1) {
- 
+
     width: 5%;
 }
-   
-   
+
+
 blockquote.sv-blockquote {
     background: none !important;
     padding: 0 !important;
@@ -115,7 +127,7 @@ blockquote.sv-blockquote {
     padding: 0 !important;
     border: 1px solid #96979a !important;
 }
-   
+
 
 .vemendo-weekview .dayviewevent {
     border: none !important;
@@ -126,7 +138,7 @@ blockquote.sv-blockquote {
 }
 
 
-   
+
 .vemendo-weekview .dayviewevent > p.event-period {
     text-align: right !important;
     font-size: 0.75em !important;
@@ -135,8 +147,8 @@ blockquote.sv-blockquote {
     margin: 0 0 0 0 !important;
 }
 
- 
-   
+
+
 .vemendo-weekview .dayviewevent > p.event-location {
     font-style: normal !important;
     opacity: 1 !important;
@@ -161,8 +173,8 @@ p.event-description {
     box-sizing: border-box !important;
 }
 
-     
-   
+
+
 .vemendo-weekview .hourmarker {
     margin-top: 0.5em !important;
     color: #3dbca2 !important;
@@ -182,11 +194,11 @@ p.event-description {
 }
 
 
-   
+
 .full-day:last-child {
     margin-bottom: 1em !important;
 }
-   
+
    .vemendo-weekview .dayviewevent>p {
     margin: 0;
     text-align: inherit;
@@ -197,7 +209,7 @@ p.event-title {
     font-size: 0.8em;
     font-family: circular-bold,arial,sans-serif;
 }
-   
+
 .vemendo-weekview table tr:nth-child(1) {
     background: #3dbca2;
     border: none;
@@ -214,8 +226,8 @@ p.event-title {
     font-size:0.9em;
     font-family: circular-book,arial,sans-serif !important;
 }
-   
-   
+
+
 .vemendo-weekview table tr:nth-child(1) .dayname {
     background: #3dbca2;
     font-family: circular-bold,arial,sans-serif !important;
@@ -225,8 +237,8 @@ p.event-title {
     color: #eee;
     vertical-align: top;
     padding: .4em;
-}   
-   
+}
+
 .vemendo-weekview table tr:nth-child(1) td {
     border: none !important;
 }
@@ -340,7 +352,7 @@ p.event-title {
    box-sizing: border-box !important;
    border-radius: 3px !important;
    padding: 0 !important;
-   border-bottom: none !important; 
+   border-bottom: none !important;
    -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.24);
    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24);
    border-top: 1px rgba(255, 255, 255, 0.51) solid !important;
@@ -616,7 +628,7 @@ a.event-title .dayviewevent.full-day {
 .renameable-text.unnamed {
     font-style: italic;
   }
-  
+
   .weekplanner-textarea {
      margin-left: 0px;
      padding:10px;
@@ -645,7 +657,7 @@ a.event-title .dayviewevent.full-day {
     width: -webkit-fill-available;
     height: 100px;
  }
- 
+
  .weekPlanner .openClose {
     margin-top: 1em;
  }
@@ -654,7 +666,7 @@ a.event-title .dayviewevent.full-day {
     background: #bdd2ce;
  }
 
- 
+
 .editTaskDialog {
     min-height: 440px;
     width: 470px;
@@ -713,14 +725,14 @@ label.kclabel {
   margin-left: 1.5em;
   margin-bottom: 1em;
 }
-   
+
 .editItem {
     margin-left: 0.4em;
     cursor: pointer;
     height: 1em;
     width: 1.4em;
 }
-   
+
 .editTaskDialog a.btn.btn-warning {
     margin-left: 9em;
 }
