@@ -3330,6 +3330,12 @@ span.mqright {
   min-width: 15px;
   vertical-align: middle; }
 
+.ks-method-bank {
+  display: flex;
+  flex-wrap: wrap; }
+  .ks-method-bank .ks-method-bank__item {
+    width: 33%; }
+
 .vemendo-weekview > table > tbody > tr > td {
   width: 16%; }
 
