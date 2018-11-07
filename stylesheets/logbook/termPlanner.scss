@@ -4,14 +4,9 @@
 }
 
 .termCourseText {
-    -webkit-transform: rotate(-57deg);
-    -moz-transform: rotate(-57deg);
-    -ms-transform: rotate(-57deg);
-    -o-transform: rotate(-57deg);
-   /* filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+    transform: rotate(-57deg);
     width: 130px;
     height: 24px;
-    /* border: 1px #f00 solid; */
     position: relative;
     left: -21px;
     top: 52px;
@@ -57,7 +52,7 @@ table.smallFont.termplanner-table {
     background: $color-ksabYellow;
 }
 .cyan, .note-color-cyan {
-    background: $color-ksabcyan;
+    background: $color-ksabCyan;
 }
 .purple, .note-color-purple {
     background: $color-ksabPurple;
@@ -69,7 +64,7 @@ table.smallFont.termplanner-table {
     background: $color-ksabYellow-light;
 }
 .cyanLight, .note-color-cyanLight {
-    background: $color-ksabcyan-light;
+    background: $color-ksabCyan-light;
 }
 .purpleLight, .note-color-purpleLight {
     background: $color-ksabPurple-light;

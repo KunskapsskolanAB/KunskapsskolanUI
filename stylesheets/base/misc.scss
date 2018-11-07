@@ -36,11 +36,11 @@
 .background1, .background2, .background3 {
     background: url(.)
 }
-  
+
 .cbox_head, .cbox_body, .kbox_head, .kbox_body {
     display:none;
  }
-    
+
  .sv-column-5, .sv-column-7 {
      margin-top: 0em;
      padding: 0 0em;
@@ -84,11 +84,9 @@
   clear: both;
   /*display: none; */
   margin-top: 10px;
-  -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 255, 255, 0.4);
   padding: 10px;
-  -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 
@@ -109,14 +107,10 @@
     background: #fff !important;
     margin-bottom: 3em;
     padding-bottom: 2em;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
-    -webkit-border-radius: 2px;
     border-radius: 2px;
  }
 
  li#nyhetTab.active {
     background: inherit;
 }
-
-

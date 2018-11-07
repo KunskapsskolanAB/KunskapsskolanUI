@@ -5,25 +5,23 @@
 
     .sv-column-7 {
         width: 100% !important;
-       min-width:100% !important;       
+       min-width:100% !important;
     }
 
     .hidden-print {
-        display:none; 
+        display:none;
     }
 
     .sv-column-5, #readspeaker_button1 {
         display:none;
     }
-   
+
     .pageHeader {
        display: none;
     }
     .sv-grid-ksgs12:first-child {
        background: #fff !important;
-       -webkit-box-shadow: none;
        box-shadow: none;
-       -webkit-border-radius: 0;
        border-radius: 0;
        padding: 0 !important;
        margin: 0 !important;

@@ -3,16 +3,14 @@
     padding: 0 1em 2em 1em;
     background: #fff !important;
     margin-bottom: 3em;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
-    -webkit-border-radius: 2px;
     border-radius: 2px;
  }
 
  .courseBuilderMainContainer .pagecontent {
     padding: 0;
  }
- 
+
  .inputTextBox {
     width: 100%;
     width: -webkit-fill-available;
@@ -197,7 +195,7 @@ p.subHeader {
 .selectable.markedGreen.migrated:hover {
     background:  #d4f6d4 !important;
 }
-  
+
 .markedRed {
     background: rgba(255, 0, 0, 0.12) !important;
 }
@@ -280,7 +278,7 @@ p.subHeader {
     color: #ce786e;
  }
 
- 
+
   .showItem {
     cursor: pointer;
     height: 1em;
@@ -297,8 +295,8 @@ p.subHeader {
     margin-top: 0;
     color: #5c9655;
  }
- 
- 
+
+
  .schoolCourse {
     padding: 0.3em;
     display: grid;
@@ -336,7 +334,7 @@ p.subHeader {
     margin-bottom: 0.5em;
     margin-top: 0.3em;
  }
- 
+
 
 .studentCourse p.small {
   color: #565656;
