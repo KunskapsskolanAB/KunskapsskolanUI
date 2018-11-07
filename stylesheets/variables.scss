@@ -1,10 +1,10 @@
 $color-ksabYellow: rgb(218, 218, 57);
-$color-ksabcyan: rgb(61, 188, 162);
+$color-ksabCyan: rgb(61, 188, 162);
 $color-ksabPurple: rgb(102, 49, 143);
 $color-ksabRed: rgb(233, 43, 94);
 
 $color-ksabYellow-light: rgba($color-ksabYellow, 0.3);
-$color-ksabcyan-light: rgba($color-ksabcyan, 0.3);
+$color-ksabCyan-light: rgba($color-ksabCyan, 0.3);
 $color-ksabPurple-light: rgba($color-ksabPurple, 0.3);
 $color-ksabRed-light: rgba($color-ksabRed, 0.3);
 
@@ -14,7 +14,7 @@ $color-ksabRed-light: rgba($color-ksabRed, 0.3);
 $color-background-body: #c3c3c3;
 $master-body-size: 1em;
 
-$color-accent: $color-ksabcyan;
+$color-accent: $color-ksabCyan;
 
 // Content radius
 $radius-s: 2px;
