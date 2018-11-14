@@ -3535,8 +3535,8 @@ p.event-location {
   background: #3dbca2;
   text-align: center;
   color: #fff;
-  padding-top: 0.2em;
-  margin-right: 1em; }
+  margin-right: 1em;
+  line-height: 1.4em; }
 
 .learningGoalText {
   color: #000 !important;
@@ -3755,6 +3755,12 @@ table.smallFont.termplanner-table {
 .weekPlanner .weekSelect .btn {
   margin-bottom: 0;
   margin-left: 0; }
+
+.learningGoalContainer .taskContainer div a.editItem {
+  display: none; }
+
+.learningGoalContainer .taskContainer div:hover a.editItem {
+  display: inline-block; }
 
 .learningGoalContainer br {
   display: none; }
