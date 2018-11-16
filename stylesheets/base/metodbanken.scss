@@ -41,9 +41,11 @@
            }
         }
     }
+
+    .active, 
+    .accordion:hover {
+       background-color: #a9b9c6; 
+    }
+    
 }
  
- .active, 
- .accordion:hover {
-    background-color: #a9b9c6; 
- }

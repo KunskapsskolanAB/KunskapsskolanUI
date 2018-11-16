@@ -3334,7 +3334,36 @@ span.mqright {
   display: flex;
   flex-wrap: wrap; }
   .ks-method-bank .ks-method-bank__item {
-    width: 33%; }
+    display: flex;
+    flex-direction: column;
+    width: 50% !important;
+    padding-right: 1em; }
+    .ks-method-bank .ks-method-bank__item .ks-method-bank__label {
+      margin-top: 1em;
+      padding: 1em;
+      background-color: #e5eff4;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+      color: black; }
+      .ks-method-bank .ks-method-bank__item .ks-method-bank__label i {
+        margin-left: 0.5em; }
+    .ks-method-bank .ks-method-bank__item .ks-method-bank__values {
+      display: none;
+      padding: 1em;
+      margin-bottom: 1em;
+      overflow: hidden;
+      background-color: #fdfdfd; }
+      .ks-method-bank .ks-method-bank__item .ks-method-bank__values .checkbox {
+        display: flex;
+        align-items: center; }
+      .ks-method-bank .ks-method-bank__item .ks-method-bank__values .checkbox input[type="checkbox"] {
+        margin-right: 0.5em; }
+  .ks-method-bank .active,
+  .ks-method-bank .accordion:hover {
+    background-color: #a9b9c6; }
 
 .vemendo-weekview > table > tbody > tr > td {
   width: 16%; }
