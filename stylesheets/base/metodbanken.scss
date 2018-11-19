@@ -22,6 +22,11 @@
             i {
                 margin-left: 0.5em;
             }
+
+            &:hover,
+            &.active {
+                background-color: #a9b9c6; 
+            }
         }
 
         .ks-method-bank__values {
@@ -40,12 +45,12 @@
               margin-right: 0.5em;
            }
         }
+
     }
 
-    .active, 
-    .accordion:hover {
-       background-color: #a9b9c6; 
+    .ks-method-bank__item:nth-child(odd) {
+        padding: 0;
     }
-    
+
 }
  

@@ -3350,6 +3350,8 @@ span.mqright {
       color: black; }
       .ks-method-bank .ks-method-bank__item .ks-method-bank__label i {
         margin-left: 0.5em; }
+      .ks-method-bank .ks-method-bank__item .ks-method-bank__label:hover, .ks-method-bank .ks-method-bank__item .ks-method-bank__label.active {
+        background-color: #a9b9c6; }
     .ks-method-bank .ks-method-bank__item .ks-method-bank__values {
       display: none;
       padding: 1em;
@@ -3361,9 +3363,8 @@ span.mqright {
         align-items: center; }
       .ks-method-bank .ks-method-bank__item .ks-method-bank__values .checkbox input[type="checkbox"] {
         margin-right: 0.5em; }
-  .ks-method-bank .active,
-  .ks-method-bank .accordion:hover {
-    background-color: #a9b9c6; }
+  .ks-method-bank .ks-method-bank__item:nth-child(odd) {
+    padding: 0; }
 
 .vemendo-weekview > table > tbody > tr > td {
   width: 16%; }
