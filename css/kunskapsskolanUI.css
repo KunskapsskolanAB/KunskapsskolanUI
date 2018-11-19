@@ -3337,21 +3337,25 @@ span.mqright {
     display: flex;
     flex-direction: column;
     width: 50% !important;
-    padding-right: 1em; }
+    padding-right: 1em;
+    margin: 0 0 1em; }
+    .ks-method-bank .ks-method-bank__item:nth-child(even) {
+      padding: 0; }
     .ks-method-bank .ks-method-bank__item .ks-method-bank__label {
-      margin-top: 1em;
       padding: 1em;
-      background-color: #e5eff4;
+      background-color: rgba(61, 188, 162, 0.3);
       cursor: pointer;
       display: flex;
       justify-content: space-between;
       align-items: center;
       font-weight: bold;
-      color: black; }
+      color: black;
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out; }
       .ks-method-bank .ks-method-bank__item .ks-method-bank__label i {
         margin-left: 0.5em; }
-      .ks-method-bank .ks-method-bank__item .ks-method-bank__label:hover, .ks-method-bank .ks-method-bank__item .ks-method-bank__label.active {
-        background-color: #a9b9c6; }
     .ks-method-bank .ks-method-bank__item .ks-method-bank__values {
       display: none;
       padding: 1em;
@@ -3363,8 +3367,76 @@ span.mqright {
         align-items: center; }
       .ks-method-bank .ks-method-bank__item .ks-method-bank__values .checkbox input[type="checkbox"] {
         margin-right: 0.5em; }
-  .ks-method-bank .ks-method-bank__item:nth-child(odd) {
-    padding: 0; }
+    @media (max-width: 759px) {
+      .ks-method-bank .ks-method-bank__item {
+        width: 100%;
+        padding: 0; } }
+
+.mbank {
+  border: 1px #96ceea solid;
+  border-collapse: collapse;
+  display: table;
+  border-collapse: separate;
+  border-spacing: -1px;
+  background: #edf6fa;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+  width: 100%; }
+  .mbank td {
+    padding: 0.6em;
+    border-bottom: 1px dashed #b8d1de;
+    vertical-align: text-top;
+    font-size: 0.8em; }
+  .mbank a {
+    font-size: 1.3em; }
+  .mbank th {
+    padding: 0.9em 0.6em 1em 0.6em;
+    background: #96ceea;
+    background: -moz-linear-gradient(top, #dae3ef 0%, #a9b9c6 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dae3ef), color-stop(100%, #a9b9c6));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #dae3ef 0%, #a9b9c6 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #dae3ef 0%, #a9b9c6 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #dae3ef 0%, #a9b9c6 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #dae3ef 0%, #a9b9c6 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae3ef', endColorstr='#a9b9c6',GradientType=0 );
+    /* IE6-9 */
+    text-align: left;
+    font-size: 1em; }
+
+.mbStrike {
+  color: #bbb;
+  text-decoration: line-through; }
+
+.mbHidden {
+  display: block;
+  height: 0px !important;
+  width: 0px;
+  max-height: 0px;
+  max-width: 0px;
+  overflow: hidden;
+  padding: 0px !important;
+  margin: 0px !important; }
+
+.box {
+  border: 1px #96ceea solid;
+  padding: 1em;
+  margin-bottom: 1em;
+  background: #f6f9fb;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px; }
+
+.boxTop {
+  font-size: 1em;
+  font-weight: bold; }
+
+.mbank .odd {
+  background: #e5eff4; }
 
 .vemendo-weekview > table > tbody > tr > td {
   width: 16%; }
