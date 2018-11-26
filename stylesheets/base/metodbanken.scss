@@ -15,6 +15,7 @@
 
         .ks-method-bank__label {
             padding: 1em;
+            /*background-color: #e5eff4;*/
             background-color: $color-ksabcyan-light;
             cursor: pointer;
             display: flex;
@@ -30,6 +31,11 @@
             i {
                 margin-left: 0.5em;
             }
+
+           /* &:hover,
+            &.active {
+                background-color: #a9b9c6; 
+            }*/
         }
 
         .ks-method-bank__values {
@@ -53,7 +59,11 @@
             width: 100%;
             padding: 0;
         }
+    }
 
+    .mbStrike {
+        color: #bbb;
+        text-decoration: line-through;
     }
 
 }
@@ -68,6 +78,10 @@
     -webkit-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;
     width: 100%;
+
+    tr {
+        border: none!important;
+    }
 
     td {
         padding: 0.6em;
@@ -93,40 +107,20 @@
         text-align: left;
         font-size: 1em;
     }
-}
     
-.mbStrike {
-    color: #bbb;
-    text-decoration: line-through;
+    .odd {
+        background: #e5eff4;
+    }
+
+    .mbHidden {
+        display:block;
+        height:0px !important;
+        width: 0px;
+        max-height:0px;
+        max-width:0px;
+        overflow:hidden;
+        padding:0px !important;
+        margin:0px !important;
+  }
 }
 
-.mbHidden {
-      display:block;
-      height:0px !important;
-      width: 0px;
-      max-height:0px;
-      max-width:0px;
-      overflow:hidden;
-      padding:0px !important;
-      margin:0px !important;
-}
-   
-   .box{
-      border: 1px #96ceea solid;
-   padding:1em;
-   margin-bottom:1em;
-   background: #f6f9fb;
-    -webkit-border-radius: 4px 4px 4px 4px;
-    border-radius: 4px 4px 4px 4px; 
-      }
-   
-   .boxTop {
-       font-size:1em;
-       font-weight: bold;
-      }
-   
-   .mbank .odd {
-    
-    background: #e5eff4;
- }
- 

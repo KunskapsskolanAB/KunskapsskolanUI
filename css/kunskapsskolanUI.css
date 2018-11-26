@@ -3343,6 +3343,7 @@ span.mqright {
       padding: 0; }
     .ks-method-bank .ks-method-bank__item .ks-method-bank__label {
       padding: 1em;
+      /*background-color: #e5eff4;*/
       background-color: rgba(61, 188, 162, 0.3);
       cursor: pointer;
       display: flex;
@@ -3353,7 +3354,11 @@ span.mqright {
       -webkit-transition: all .5s ease-in-out;
       -moz-transition: all .5s ease-in-out;
       -o-transition: all .5s ease-in-out;
-      transition: all .5s ease-in-out; }
+      transition: all .5s ease-in-out;
+      /* &:hover,
+            &.active {
+                background-color: #a9b9c6; 
+            }*/ }
       .ks-method-bank .ks-method-bank__item .ks-method-bank__label i {
         margin-left: 0.5em; }
     .ks-method-bank .ks-method-bank__item .ks-method-bank__values {
@@ -3371,6 +3376,9 @@ span.mqright {
       .ks-method-bank .ks-method-bank__item {
         width: 100%;
         padding: 0; } }
+  .ks-method-bank .mbStrike {
+    color: #bbb;
+    text-decoration: line-through; }
 
 .mbank {
   border: 1px #96ceea solid;
@@ -3382,6 +3390,8 @@ span.mqright {
   -webkit-border-radius: 4px 4px 4px 4px;
   border-radius: 4px 4px 4px 4px;
   width: 100%; }
+  .mbank tr {
+    border: none !important; }
   .mbank td {
     padding: 0.6em;
     border-bottom: 1px dashed #b8d1de;
@@ -3408,35 +3418,17 @@ span.mqright {
     /* IE6-9 */
     text-align: left;
     font-size: 1em; }
-
-.mbStrike {
-  color: #bbb;
-  text-decoration: line-through; }
-
-.mbHidden {
-  display: block;
-  height: 0px !important;
-  width: 0px;
-  max-height: 0px;
-  max-width: 0px;
-  overflow: hidden;
-  padding: 0px !important;
-  margin: 0px !important; }
-
-.box {
-  border: 1px #96ceea solid;
-  padding: 1em;
-  margin-bottom: 1em;
-  background: #f6f9fb;
-  -webkit-border-radius: 4px 4px 4px 4px;
-  border-radius: 4px 4px 4px 4px; }
-
-.boxTop {
-  font-size: 1em;
-  font-weight: bold; }
-
-.mbank .odd {
-  background: #e5eff4; }
+  .mbank .odd {
+    background: #e5eff4; }
+  .mbank .mbHidden {
+    display: block;
+    height: 0px !important;
+    width: 0px;
+    max-height: 0px;
+    max-width: 0px;
+    overflow: hidden;
+    padding: 0px !important;
+    margin: 0px !important; }
 
 .vemendo-weekview > table > tbody > tr > td {
   width: 16%; }
