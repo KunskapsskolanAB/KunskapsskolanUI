@@ -3380,6 +3380,16 @@ span.mqright {
     color: #bbb;
     text-decoration: line-through; }
 
+.ks-method-bank__search {
+  position: relative; }
+  .ks-method-bank__search input[type='text'] {
+    margin: 0 !important;
+    width: 100%; }
+  .ks-method-bank__search input[type='submit'] {
+    position: absolute;
+    top: 0;
+    right: 0; }
+
 .mbank {
   border: 1px #96ceea solid;
   border-collapse: collapse;
