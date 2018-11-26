@@ -3386,12 +3386,13 @@ span.mqright {
     margin: 0 !important;
     width: 100%; }
   .ks-method-bank__search input[type='submit'] {
+    margin: 0 !important;
     position: absolute;
     top: 0;
     right: 0; }
 
 .mbank {
-  border: 1px #96ceea solid;
+  border: 1px solid #96ceea !important;
   border-collapse: collapse;
   display: table;
   border-collapse: separate;
@@ -3431,7 +3432,8 @@ span.mqright {
   .mbank .odd {
     background: #e5eff4; }
   .mbank .mbHidden {
-    display: block;
+    display: none;
+    /*display:block;*/
     height: 0px !important;
     width: 0px;
     max-height: 0px;
