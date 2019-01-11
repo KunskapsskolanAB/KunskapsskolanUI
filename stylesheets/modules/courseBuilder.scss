@@ -210,6 +210,16 @@ p.subHeader {
     font-size: 12px;
     margin-left: 11px;
 }
+.pill.incomplete {
+    background-color: #c36549;
+    padding: 4px 7px;
+    color: #fff;
+    border-radius: 7px;
+    line-height: 10px;
+    font-size: 12px;
+    margin-left: 11px;
+}
+  
 .warningFlag {
     float: right;
     margin-right: 1em;
